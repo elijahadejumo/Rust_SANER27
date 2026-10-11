@@ -1,0 +1,918 @@
+pr_number,rfc_number,title,era,outcome,pr_created_at,pr_closed_at,days_open,pr_author_login,closed_by_login,pr_commits,pr_additions,pr_deletions,pr_changed_files,pr_draft,pr_labels,pr_team_labels,pr_milestone,pr_review_comments,pr_state,issue_comment_count,author_prior_accepted,author_is_first_time
+4,4,unified function call syntax,pre-1.0,rejected,2014-03-12T17:25:39Z,2014-06-22T22:24:54Z,102,nrc,,1,92,0,1,FALSE,,,,0,closed,9,0,TRUE
+5,5,virtual structs,pre-1.0,rejected,2014-03-12T18:09:53Z,2014-09-23T22:03:25Z,195,nrc,,2,320,0,1,FALSE,,,,0,closed,12,0,TRUE
+7,7,RFC: Add OsUnknown as a target operating system,pre-1.0,rejected,2014-03-12T23:37:41Z,2014-05-07T21:02:57Z,55,bharrisau,,1,58,0,1,FALSE,,,,0,closed,12,0,TRUE
+9,9,"RFC for ""fat objects"" for DSTs",pre-1.0,rejected,2014-03-15T04:24:22Z,2014-09-25T11:24:28Z,194,MicahChalmer,,3,317,0,1,FALSE,,,,0,closed,14,0,TRUE
+10,10,RFC: `abstract struct` and `abstract enum`,pre-1.0,rejected,2014-03-16T23:08:08Z,2014-03-25T22:18:05Z,8,glaebhoerl,,2,283,0,1,FALSE,,,,0,closed,12,0,TRUE
+11,11,Alternative to virtual struct and functions by extending enums,pre-1.0,rejected,2014-03-17T04:36:12Z,2014-09-23T21:34:35Z,190,bill-myers,,1,428,0,1,FALSE,,,,0,closed,7,0,TRUE
+12,12,Remove markers and replace with a default rule for unused type/lifetime parameters,pre-1.0,rejected,2014-03-17T18:35:18Z,2014-09-03T01:19:45Z,169,nikomatsakis,,2,168,0,1,FALSE,,,,0,closed,19,0,TRUE
+15,15,SIMD Support,pre-1.0,rejected,2014-03-19T02:16:30Z,2014-06-05T21:40:55Z,78,Aatch,,3,187,0,1,FALSE,T-lang,T-lang,,0,closed,26,0,TRUE
+17,17,RFC for adding an `Iterable` trait family,pre-1.0,rejected,2014-03-21T04:19:38Z,2015-02-16T20:28:22Z,332,erickt,,4,155,0,1,FALSE,,,,0,closed,16,0,TRUE
+20,20,Allow bounds on all type parameters.,pre-1.0,rejected,2014-03-26T00:29:08Z,2014-04-23T01:44:07Z,28,nrc,,1,115,0,1,FALSE,,,,0,closed,14,0,TRUE
+22,22,RFC: Deserializing to a stream of tagged values,pre-1.0,rejected,2014-03-27T05:24:29Z,2015-03-02T20:21:02Z,340,erickt,,2,206,0,1,FALSE,,,,0,closed,7,0,TRUE
+24,24,Unify and nest structs and enums,pre-1.0,rejected,2014-03-30T10:39:49Z,2014-06-26T07:04:26Z,87,nrc,,3,465,0,1,FALSE,,,,0,closed,32,0,TRUE
+25,25,Conventions for the use of `Deref` and `DerefMut`,pre-1.0,postponed,2014-03-31T07:38:33Z,2014-06-05T21:41:40Z,66,sfackler,,1,81,0,1,FALSE,"postponed, A-convention",,,0,closed,12,1,FALSE
+27,27,Use different keywords for declaring tagged unions and C-style enums.,pre-1.0,rejected,2014-04-01T14:16:13Z,2014-05-07T21:07:23Z,36,brendanzab,,4,286,0,1,FALSE,,,,0,closed,50,0,TRUE
+29,29,RFC: bit fields and bit matching,pre-1.0,rejected,2014-04-04T12:03:53Z,2014-06-05T21:50:07Z,62,farcaller,,3,64,0,1,FALSE,,,,0,closed,11,0,TRUE
+30,30,Move the private fields RFC to completed,pre-1.0,rejected,2014-04-04T19:53:23Z,2014-04-15T23:07:45Z,11,alexcrichton,,1,0,0,1,FALSE,,,,0,closed,1,2,FALSE
+33,33,RFC: Change return type of str::replace to MaybeOwned to avoid a copy,pre-1.0,rejected,2014-04-04T22:44:44Z,2014-06-11T00:24:12Z,67,SimonSapin,,1,41,0,1,FALSE,,,,0,closed,14,0,TRUE
+36,36,Extend nullable pointer optimization to library types,pre-1.0,rejected,2014-04-06T19:13:24Z,2014-05-01T21:50:08Z,25,emberian,,3,81,0,1,FALSE,,,,0,closed,21,0,TRUE
+37,37,Extended method lookup,pre-1.0,rejected,2014-04-07T03:40:43Z,2014-06-11T00:12:54Z,64,emberian,,2,84,0,1,FALSE,,,,0,closed,12,0,TRUE
+38,38,Inherit use,pre-1.0,rejected,2014-04-07T23:05:32Z,2014-06-12T21:50:32Z,65,emberian,,2,24,0,1,FALSE,,,,0,closed,19,0,TRUE
+39,39,RFC: Allocator trait,pre-1.0,rejected,2014-04-08T05:07:40Z,2014-06-19T22:18:10Z,72,thestinger,,1,185,0,1,FALSE,,,,0,closed,24,0,TRUE
+41,41,`Invalid` trait for space optimization of enums.,pre-1.0,rejected,2014-04-10T01:02:58Z,2014-05-01T21:47:03Z,21,vadimcn,,1,61,0,1,FALSE,,,,0,closed,13,0,TRUE
+43,43,Added RFC on dereferencing *T,pre-1.0,rejected,2014-04-14T13:01:01Z,2014-04-14T16:39:58Z,0,farcaller,,1,77,0,1,FALSE,,,,0,closed,2,0,TRUE
+44,44,RFC: linker placement attribute,pre-1.0,rejected,2014-04-14T16:38:45Z,2014-06-05T21:55:50Z,52,farcaller,,2,92,0,1,FALSE,,,,0,closed,5,0,TRUE
+45,45,Avoiding integer overflow,pre-1.0,rejected,2014-04-14T18:58:45Z,2014-07-03T22:17:28Z,80,bill-myers,,1,191,0,1,FALSE,,,,0,closed,22,0,TRUE
+46,46,RFC: Add size hint methods on Reader and Writer,pre-1.0,rejected,2014-04-15T17:09:33Z,2014-06-11T00:40:51Z,56,SimonSapin,,3,130,0,1,FALSE,,,,0,closed,9,0,TRUE
+51,51,add RFC for macro resolutions,pre-1.0,rejected,2014-04-24T01:13:01Z,2014-06-05T21:21:23Z,42,seanmonstar,,1,70,0,1,FALSE,,,,0,closed,4,0,TRUE
+52,52,RFC: Private trait items,pre-1.0,postponed,2014-04-24T10:20:36Z,2014-06-05T21:19:24Z,42,ghost,,1,68,0,1,FALSE,"postponed, A-traits, A-typesystem, A-privacy",,,0,closed,5,0,TRUE
+53,53,Coroutines,pre-1.0,rejected,2014-04-25T02:53:32Z,2014-06-12T21:57:50Z,48,vadimcn,,1,337,0,1,FALSE,,,,0,closed,12,0,TRUE
+54,54,RFC: allow some intrinsics in static eval context,pre-1.0,rejected,2014-04-29T11:49:39Z,2014-06-12T21:59:51Z,44,farcaller,,2,51,0,1,FALSE,,,,0,closed,2,0,TRUE
+55,55,RFC on low level features,pre-1.0,rejected,2014-04-29T12:11:50Z,2014-05-28T21:46:21Z,29,farcaller,,1,85,0,1,FALSE,,,,0,closed,2,0,TRUE
+56,56,RFC for static generic parameters,pre-1.0,rejected,2014-04-29T16:11:07Z,2014-06-12T21:58:48Z,44,milibopp,,7,190,0,1,FALSE,,,,0,closed,8,0,TRUE
+57,57,RFC: Text/Unicode oriented streams,pre-1.0,postponed,2014-04-29T17:01:03Z,2014-06-11T00:21:51Z,42,SimonSapin,,4,122,0,1,FALSE,"postponed, A-traits-libstd, A-input-output, A-string",,,0,closed,32,0,TRUE
+58,58,Rename &mut to &only,pre-1.0,rejected,2014-04-30T05:32:34Z,2014-06-05T21:18:08Z,36,DaGenix,,5,258,0,1,FALSE,,,,0,closed,58,0,TRUE
+64,64,"RFC: Longer numeric types (`u8` to `uint8`, etc.)",pre-1.0,rejected,2014-05-03T15:25:19Z,2014-05-07T00:00:49Z,3,pcwalton,,1,47,0,1,FALSE,,,,0,closed,24,3,FALSE
+65,65,Change the syntax of struct literals to use `=`,pre-1.0,rejected,2014-05-04T02:22:03Z,2014-05-21T00:08:32Z,16,nrc,,1,83,0,1,FALSE,,,,0,closed,57,1,FALSE
+67,67,User-friendly input macros.,pre-1.0,rejected,2014-05-04T22:44:46Z,2014-06-17T22:54:49Z,44,nrc,,1,96,0,1,FALSE,,,,0,closed,17,1,FALSE
+72,72,Introduce deeply immutable reference type - &final,pre-1.0,rejected,2014-05-07T04:50:09Z,2014-05-08T03:49:23Z,0,DaGenix,,1,131,0,1,FALSE,,,,0,closed,6,0,TRUE
+73,73,Add RFC For Algebraic Effects,pre-1.0,rejected,2014-05-08T07:11:15Z,2014-05-20T23:57:05Z,12,thehydroimpulse,,3,236,0,1,FALSE,,,,0,closed,15,0,TRUE
+74,74,RFC: Split Iterator into Iterator and FiniteIterator,pre-1.0,rejected,2014-05-11T21:15:48Z,2014-06-05T22:08:40Z,25,Sawyer47,,2,110,0,1,FALSE,,,,0,closed,11,0,TRUE
+76,76,Added RFC for multiple trait implementations for a single impl block,pre-1.0,rejected,2014-05-14T02:33:18Z,2014-06-19T22:19:38Z,36,sinistersnare,,2,44,0,1,FALSE,,,,0,closed,9,0,TRUE
+77,77,unboxed closures,pre-1.0,rejected,2014-05-16T03:31:37Z,2014-06-12T21:55:32Z,27,thestinger,,1,125,0,1,FALSE,,,,0,closed,53,0,TRUE
+78,78,First version of the Extending Safe Mutability proposal.,pre-1.0,rejected,2014-05-16T18:14:46Z,2014-06-19T22:22:38Z,34,matthieu-m,,2,315,0,1,FALSE,,,,0,closed,31,0,TRUE
+80,80,Allow the `unsafe` qualifier on struct fields,pre-1.0,postponed,2014-05-19T06:28:02Z,2014-06-18T00:47:21Z,29,bstrie,,1,83,0,1,FALSE,postponed,,,0,closed,17,1,FALSE
+81,81,guaranteed tail call elimination,pre-1.0,rejected,2014-05-19T06:48:29Z,2014-06-16T06:29:01Z,27,thestinger,,1,98,0,1,FALSE,T-lang,T-lang,,0,closed,18,0,TRUE
+83,83,Add syntax to partially destructure `self` in method signatures.,pre-1.0,rejected,2014-05-20T20:52:35Z,2014-06-05T22:00:18Z,16,mahkoh,,1,143,0,1,FALSE,,,,0,closed,10,0,TRUE
+84,84,Space-optimize `Option<T>` for integral enum `T`,pre-1.0,rejected,2014-05-21T12:26:28Z,2014-05-27T22:22:09Z,6,ghost,,3,27,0,1,FALSE,,,,0,closed,9,0,TRUE
+88,88,RFC: Macro syntax to count sequence repetitions,pre-1.0,rejected,2014-05-23T00:09:04Z,2014-10-23T21:41:17Z,153,lilyball,,1,77,0,1,FALSE,,,,0,closed,74,1,FALSE
+91,91,RFC: Coercible and HasPrefix for Zero Cost Coercions,pre-1.0,postponed,2014-05-25T17:41:53Z,2014-06-25T00:32:15Z,30,gereeter,,3,270,0,1,FALSE,"postponed, A-coercions",,,0,closed,7,0,TRUE
+94,94,Disambiguate enum variant names.,pre-1.0,rejected,2014-05-28T09:15:23Z,2014-06-26T21:51:09Z,29,Kile-Asmussen,,1,76,0,1,FALSE,,,,0,closed,17,0,TRUE
+95,95,Mark RFC 2 as complete,pre-1.0,rejected,2014-05-28T19:55:11Z,2014-05-28T19:59:13Z,0,sfackler,,1,1,1,1,FALSE,,,,0,closed,1,1,FALSE
+96,96,"RFC: ""as"" should be ""as PATH"" or ""as (TYPE)""",pre-1.0,rejected,2014-05-28T21:07:39Z,2014-05-28T21:29:54Z,0,pcwalton,,1,27,0,1,FALSE,,,,0,closed,14,4,FALSE
+97,97,RFC: Filling in the details around unboxed closures,pre-1.0,rejected,2014-05-28T23:44:08Z,2014-06-12T21:55:37Z,14,pcwalton,,1,68,0,1,FALSE,,,,0,closed,26,4,FALSE
+98,98,RFC: Uninitialized Pointers,pre-1.0,postponed,2014-06-01T16:20:17Z,2014-07-03T21:43:44Z,32,gereeter,,1,139,0,1,FALSE,"postponed, A-syntax, A-typesystem, A-references, A-uninit, A-machine",,,0,closed,15,0,TRUE
+99,99,RFC: Extend pattern syntax,pre-1.0,postponed,2014-06-01T20:37:35Z,2014-06-05T21:47:12Z,4,ftxqxd,,1,87,0,1,FALSE,"postponed, A-syntax, A-patterns, A-control-flow",,,0,closed,19,0,TRUE
+101,101,Allow multiple (fixed-size) subslices borrows in one pattern,post-1.0-stabilization,rejected,2014-06-01T22:05:52Z,2014-09-11T21:33:33Z,101,krdln,,2,89,0,1,FALSE,,,,0,closed,13,0,TRUE
+102,102,RFC: Auto-dereferencing non-raw pointers,post-1.0-stabilization,rejected,2014-06-01T23:43:24Z,2014-06-26T21:56:49Z,24,Valloric,,11,157,0,1,FALSE,,,,0,closed,23,0,TRUE
+103,103,RFC: Version-based conditional compilation,post-1.0-stabilization,rejected,2014-06-02T07:20:28Z,2014-06-08T23:56:35Z,6,kaseyc,,1,101,0,1,FALSE,,,,0,closed,17,0,TRUE
+104,104,"Proposal to add methods to homogeneous tuples (`(T, T, ..., T)`) so that they can be used as slices (`&[T]`)",post-1.0-stabilization,rejected,2014-06-02T16:46:39Z,2014-06-10T21:44:59Z,8,nikomatsakis,,4,107,0,1,FALSE,,,,0,closed,7,2,FALSE
+105,105,"RFC: Add unboxed, abstract return types",post-1.0-stabilization,rejected,2014-06-03T22:24:29Z,2014-06-06T16:37:41Z,2,aturon,,1,403,0,1,FALSE,,,,0,closed,171,0,TRUE
+106,106,Add a freestanding target,post-1.0-stabilization,rejected,2014-06-04T02:41:16Z,2014-06-19T00:42:07Z,14,emberian,,3,84,0,1,FALSE,,,,0,closed,28,1,FALSE
+108,108,Convenience syntax for module imports,post-1.0-stabilization,rejected,2014-06-06T09:44:16Z,2014-07-16T05:52:31Z,39,ghost,,3,36,0,1,FALSE,,,,0,closed,18,0,TRUE
+110,110,RFC: Resolve `::foo::...` when compiling the crate named `foo`,post-1.0-stabilization,rejected,2014-06-09T20:42:50Z,2014-06-26T22:28:14Z,17,kmcallister,,1,55,0,1,FALSE,,,,0,closed,5,3,FALSE
+113,113,Provide a common API across `Option` and the `Ok` and `Err` variants of `Result`.,post-1.0-stabilization,rejected,2014-06-09T22:53:22Z,2014-09-01T19:06:59Z,83,brendanzab,,7,337,0,1,FALSE,,,,0,closed,48,0,TRUE
+117,117,rename 'unsafe' to 'trusted.',post-1.0-stabilization,rejected,2014-06-12T21:43:18Z,2014-07-22T20:53:24Z,39,steveklabnik,,1,50,0,1,FALSE,,,,0,closed,193,0,TRUE
+118,118,RFC: Overloaded arithmetic and logical operators should take `self` and their arguments by value,post-1.0-stabilization,rejected,2014-06-14T00:45:11Z,2014-07-08T21:01:07Z,24,pcwalton,,1,79,0,1,FALSE,,,,0,closed,18,6,FALSE
+119,119,RFC: add support to serialize::json for incrementally reading multiple JSON objects,post-1.0-stabilization,rejected,2014-06-14T19:22:06Z,2014-07-03T22:15:51Z,19,XMPPwocky,,3,38,0,1,FALSE,,,,0,closed,2,0,TRUE
+120,120,Reintroduce 'do' keyword as sugar for nested match statements,post-1.0-stabilization,postponed,2014-06-15T13:07:49Z,2014-07-03T21:51:47Z,18,bvssvni,,3,152,0,1,FALSE,postponed,,,0,closed,8,0,TRUE
+122,122,Syntax sugar for prefix-style type parameter lists.,post-1.0-stabilization,postponed,2014-06-16T16:41:27Z,2014-07-03T21:46:38Z,17,ben0x539,,1,236,0,1,FALSE,postponed,,,0,closed,8,0,TRUE
+124,124,Add `cloned` and `stable` keywords,post-1.0-stabilization,rejected,2014-06-16T22:27:55Z,2014-07-10T22:24:35Z,23,ghost,,4,183,0,1,FALSE,,,,0,closed,11,0,TRUE
+125,125,RFC: add prefetch intrinsics,post-1.0-stabilization,rejected,2014-06-17T01:28:24Z,2014-07-10T22:06:35Z,23,jbalintbiro,,3,81,0,1,FALSE,,,,0,closed,13,0,TRUE
+126,126,Add optional type parameter to `include_bin!`,post-1.0-stabilization,rejected,2014-06-17T12:10:09Z,2014-07-10T22:05:19Z,23,ghost,,9,26,0,1,FALSE,,,,0,closed,6,0,TRUE
+128,128,Rename mod.rs files to self.rs,post-1.0-stabilization,rejected,2014-06-18T11:12:59Z,2014-07-10T22:07:19Z,22,ghost,,1,21,0,1,FALSE,,,,0,closed,8,0,TRUE
+129,129,RFC: refine the `asm!` extension,post-1.0-stabilization,rejected,2014-06-18T22:45:12Z,2014-08-14T21:49:37Z,56,pczarn,,4,161,0,1,FALSE,,,,0,closed,9,0,TRUE
+134,134,RFC: Remove the `'` from lifetime parameters,post-1.0-stabilization,rejected,2014-06-23T20:45:23Z,2014-07-22T22:39:06Z,29,pcwalton,,1,59,0,1,FALSE,,,,0,closed,212,6,FALSE
+137,137,Objects of type T should be implicitely convertible to &T,post-1.0-stabilization,rejected,2014-06-25T12:27:18Z,2014-07-10T22:26:00Z,15,tomaka,,4,112,0,1,FALSE,,,,0,closed,17,0,TRUE
+138,138,Reserve more numeric types,post-1.0-stabilization,rejected,2014-06-26T00:02:38Z,2014-06-26T00:13:21Z,0,emberian,,1,30,0,1,FALSE,,,,0,closed,13,2,FALSE
+142,142,Efficient single inheritance,post-1.0-stabilization,rejected,2014-06-26T06:59:22Z,2014-09-23T22:03:55Z,89,nrc,,3,688,0,1,FALSE,,,,0,closed,47,2,FALSE
+143,143,FromLiteral,post-1.0-stabilization,postponed,2014-06-26T23:35:29Z,2014-08-07T21:25:58Z,41,XMPPwocky,,7,68,0,1,FALSE,"postponed, A-slice, A-conversions, A-string",,,0,closed,32,0,TRUE
+144,144,Remove variable-length slice patterns from the language,post-1.0-stabilization,rejected,2014-06-27T19:52:13Z,2014-06-30T05:59:26Z,2,ghost,,2,45,0,1,FALSE,,,,0,closed,29,0,TRUE
+145,145,RFC: Memory exploit mitigation,post-1.0-stabilization,rejected,2014-06-27T20:26:56Z,2014-08-26T22:54:37Z,60,kmcallister,,1,77,0,1,FALSE,,,,0,closed,10,3,FALSE
+146,146,RFC: Scoped attributes for checked arithmetic,post-1.0-stabilization,rejected,2014-06-30T00:45:52Z,2015-01-07T22:17:31Z,191,glaebhoerl,,5,536,0,1,FALSE,,,,0,closed,90,1,FALSE
+147,147,Allow empty structs with braces.,post-1.0-stabilization,rejected,2014-06-30T20:20:53Z,2014-08-06T11:33:26Z,36,mahkoh,,2,37,0,1,FALSE,,,,0,closed,70,0,TRUE
+148,148,Switch `<>` back to `[]`,post-1.0-stabilization,rejected,2014-07-01T00:50:44Z,2014-07-01T23:36:32Z,0,thehydroimpulse,,11,69,0,1,FALSE,,,,0,closed,109,0,TRUE
+149,149,RFC #28 is complete,post-1.0-stabilization,rejected,2014-07-01T03:04:07Z,2014-07-01T03:05:49Z,0,sfackler,,1,0,0,1,FALSE,,,,0,closed,2,2,FALSE
+150,150,RFC:fused 'use mod' imports with relative paths,post-1.0-stabilization,rejected,2014-07-01T21:12:29Z,2014-07-17T21:39:05Z,16,dobkeratops,,19,101,0,1,FALSE,,,,0,closed,3,0,TRUE
+152,152,optional parameters,post-1.0-stabilization,rejected,2014-07-03T11:13:04Z,2014-07-10T22:27:39Z,7,iopq,,2,220,0,2,FALSE,,,,0,closed,14,0,TRUE
+153,153,Arity-based parameter overloading,post-1.0-stabilization,rejected,2014-07-03T15:41:47Z,2014-07-10T22:30:38Z,7,iopq,,1,116,0,1,FALSE,,,,0,closed,30,0,TRUE
+154,154,Turn capitalization conventions into language rules for 1.0,post-1.0-stabilization,rejected,2014-07-04T22:00:59Z,2014-07-24T21:49:37Z,19,glaebhoerl,,2,212,0,1,FALSE,,,,0,closed,37,1,FALSE
+156,156,"Change `extern ""ABI""` to `extern<ABI>` or `extern ABI` or `extern(ABI)`",post-1.0-stabilization,rejected,2014-07-05T10:40:24Z,2014-09-03T17:38:31Z,60,glaebhoerl,,2,94,0,1,FALSE,,,,0,closed,18,1,FALSE
+157,157,Use `for` to introduce universal quantification,post-1.0-stabilization,rejected,2014-07-05T14:07:00Z,2014-07-17T23:37:29Z,12,glaebhoerl,,1,86,0,1,FALSE,,,,0,closed,15,1,FALSE
+159,159,Introduce remaining Index traits,post-1.0-stabilization,rejected,2014-07-08T20:30:57Z,2015-03-21T11:06:30Z,255,sfackler,,1,134,0,1,FALSE,,,,0,closed,7,2,FALSE
+161,161,RFC: int/uint portability to 16-bit CPUs,post-1.0-stabilization,rejected,2014-07-12T05:00:37Z,2014-11-13T22:19:35Z,124,1fish2,,4,181,0,1,FALSE,,,,0,closed,71,0,TRUE
+163,163,"RFC: Add a matches!(expression, pattern) macro.",post-1.0-stabilization,postponed,2014-07-14T16:03:42Z,2014-09-03T01:22:43Z,50,SimonSapin,,2,94,0,1,FALSE,"postponed, A-patterns, A-macros-libstd, A-expressions",,,0,closed,28,1,FALSE
+167,167,Allow multiple crates in one `extern crate` declaration.,post-1.0-stabilization,rejected,2014-07-16T03:58:57Z,2014-08-14T22:30:47Z,29,liigo,,1,62,0,1,FALSE,,,,0,closed,23,0,TRUE
+170,170,Added RFC for codegen plugins,post-1.0-stabilization,rejected,2014-07-16T17:10:44Z,2014-07-18T08:57:49Z,1,farcaller,,1,53,0,1,FALSE,,,,0,closed,4,0,TRUE
+171,171,RFC: replace ':' with '=' in struct expressions,post-1.0-stabilization,rejected,2014-07-17T20:27:50Z,2014-07-17T20:49:01Z,0,noamraph,,1,150,0,1,FALSE,,,,0,closed,8,0,TRUE
+172,172,Exponentiation syntax sugar,post-1.0-stabilization,rejected,2014-07-19T16:02:32Z,2014-08-01T00:43:35Z,12,SiegeLord,,6,175,0,1,FALSE,,,,0,closed,14,0,TRUE
+173,173,RFC: Add SocketAddr conversion trait to std::io::net and generalize socket constructors,post-1.0-stabilization,rejected,2014-07-21T10:52:47Z,2014-09-18T23:22:33Z,59,netvl,,4,204,0,1,FALSE,,,,0,closed,10,0,TRUE
+174,174,Add value type parameters RFC,post-1.0-stabilization,postponed,2014-07-21T23:36:20Z,2014-08-01T00:44:55Z,10,Zoxc,,1,148,0,1,FALSE,postponed,,,0,closed,6,0,TRUE
+175,175,Field offsets,post-1.0-stabilization,rejected,2014-07-21T23:40:51Z,2014-08-01T00:49:04Z,10,Zoxc,,1,183,0,1,FALSE,,,,0,closed,5,0,TRUE
+176,176,Type macros,post-1.0-stabilization,rejected,2014-07-22T19:21:37Z,2014-09-25T21:40:16Z,65,Zoxc,,2,65,0,1,FALSE,,,,0,closed,14,0,TRUE
+177,177,RFC: Allow safe access to some `static mut` vars,post-1.0-stabilization,rejected,2014-07-22T21:33:32Z,2014-10-02T19:18:36Z,71,alexcrichton,,1,115,0,1,FALSE,,,,0,closed,37,7,FALSE
+178,178,RFC: Add DerefMove,post-1.0-stabilization,rejected,2014-07-23T11:07:07Z,2015-03-21T11:04:27Z,240,ftxqxd,,6,100,0,1,FALSE,,,,0,closed,9,0,TRUE
+180,180,0000-interleave-iter,pre-1.0,rejected,2014-07-23T15:23:28Z,2014-07-23T15:39:40Z,0,Gankra,,2,42,0,1,FALSE,,,,0,closed,8,0,TRUE
+181,181,"Add ""with-else"" proposal",post-1.0-stabilization,rejected,2014-07-23T18:57:17Z,2014-08-02T07:25:44Z,9,dhardy,,2,114,0,1,FALSE,,,,0,closed,14,0,TRUE
+182,182,Make accessing Unsafe<T> fields unsafe,post-1.0-stabilization,rejected,2014-07-23T20:59:13Z,2014-08-14T22:32:42Z,22,arielb1,,1,69,0,1,FALSE,,,,0,closed,19,0,TRUE
+183,183,Change type deduction rules to allow integer literals to be deduced as floats.,post-1.0-stabilization,rejected,2014-07-24T03:32:55Z,2014-09-23T22:49:53Z,61,minno726,,3,37,0,1,FALSE,,,,0,closed,16,0,TRUE
+185,185,RFC: Split out OS-specific bits in the runtime to help support freestanding targets.,post-1.0-stabilization,rejected,2014-07-25T01:09:40Z,2014-09-18T23:19:51Z,55,miselin,,1,82,0,1,FALSE,,,,0,closed,62,0,TRUE
+186,186,Introduce a newtype keyword.,post-1.0-stabilization,postponed,2014-07-26T10:36:42Z,2014-09-23T22:06:50Z,59,treeman,,7,259,0,1,FALSE,"postponed, A-data-types, A-syntax, A-keyword",,,0,closed,32,0,TRUE
+189,189,RFC: Deprecate and later remove the in-tree url crate,post-1.0-stabilization,rejected,2014-07-29T16:38:47Z,2014-08-01T21:07:33Z,3,SimonSapin,,1,43,0,1,FALSE,,,,0,closed,5,1,FALSE
+191,191,Currying RFC,post-1.0-stabilization,rejected,2014-08-05T09:25:43Z,2014-08-14T21:39:02Z,9,iopq,,1,63,0,1,FALSE,T-lang,T-lang,,0,closed,13,0,TRUE
+193,193,RFC: Explicit safe interfaces for unsafe code,post-1.0-stabilization,rejected,2014-08-07T09:52:45Z,2014-09-04T22:11:52Z,28,nmsmith,,2,165,0,1,FALSE,,,,0,closed,23,0,TRUE
+197,197,`ManuallyDrop` type gives precise control of dtors of inline data.,post-1.0-stabilization,rejected,2014-08-13T12:24:05Z,2016-04-12T19:53:34Z,608,huonw,,5,264,0,1,FALSE,T-lang,T-lang,,0,closed,35,4,FALSE
+203,203,`Combine` trait for string and collection concatenation,post-1.0-stabilization,rejected,2014-08-17T16:36:57Z,2015-06-02T23:15:19Z,289,apoelstra,,8,79,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,72,1,FALSE
+204,204,RFC: error conventions and syntactic support (including changes to macro syntax),post-1.0-stabilization,rejected,2014-08-18T01:48:48Z,2014-08-27T23:36:04Z,9,aturon,,1,274,0,1,FALSE,,,,0,closed,41,5,FALSE
+205,205,RFC: Proposal for bit data,post-1.0-stabilization,rejected,2014-08-18T05:20:29Z,2014-08-23T19:02:07Z,5,engstad,,1,199,0,1,FALSE,,,,0,closed,8,0,TRUE
+207,207,RFC: Macro to initialize collections,post-1.0-stabilization,rejected,2014-08-21T01:50:20Z,2014-12-24T16:37:01Z,125,japaric,,1,171,0,1,FALSE,,,,0,closed,18,0,TRUE
+208,208,Unify and sweeten the syntax for attributes and macros using the `@foo` notation.,post-1.0-stabilization,rejected,2014-08-21T23:26:31Z,2015-02-05T10:33:46Z,167,pcwalton,,1,48,0,1,FALSE,,,,0,closed,124,8,FALSE
+210,210,Static drop semantics,post-1.0-stabilization,rejected,2014-08-25T12:40:47Z,2014-09-24T15:01:58Z,30,pnkfelix,,39,1251,0,1,FALSE,,,,0,closed,116,1,FALSE
+211,211,Extended Try RFC,post-1.0-stabilization,rejected,2014-08-26T05:04:21Z,2014-09-05T22:38:09Z,10,TyOverby,,1,71,0,1,FALSE,,,,0,closed,10,0,TRUE
+215,215,RFC for allowing macros in all ident positions,post-1.0-stabilization,rejected,2014-08-28T11:23:38Z,2014-09-05T22:39:42Z,8,Manishearth,,1,51,0,1,FALSE,,,,0,closed,5,0,TRUE
+217,217,Update README.md,post-1.0-stabilization,rejected,2014-08-28T21:52:56Z,2014-08-28T23:09:18Z,0,GuillaumeGomez,,1,13,13,1,FALSE,,,,0,closed,2,0,TRUE
+219,219,RFC: IO simplification,post-1.0-stabilization,rejected,2014-08-29T19:37:37Z,2014-09-05T22:07:50Z,7,aturon,,1,332,0,1,FALSE,,,,0,closed,44,5,FALSE
+220,220,RFC: Error conventions,post-1.0-stabilization,rejected,2014-08-29T20:38:57Z,2014-09-11T23:12:58Z,13,aturon,,1,130,0,1,FALSE,,,,0,closed,20,5,FALSE
+223,223,Trait based inheritance,post-1.0-stabilization,rejected,2014-09-01T16:09:40Z,2014-09-23T22:53:05Z,22,gereeter,,6,452,0,1,FALSE,,,,0,closed,10,0,TRUE
+224,224,RFC: Make std::num::Int::leading_zeros() returns `uint`.,post-1.0-stabilization,rejected,2014-09-03T14:28:17Z,2014-09-04T22:08:18Z,1,kennytm,,1,88,0,1,FALSE,,,,0,closed,7,0,TRUE
+225,225,Add safe integral auto-coercions,post-1.0-stabilization,rejected,2014-09-03T20:50:35Z,2014-09-18T23:30:44Z,15,ghost,,1,27,0,1,FALSE,,,,0,closed,10,0,TRUE
+226,226,Allow implicit coercions for cross-borrows.,post-1.0-stabilization,rejected,2014-09-03T22:59:37Z,2014-10-28T22:03:53Z,54,nrc,,1,176,0,1,FALSE,,,,0,closed,7,3,FALSE
+227,227,Require public trait items to be marked `pub`,post-1.0-stabilization,rejected,2014-09-04T18:42:00Z,2015-03-05T19:13:54Z,182,ghost,,2,73,0,1,FALSE,,,,0,closed,22,0,TRUE
+228,228,Restrict `static mut`,post-1.0-stabilization,rejected,2014-09-07T23:05:36Z,2014-09-26T12:20:37Z,18,gereeter,,2,50,0,1,FALSE,,,,0,closed,7,0,TRUE
+229,229,Expand #[test] and #[bench],post-1.0-stabilization,rejected,2014-09-09T18:56:47Z,2014-09-17T02:49:59Z,7,reem,,1,99,0,1,FALSE,,,,0,closed,15,0,TRUE
+233,233,"Introduce variance for type parameters, not just region parameters",post-1.0-stabilization,rejected,2014-09-11T00:13:04Z,2014-09-12T13:38:55Z,1,nikomatsakis,,2,242,0,1,FALSE,,,,0,closed,10,9,FALSE
+238,238,Forbid partial outbound moves from immutable variables,post-1.0-stabilization,rejected,2014-09-13T05:01:28Z,2014-09-15T11:32:15Z,2,CloudiDust,,12,141,0,1,FALSE,,,,0,closed,25,0,TRUE
+239,239,Allow Eager Drops,post-1.0-stabilization,rejected,2014-09-15T00:55:06Z,2015-03-05T13:49:11Z,171,rkjnsn,,1,185,0,1,FALSE,,,,0,closed,44,0,TRUE
+244,244,"Allocator RFC, take II",post-1.0-stabilization,rejected,2014-09-17T13:59:18Z,2014-11-13T14:30:12Z,57,pnkfelix,,70,2333,0,1,FALSE,,,,0,closed,58,2,FALSE
+245,245,Efficient single inheritance with traits.,post-1.0-stabilization,postponed,2014-09-17T21:50:34Z,2014-10-03T01:12:12Z,15,nrc,,5,727,0,1,FALSE,postponed,,,0,closed,13,4,FALSE
+248,248,Change `&` to be a borrow operator.,post-1.0-stabilization,rejected,2014-09-19T03:36:48Z,2014-10-28T22:04:38Z,39,nrc,,4,246,0,1,FALSE,,,,0,closed,113,4,FALSE
+249,249,Integer types,post-1.0-stabilization,rejected,2014-09-19T14:36:07Z,2014-09-25T22:06:08Z,6,tbu-,,1,66,0,1,FALSE,,,,0,closed,5,0,TRUE
+250,250,Associated field inheritance,post-1.0-stabilization,postponed,2014-09-20T04:13:54Z,2014-10-03T03:26:47Z,12,Kimundi,,1,729,0,1,FALSE,postponed,,,0,closed,56,2,FALSE
+252,252,Function pointer lifetimes,post-1.0-stabilization,rejected,2014-09-20T10:46:16Z,2015-04-06T13:50:55Z,198,Tobba,,1,33,29,2,FALSE,,,,0,closed,8,0,TRUE
+253,253,Add limited CTFE,post-1.0-stabilization,rejected,2014-09-20T20:42:31Z,2014-09-25T22:00:37Z,5,mahkoh,,2,211,0,1,FALSE,,,,0,closed,5,0,TRUE
+254,254,Layout Inheritance,post-1.0-stabilization,rejected,2014-09-22T01:04:47Z,2015-03-21T10:43:30Z,180,rpjohnst,,1,264,0,1,FALSE,,,,0,closed,23,0,TRUE
+257,257,Default and positional arguments,post-1.0-stabilization,postponed,2014-09-23T09:38:59Z,2014-09-25T22:17:10Z,2,KokaKiwi,,1,218,0,1,FALSE,postponed,,,0,closed,29,0,TRUE
+258,258,auto-tupling and auto-unit'ing for variable arity fns,post-1.0-stabilization,postponed,2014-09-23T15:40:47Z,2014-09-25T22:20:57Z,2,pnkfelix,,8,437,0,1,FALSE,postponed,,,0,closed,8,3,FALSE
+259,259,"Unify constant expressions, mark them as safe, and allow proper pointer arithmetic",post-1.0-stabilization,rejected,2014-09-23T20:04:28Z,2015-02-28T22:27:01Z,158,mahkoh,,1,160,0,1,FALSE,,,,0,closed,2,0,TRUE
+327,327,RFC: Proposal for bit data (Ver 2),post-1.0-stabilization,rejected,2014-09-26T18:18:57Z,2014-10-02T21:39:24Z,6,engstad,,4,289,0,1,FALSE,"T-lang, A-data-types, A-typesystem, A-patterns, A-expressions, A-ffi, A-machine, A-bitdata",T-lang,,0,closed,8,0,TRUE
+328,328,"Rename `Option`, add `Assert` trait",post-1.0-stabilization,rejected,2014-09-27T18:15:55Z,2015-02-03T23:39:00Z,129,glaebhoerl,,1,294,1,2,FALSE,,,,0,closed,30,2,FALSE
+329,329,Future proof number literals by eating longer suffixes.,post-1.0-stabilization,rejected,2014-09-28T00:32:09Z,2014-11-13T01:40:36Z,46,huonw,,3,125,0,1,FALSE,,,,0,closed,2,4,FALSE
+330,330,"Represent equivalent `enum`s the same as `bool`, make `bool` an `enum`",post-1.0-stabilization,rejected,2014-09-28T17:13:47Z,2014-10-02T22:20:10Z,4,glaebhoerl,,1,57,0,1,FALSE,,,,0,closed,13,2,FALSE
+331,331,Proposal for C-like nested enums to become scalar data types,post-1.0-stabilization,rejected,2014-09-28T21:01:29Z,2014-10-02T22:10:35Z,4,pczarn,,3,72,0,1,FALSE,"T-lang, A-enum, A-repr, A-ffi, A-machine, A-bitdata",T-lang,,0,closed,5,0,TRUE
+343,343,Struct Sugar,post-1.0-stabilization,rejected,2014-10-01T14:02:26Z,2015-02-03T23:48:41Z,125,bvssvni,,2,779,0,1,FALSE,,,,0,closed,40,0,TRUE
+345,345,RFC: #[test_main],post-1.0-stabilization,rejected,2014-10-02T08:04:35Z,2015-04-09T21:40:22Z,189,reem,,2,55,0,1,FALSE,,,,0,closed,11,0,TRUE
+352,352,Allow loops to return values other than (),post-1.0-stabilization,rejected,2014-10-04T01:05:35Z,2015-03-10T18:21:44Z,157,ftxqxd,,8,244,0,1,FALSE,,,,0,closed,52,1,FALSE
+358,358,RFC: Unsafe fields.,post-1.0-stabilization,postponed,2014-10-07T08:52:41Z,2014-10-09T22:00:39Z,2,reem,,1,43,0,1,FALSE,postponed,,,0,closed,4,0,TRUE
+361,361,Raw pointer coercion,post-1.0-stabilization,rejected,2014-10-07T11:45:59Z,2014-11-17T03:27:43Z,40,mahkoh,,3,68,0,1,FALSE,,,,0,closed,17,0,TRUE
+365,365,RFC: Raw Reform,post-1.0-stabilization,rejected,2014-10-07T20:25:24Z,2014-10-28T16:02:28Z,20,Gankra,,7,477,0,1,FALSE,,,,0,closed,31,1,FALSE
+377,377,RFC: Less superfluous syntax,post-1.0-stabilization,rejected,2014-10-08T23:52:11Z,2014-10-09T06:18:47Z,0,ppyon-akira,,5,118,0,1,FALSE,,,,0,closed,1,0,TRUE
+383,383,RFC: Reject output lifetime elision with bound lifetimes in scope,post-1.0-stabilization,rejected,2014-10-10T01:01:17Z,2015-04-03T21:59:47Z,175,zwarich,,3,172,0,1,FALSE,,,,0,closed,28,1,FALSE
+384,384,RFC: Remove special case behavior of underscore bindings,post-1.0-stabilization,rejected,2014-10-10T02:02:12Z,2014-10-10T03:09:03Z,0,zwarich,,2,103,0,1,FALSE,,,,0,closed,3,1,FALSE
+386,386,"Unify attributes and macros to use `@` sigil, redux",post-1.0-stabilization,rejected,2014-10-10T19:24:02Z,2014-10-30T14:09:08Z,19,nikomatsakis,,2,379,0,1,FALSE,,,,0,closed,40,10,FALSE
+392,392,Unsafe Indexing and Slicing,post-1.0-stabilization,postponed,2014-10-13T19:03:48Z,2014-11-03T18:52:09Z,20,arielb1,,1,161,0,1,FALSE,postponed,,,0,closed,17,0,TRUE
+396,396,RFC: Single-entry / multiple-exit regions for borrows,post-1.0-stabilization,rejected,2014-10-14T22:22:20Z,2015-02-05T21:41:56Z,113,zwarich,,2,305,0,1,FALSE,T-lang,T-lang,,0,closed,10,1,FALSE
+399,399,Ad-hoc operator overloading,post-1.0-stabilization,postponed,2014-10-15T18:29:08Z,2014-10-27T21:44:39Z,12,SiegeLord,,3,167,0,1,FALSE,"postponed, T-lang, A-typesystem, A-attributes, A-resolve, A-operator",T-lang,,0,closed,30,0,TRUE
+402,402,"RFC: Anonymous enum types called joins, as `A | B`",post-1.0-stabilization,rejected,2014-10-16T05:23:21Z,2014-10-24T10:37:51Z,8,reem,,5,257,0,1,FALSE,"T-lang, A-data-types, A-syntax, A-typesystem, A-expressions, A-structural-typing, A-sum-types",T-lang,,0,closed,48,0,TRUE
+423,423,Flags for unspecified behaviour,post-1.0-stabilization,rejected,2014-10-28T16:47:13Z,2015-04-06T10:06:08Z,159,arielb1,,1,62,0,1,FALSE,,,,0,closed,10,0,TRUE
+429,429,Propose replacing the `loop` keyword with `while true`.,post-1.0-stabilization,rejected,2014-11-03T03:32:46Z,2014-11-06T22:57:38Z,3,jkleint,,1,136,0,1,FALSE,,,,0,closed,19,0,TRUE
+431,431,RFC: rename `lifetime` to `scope`,post-1.0-stabilization,rejected,2014-11-03T06:09:58Z,2014-11-21T06:41:05Z,18,aturon,,1,102,0,1,FALSE,,,,0,closed,53,16,FALSE
+435,435,RFC: Relocate and improve c_str,post-1.0-stabilization,rejected,2014-11-04T00:33:12Z,2015-01-02T22:57:54Z,59,mzabaluev,,6,168,0,1,FALSE,,,,0,closed,28,0,TRUE
+455,455,RFC: Allow non-ASCII characters in byte literals,post-1.0-stabilization,rejected,2014-11-09T14:44:34Z,2015-03-10T18:14:15Z,121,barosl,,1,67,0,1,FALSE,,,,0,closed,18,0,TRUE
+456,456,Reserve macro identifiers,post-1.0-stabilization,rejected,2014-11-09T15:48:44Z,2014-11-13T21:34:12Z,4,Manishearth,,1,36,0,1,FALSE,,,,0,closed,15,0,TRUE
+457,457,RFC: Rust language version attribute,post-1.0-stabilization,postponed,2014-11-10T04:58:21Z,2014-11-15T07:05:41Z,5,DanielKeep,,1,223,0,1,FALSE,postponed,,,0,closed,14,0,TRUE
+462,462,RFC: Futureproof `box` and `&` patterns,post-1.0-stabilization,rejected,2014-11-11T19:16:14Z,2015-02-05T21:59:02Z,86,ghost,,1,106,0,1,FALSE,,,,0,closed,17,0,TRUE
+464,464,RFC: Renaming int/uint,post-1.0-stabilization,rejected,2014-11-13T08:30:06Z,2014-12-23T21:47:11Z,40,1fish2,,6,99,0,1,FALSE,,,,0,closed,96,0,TRUE
+468,468,"RFC: Added ""Debug Info""",post-1.0-stabilization,postponed,2014-11-17T14:00:05Z,2014-11-20T21:32:29Z,3,mitsuhiko,,3,100,0,1,FALSE,postponed,,,0,closed,1,0,TRUE
+470,470,RFC for placement box with Placer trait for overloading.,post-1.0-stabilization,rejected,2014-11-18T14:27:44Z,2015-02-04T15:39:19Z,78,pnkfelix,,2,768,0,1,FALSE,,,,0,closed,13,5,FALSE
+475,475,Release channels and feature staging,post-1.0-stabilization,rejected,2014-11-20T02:06:33Z,2014-12-08T22:59:35Z,18,brson,,1,244,0,1,FALSE,,,,0,closed,8,3,FALSE
+483,483,Change attribute syntax to @foo,post-1.0-stabilization,rejected,2014-11-25T23:21:36Z,2014-12-03T21:46:50Z,7,sfackler,,6,106,0,1,FALSE,,,,0,closed,56,5,FALSE
+484,484,Make brackets optional for single attributes,post-1.0-stabilization,rejected,2014-11-26T12:04:18Z,2014-12-04T18:43:33Z,8,glaebhoerl,,1,39,0,1,FALSE,,,,0,closed,17,2,FALSE
+487,487,RFC: rename `lifetime` to `lifespan`,post-1.0-stabilization,rejected,2014-11-27T17:09:02Z,2014-12-03T17:36:31Z,6,arthurtw,,2,101,0,1,FALSE,,,,0,closed,15,0,TRUE
+491,491,Remove the `[]` notation for taking a whole slice.,post-1.0-stabilization,rejected,2014-11-29T21:44:48Z,2014-12-06T02:02:23Z,6,nrc,,1,54,0,1,FALSE,,,,0,closed,43,7,FALSE
+492,492,RFC: Error Reform and Failure Box,post-1.0-stabilization,rejected,2014-11-29T23:00:09Z,2015-06-02T23:27:16Z,185,mitsuhiko,,9,509,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,19,0,TRUE
+496,496,RFC: Formalize the term `lifetime parameter`,post-1.0-stabilization,rejected,2014-12-04T17:17:28Z,2014-12-04T18:41:29Z,0,arthurtw,,1,68,0,1,FALSE,,,,0,closed,15,0,TRUE
+497,497,Remove Ordering from the prelude.,post-1.0-stabilization,rejected,2014-12-05T13:27:01Z,2014-12-08T13:31:19Z,3,steveklabnik,,1,88,0,1,FALSE,,,,0,closed,12,0,TRUE
+498,439,Amendment to RFC 439 for grammar ambiguity,post-1.0-stabilization,rejected,2014-12-05T19:22:56Z,2014-12-18T08:54:32Z,12,aturon,,1,17,14,1,FALSE,,,,0,closed,42,19,FALSE
+499,499,NonZero lang item.,post-1.0-stabilization,rejected,2014-12-06T02:38:54Z,2014-12-18T17:59:51Z,12,luqmana,,1,37,0,1,FALSE,,,,0,closed,8,0,TRUE
+502,502,RFC: remove blanket ext implementations,maturity,rejected,2014-12-07T09:24:50Z,2015-03-05T06:26:03Z,87,skade,,2,95,0,1,FALSE,,,,0,closed,10,0,TRUE
+508,508,Newtype deriving,maturity,rejected,2014-12-09T09:06:38Z,2014-12-11T22:04:37Z,2,aochagavia,,1,79,0,1,FALSE,,,,0,closed,8,0,TRUE
+511,511,Wider use of the wildcards,maturity,rejected,2014-12-10T03:11:03Z,2014-12-11T22:51:52Z,1,barosl,,1,69,0,1,FALSE,,,,0,closed,1,0,TRUE
+514,514,Anonymous enum types (A|B) take 2,maturity,rejected,2014-12-10T20:54:17Z,2014-12-11T21:55:15Z,1,scialex,,4,641,0,1,FALSE,"T-lang, A-syntax, A-typesystem, A-expressions, A-structural-typing, A-sum-types",T-lang,,0,closed,9,0,TRUE
+515,446,Merge RFC 446,post-1.0-stabilization,withdrawn,2014-12-11T16:58:26Z,2014-12-11T16:59:17Z,0,pnkfelix,,5,85,0,2,FALSE,,,,0,closed,0,5,FALSE
+519,519,Panicking tasks should abort process if not handled,maturity,rejected,2014-12-13T01:52:19Z,2015-03-05T18:45:08Z,82,MichaelGG,,3,57,0,1,FALSE,,,,0,closed,26,0,TRUE
+535,535,Rename `std::mem::drop`,maturity,rejected,2014-12-19T22:17:11Z,2015-02-04T00:27:21Z,46,bstrie,,1,31,0,1,FALSE,,,,0,closed,16,2,FALSE
+536,536,Mark `std::mem::drop` as unstable until negative bounds are implemented,maturity,rejected,2014-12-19T22:25:54Z,2014-12-30T22:23:33Z,10,bstrie,,1,52,0,1,FALSE,,,,0,closed,17,2,FALSE
+539,539,added remove block comments rfc,maturity,rejected,2014-12-23T00:53:12Z,2014-12-30T22:09:40Z,7,sinistersnare,,1,34,0,1,FALSE,,,,0,closed,49,0,TRUE
+547,547,Remove the legacy generic bound syntax,maturity,rejected,2014-12-31T05:59:33Z,2014-12-31T23:11:39Z,0,sfackler,,1,78,0,1,FALSE,,,,0,closed,9,5,FALSE
+548,548,Added new RFC: Integer to bytes.,maturity,rejected,2015-01-01T00:02:01Z,2015-02-13T04:22:28Z,43,Binero,,3,30,0,1,FALSE,,,,0,closed,4,0,TRUE
+549,549,Fragment specifier feature gating,maturity,withdrawn,2015-01-02T14:02:07Z,2015-01-02T14:52:45Z,0,emberian,,1,51,0,1,FALSE,,,,0,closed,0,2,FALSE
+555,555,Unchecked downcast methods for Any,maturity,rejected,2015-01-05T12:10:29Z,2015-04-09T23:16:16Z,94,chris-morgan,,1,100,0,1,FALSE,,,,0,closed,8,1,FALSE
+564,564,Relative paths by default.,maturity,rejected,2015-01-09T13:50:27Z,2015-01-15T14:59:21Z,6,theemathas,,3,69,0,1,FALSE,,,,0,closed,11,0,TRUE
+566,566,RFC: a byte string concatenation macro,maturity,rejected,2015-01-10T17:09:20Z,2015-04-09T21:49:54Z,89,mzabaluev,,3,60,0,1,FALSE,,,,0,closed,19,1,FALSE
+567,567,Lose the tick,maturity,rejected,2015-01-10T18:47:33Z,2015-01-22T22:02:27Z,12,glaebhoerl,,1,111,0,1,FALSE,,,,0,closed,22,2,FALSE
+570,570,Add methods to String which can remove multiple elements at once,maturity,rejected,2015-01-11T14:33:28Z,2015-02-16T20:30:12Z,36,mahkoh,,2,55,0,1,FALSE,,,,0,closed,9,0,TRUE
+571,571,`foo::<T>` -> `foo@<T>`,maturity,rejected,2015-01-11T18:47:08Z,2015-01-29T21:58:18Z,18,glaebhoerl,,1,46,0,1,FALSE,,,,0,closed,21,2,FALSE
+577,517,Amend RFC 517: Add material on deadlines,maturity,rejected,2015-01-13T00:43:20Z,2015-01-29T00:46:50Z,16,aturon,,1,90,2,1,FALSE,,,,0,closed,27,22,FALSE
+582,582,RFC add foreach to iterators,maturity,rejected,2015-01-13T22:50:18Z,2015-03-05T06:16:06Z,50,larroy,,2,37,0,1,FALSE,,,,0,closed,27,0,TRUE
+583,583,Add fmt size_hints,maturity,rejected,2015-01-14T06:56:02Z,2015-06-02T21:30:35Z,139,seanmonstar,,5,194,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,29,0,TRUE
+584,584,Remove the `proc` keyword from the language,maturity,rejected,2015-01-14T17:24:58Z,2015-01-22T21:51:16Z,8,crumblingstatue,,1,31,0,1,FALSE,,,,0,closed,4,0,TRUE
+586,586,Negative bounds,maturity,postponed,2015-01-14T20:42:20Z,2015-04-10T13:42:45Z,85,kennytm,,4,766,0,1,FALSE,"postponed, T-lang",T-lang,,0,closed,35,0,TRUE
+588,588,Add unsafe member attribute,maturity,rejected,2015-01-15T07:25:14Z,2015-01-15T10:08:20Z,0,nwin,,1,41,0,1,FALSE,,,,0,closed,2,0,TRUE
+590,590,Early trait bounds on generic types,maturity,rejected,2015-01-17T17:24:26Z,2015-06-02T23:08:42Z,136,Kimundi,,1,121,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,13,5,FALSE
+591,591,"Sizeof, alignof, offsetof, typeof",maturity,rejected,2015-01-18T07:17:00Z,2015-06-02T19:18:36Z,135,vadimcn,,2,93,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,35,0,TRUE
+594,594,RFC: Support Incremental Compilation,maturity,rejected,2015-01-18T18:52:33Z,2015-08-16T12:20:52Z,209,michaelwoerister,,1,339,0,1,FALSE,T-compiler,T-compiler,,0,closed,6,0,TRUE
+595,595,Output option handling,maturity,rejected,2015-01-18T20:00:47Z,2015-10-08T16:42:23Z,262,nagisa,,20,184,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,5,0,TRUE
+638,638,Specify unwinding,maturity,rejected,2015-01-21T04:53:49Z,2015-09-04T19:18:00Z,226,Aatch,,1,116,0,1,FALSE,T-lang,T-lang,,0,closed,12,1,FALSE
+697,697,Disallow omitting the ABI in `extern` declarations,maturity,rejected,2015-01-21T21:39:39Z,2015-06-10T16:15:02Z,139,ranma42,,2,36,0,1,FALSE,T-lang,T-lang,,0,closed,18,1,FALSE
+706,706,"RFC: Add a new macro for ""unreachable"" whose meaning differs in debug and release builds",maturity,postponed,2015-01-22T19:18:57Z,2015-02-05T22:05:28Z,14,vojtechkral,,1,48,0,1,FALSE,postponed,,,0,closed,13,0,TRUE
+709,709,RFC: truly unsized types,maturity,rejected,2015-01-22T22:16:05Z,2015-02-05T21:45:56Z,13,mzabaluev,,4,87,0,1,FALSE,T-lang,T-lang,,0,closed,24,2,FALSE
+722,722,Reseeding `std::rand`.,maturity,rejected,2015-01-23T07:01:36Z,2015-01-31T22:41:14Z,8,huonw,,7,682,0,1,FALSE,,,,0,closed,22,5,FALSE
+724,724,RFC: Unsafe enums,maturity,rejected,2015-01-23T13:37:17Z,2015-02-17T02:32:36Z,24,retep998,,6,99,0,1,FALSE,,,,0,closed,7,0,TRUE
+733,733,Amend macro future proofing RFC,maturity,rejected,2015-01-24T21:34:25Z,2016-01-14T23:06:55Z,355,vadimcn,,4,83,25,1,FALSE,T-lang,T-lang,,0,closed,20,0,TRUE
+741,741,Integer Guidelines RFC,maturity,rejected,2015-01-27T05:11:06Z,2015-02-13T03:39:31Z,16,wycats,,1,164,0,1,FALSE,,,,0,closed,37,0,TRUE
+742,742,RFC: Replace `ref` by `*` in patterns,maturity,rejected,2015-01-27T09:48:52Z,2015-01-29T21:51:03Z,2,krdln,,3,130,0,1,FALSE,,,,0,closed,21,1,FALSE
+756,756,Allow closure expressions to expand to a `&` or `&mut` temporary,maturity,rejected,2015-01-28T20:05:30Z,2015-07-09T20:57:50Z,162,nikomatsakis,,1,112,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,36,19,FALSE
+757,757,Extensible enums,maturity,rejected,2015-01-28T21:05:08Z,2015-03-05T06:34:06Z,35,nikomatsakis,,2,140,0,1,FALSE,T-lang,T-lang,,0,closed,60,19,FALSE
+770,770,io error handling design,maturity,rejected,2015-01-29T21:44:21Z,2015-07-29T21:40:44Z,180,kjpgit,,12,164,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,38,0,TRUE
+776,776,Add linear type facility,maturity,postponed,2015-02-01T21:25:11Z,2015-02-05T21:47:52Z,4,aidancully,,4,772,0,1,FALSE,postponed,,,0,closed,35,0,TRUE
+805,805,Keyword arguments,maturity,postponed,2015-02-03T10:58:56Z,2015-02-05T21:48:50Z,2,iopq,,1,139,0,1,FALSE,postponed,,,0,closed,14,0,TRUE
+806,806,"Make transmute_copy<T,U> with sizeof T != sizeof U a compile time error.",maturity,rejected,2015-02-03T12:02:08Z,2015-02-05T22:08:06Z,2,mahkoh,,2,23,0,1,FALSE,,,,0,closed,5,1,FALSE
+810,810,RFC: Deprecate std::fmt::format in favor of String::format,maturity,rejected,2015-02-04T19:44:35Z,2015-03-05T19:38:14Z,28,kmcallister,,2,33,0,1,FALSE,,,,0,closed,4,4,FALSE
+834,834,`rustdoc` or `cargo doc` should pass a special `--cfg doc` flag ,maturity,postponed,2015-02-12T11:24:29Z,2015-02-27T01:22:57Z,14,kennytm,,2,105,0,1,FALSE,postponed,,,0,closed,4,0,TRUE
+837,837,RFC: Never allow reads from uninitialized memory in safe Rust,maturity,rejected,2015-02-13T22:37:27Z,2015-02-24T23:00:28Z,11,aturon,,7,81,0,1,FALSE,,,,0,closed,58,22,FALSE
+841,841,Changing Struct Literals,maturity,rejected,2015-02-14T06:54:00Z,2015-02-27T01:36:47Z,12,iopq,,1,150,0,1,FALSE,,,,0,closed,110,0,TRUE
+849,849,RFC: Item grouping,maturity,postponed,2015-02-14T22:25:49Z,2015-03-04T00:29:57Z,17,kmcallister,,1,152,0,1,FALSE,postponed,,,0,closed,5,4,FALSE
+850,850,Put div_rem back in the standard library.,maturity,rejected,2015-02-14T22:50:59Z,2015-02-27T00:20:08Z,12,quantheory,,4,184,0,1,FALSE,,,,0,closed,3,1,FALSE
+866,866,New struct syntax,maturity,rejected,2015-02-16T00:30:54Z,2015-02-27T01:37:55Z,11,phaux,,6,277,0,1,FALSE,,,,0,closed,73,0,TRUE
+867,867,use globs as RFC,maturity,rejected,2015-02-16T04:14:36Z,2015-03-04T00:42:06Z,15,seanmonstar,,1,75,0,1,FALSE,,,,0,closed,17,0,TRUE
+869,869,Remove lifetime elision in type parameter position,maturity,rejected,2015-02-16T10:55:13Z,2015-02-28T22:27:26Z,12,mahkoh,,1,49,0,1,FALSE,,,,0,closed,7,1,FALSE
+870,870,Replace IteratorExt::zip with tuple iteration,maturity,rejected,2015-02-16T16:52:43Z,2015-03-05T21:43:13Z,17,oli-obk,,6,226,0,1,FALSE,,,,0,closed,26,0,TRUE
+880,880,Improvements to range match patterns,maturity,postponed,2015-02-17T09:38:46Z,2015-03-06T01:26:40Z,16,quantheory,,5,133,0,1,FALSE,postponed,,,0,closed,8,1,FALSE
+883,883,Make function pointer types look like borrowed pointer types for forwards compatability,maturity,rejected,2015-02-17T22:33:56Z,2015-04-06T13:56:37Z,47,Ericson2314,,12,130,0,1,FALSE,,,,0,closed,71,0,TRUE
+884,884,Allow types to be parameterized by integer (and bool) constant values.,maturity,rejected,2015-02-18T05:49:36Z,2015-04-06T17:53:15Z,47,quantheory,,11,468,0,1,FALSE,,,,0,closed,26,1,FALSE
+886,886,"Allow `#[must_use]` on functions, rather than just types. Mark `Result::{ok,err}` `#[must_use]`.",maturity,rejected,2015-02-19T00:58:56Z,2017-04-29T00:50:21Z,799,huonw,,9,272,0,1,FALSE,T-lang,T-lang,,0,closed,71,6,FALSE
+890,890,RFC: Custom preludes,maturity,rejected,2015-02-20T00:51:30Z,2015-08-14T19:40:30Z,175,aturon,,1,106,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,31,22,FALSE
+897,897,Add RFC: approx-asserts,maturity,rejected,2015-02-23T16:38:51Z,2015-03-05T21:53:48Z,10,dhardy,,1,117,0,1,FALSE,,,,0,closed,6,0,TRUE
+901,901,RFC: Disallow parenthesised types,maturity,rejected,2015-02-24T05:55:30Z,2015-03-05T22:10:41Z,9,ftxqxd,,1,67,0,1,FALSE,,,,0,closed,8,4,FALSE
+903,903,Proposed EOF reinstatement.,maturity,rejected,2015-02-24T15:59:10Z,2015-03-20T17:01:30Z,24,tfogal,,1,27,16,1,FALSE,,,,0,closed,3,0,TRUE
+904,904,Simplify IO error handling,maturity,rejected,2015-02-24T21:40:36Z,2015-02-28T22:26:43Z,4,mahkoh,,2,81,0,1,FALSE,,,,0,closed,5,1,FALSE
+907,907,Reserve more numeric types.,maturity,rejected,2015-02-25T10:03:54Z,2015-03-05T22:13:06Z,8,mahkoh,,2,33,0,1,FALSE,,,,0,closed,9,1,FALSE
+910,910,Remove `as_mut_vec` from `String`,maturity,rejected,2015-02-25T20:50:17Z,2015-04-09T23:12:29Z,43,LukasKalbertodt,,7,92,0,1,FALSE,,,,0,closed,19,0,TRUE
+912,912,RFC: improve CString construction methods,maturity,rejected,2015-02-26T01:12:41Z,2015-04-03T22:06:16Z,36,mzabaluev,,2,73,0,1,FALSE,,,,0,closed,9,3,FALSE
+922,922,Named and destructable `self`,maturity,rejected,2015-03-02T00:33:32Z,2015-04-10T13:38:26Z,39,hauleth,,4,72,0,1,FALSE,,,,0,closed,6,0,TRUE
+924,924,Relax the ExactSizeIterator trait.,maturity,rejected,2015-03-02T20:10:13Z,2015-04-29T18:03:55Z,57,Stebalien,,2,36,0,1,FALSE,,,,0,closed,11,0,TRUE
+925,925,Extract math from Float trait,maturity,rejected,2015-03-03T11:42:16Z,2015-04-03T21:57:55Z,31,hauleth,,2,90,0,1,FALSE,,,,0,closed,4,0,TRUE
+927,927,Add get_entry_name function,maturity,rejected,2015-03-03T18:56:31Z,2015-03-05T22:10:02Z,2,GuillaumeGomez,,2,36,0,1,FALSE,,,,0,closed,1,0,TRUE
+936,936,split the `Copy` trait in two traits: `Pod` and `Copy`,maturity,rejected,2015-03-04T17:19:34Z,2015-03-20T14:56:10Z,15,japaric,,3,189,0,1,FALSE,,,,0,closed,60,0,TRUE
+937,937,Add if-while-let_multiple_patterns RFC,maturity,rejected,2015-03-04T17:31:02Z,2015-04-06T17:47:17Z,33,Munksgaard,,5,84,0,1,FALSE,,,,0,closed,22,0,TRUE
+938,938,RFC: The `{:?}` format specifier should not print values in release builds,maturity,rejected,2015-03-05T00:06:01Z,2016-01-22T19:54:16Z,323,pcwalton,,1,30,0,1,FALSE,T-lang,T-lang,,0,closed,14,9,FALSE
+944,944,RFC: macro escape char,maturity,rejected,2015-03-05T10:46:06Z,2015-03-19T21:56:17Z,14,kennytm,,3,78,0,1,FALSE,,,,0,closed,6,0,TRUE
+949,949,"Add a `newtype` keyword that creates a non-coercible, castable alias.",maturity,rejected,2015-03-06T20:43:07Z,2015-03-19T21:30:13Z,13,mahkoh,,9,508,0,1,FALSE,,,,0,closed,17,1,FALSE
+950,950,Amend I/O reform RFC to address issues with flush,maturity,rejected,2015-03-06T21:59:13Z,2015-03-15T09:58:24Z,8,mzabaluev,,3,31,5,1,FALSE,,,,0,closed,5,3,FALSE
+951,951,Don't allow numeric types with fallback-type in varargs position,maturity,rejected,2015-03-07T07:09:42Z,2015-03-19T21:37:00Z,12,mahkoh,,1,59,0,1,FALSE,,,,0,closed,3,1,FALSE
+952,952,Change the Range struct to support inclusive ranges,maturity,rejected,2015-03-07T18:37:26Z,2015-03-09T02:08:16Z,1,Stebalien,,1,72,0,1,FALSE,,,,0,closed,6,0,TRUE
+954,954,Specify that `bool` is compatible with the `_Bool` C type.,maturity,rejected,2015-03-08T23:24:01Z,2015-03-19T23:43:45Z,11,mahkoh,,2,29,0,1,FALSE,,,,0,closed,16,1,FALSE
+955,955,Statement-ize Looping Forms,maturity,rejected,2015-03-09T00:00:15Z,2015-04-09T21:40:49Z,31,pnkfelix,,2,371,0,1,FALSE,,,,0,closed,27,9,FALSE
+956,956,"Unsafe comparison traits (PartialEq, Eq, PartialOrd, Ord)",maturity,rejected,2015-03-09T04:23:15Z,2015-04-09T21:57:47Z,31,theemathas,,14,127,0,1,FALSE,,,,0,closed,62,0,TRUE
+965,965,Add `&own T`,maturity,rejected,2015-03-11T02:31:23Z,2015-03-21T11:57:43Z,10,mahkoh,,5,385,0,1,FALSE,,,,0,closed,78,1,FALSE
+967,967,Make rustc and cargo produce optimized binaries by default,maturity,rejected,2015-03-11T03:15:37Z,2015-05-05T23:30:48Z,55,Valloric,,4,185,0,1,FALSE,,,,0,closed,70,0,TRUE
+969,969,change Seek API to be less enum-y,maturity,rejected,2015-03-12T03:04:21Z,2015-03-31T20:27:15Z,19,Gankra,,1,9,10,1,FALSE,,,,0,closed,31,5,FALSE
+970,970,add back bufferless read_to_string/read_to_end methods,maturity,rejected,2015-03-12T23:36:22Z,2015-04-09T23:16:00Z,27,cburgdorf,,3,90,0,1,FALSE,,,,0,closed,17,0,TRUE
+973,973,Add material to stdio handling,maturity,rejected,2015-03-13T18:32:43Z,2015-04-09T20:08:05Z,27,mahkoh,,1,104,53,1,FALSE,,,,0,closed,11,1,FALSE
+974,974,Make `std::io` iterators more convenient,maturity,rejected,2015-03-13T19:49:50Z,2015-04-09T20:08:02Z,27,mahkoh,,4,124,0,1,FALSE,,,,0,closed,11,1,FALSE
+975,975,Generalize over mut vs non-mut items,maturity,rejected,2015-03-14T09:39:56Z,2015-03-14T15:57:28Z,0,ghost,,1,167,29,2,FALSE,,,,0,closed,3,2,FALSE
+976,976,Generalize over mut and non-mut items,maturity,rejected,2015-03-14T16:05:40Z,2015-04-06T17:56:44Z,23,ghost,,2,175,0,1,FALSE,,,,0,closed,11,2,FALSE
+977,977,Add unsized return values.,maturity,rejected,2015-03-14T20:46:15Z,2015-03-19T21:51:58Z,5,mahkoh,,2,216,0,1,FALSE,,,,0,closed,10,1,FALSE
+985,985,RFC: Add std::env::concurrency_hint,maturity,rejected,2015-03-17T17:08:11Z,2015-04-09T21:40:58Z,23,alexcrichton,,1,80,0,1,FALSE,,,,0,closed,16,18,FALSE
+986,986,"RFC: Deprecate CharExt::to_{upper,lower}case",maturity,rejected,2015-03-17T18:14:13Z,2015-04-07T12:43:03Z,20,SimonSapin,,4,100,0,1,FALSE,,,,0,closed,16,3,FALSE
+994,994,RFC: I18N Module.,maturity,withdrawn,2015-03-20T16:01:21Z,2015-03-20T16:01:24Z,0,ghost,,1,338,30,2,FALSE,,,,0,closed,0,2,FALSE
+996,996,RFC: Function pointers reform,maturity,postponed,2015-03-21T07:58:05Z,2015-04-06T13:55:10Z,16,CloudiDust,,12,122,0,1,FALSE,postponed,,,0,closed,27,2,FALSE
+1000,1000,Add `AtomicI32` and `AtomicU32`.,maturity,rejected,2015-03-21T17:58:56Z,2015-03-25T15:28:28Z,3,mahkoh,,1,29,0,1,FALSE,,,,0,closed,19,1,FALSE
+1003,1003,RFC: Syntax Plugins,maturity,rejected,2015-03-23T05:58:16Z,2015-03-23T08:41:26Z,0,ghost,,3,62,0,1,FALSE,,,,0,closed,1,2,FALSE
+1007,1007,Allow unstable features in 1.0,maturity,rejected,2015-03-23T20:16:23Z,2015-03-24T13:30:05Z,0,mahkoh,,1,196,0,1,FALSE,,,,0,closed,13,1,FALSE
+1008,1008,Generic boolean operators,maturity,rejected,2015-03-24T05:13:55Z,2015-04-10T13:34:01Z,17,ryanhiebert,,2,123,0,1,FALSE,"A-primitive, A-operator, A-compare",,,0,closed,3,0,TRUE
+1015,1015,Add read_into_buf and get_buf to BufRead,maturity,rejected,2015-03-25T19:46:47Z,2015-07-01T02:13:37Z,97,seanmonstar,,1,74,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,11,0,TRUE
+1017,1017,Change abs() to return unsigned integers,maturity,rejected,2015-03-26T06:26:24Z,2015-06-02T23:18:34Z,68,pitdicker,,3,70,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,36,0,TRUE
+1027,1027,"Add ""Integers Done Right"" RFC.",maturity,rejected,2015-04-01T19:17:40Z,2015-04-02T17:44:30Z,0,michaelwoerister,,1,120,0,1,FALSE,,,,0,closed,29,0,TRUE
+1028,1028," Automatically derive {Clone,PartialEq,PartialOrd} when {Copy,Eq,Ord} are derived",maturity,rejected,2015-04-01T19:54:49Z,2015-04-10T13:57:25Z,8,bstrie,,1,44,0,1,FALSE,,,,0,closed,39,2,FALSE
+1032,1032,RFC: Rename the `size_hint` method of `Iterator` to `len_hint`.,maturity,rejected,2015-04-04T12:01:18Z,2015-04-05T05:30:59Z,0,CloudiDust,,2,54,0,1,FALSE,,,,0,closed,2,2,FALSE
+1034,1034,RFC: Deprecate `Iterator::size_hint` and `ExactSizeIterator` for better named alternatives.,maturity,rejected,2015-04-05T05:40:26Z,2015-06-09T23:56:22Z,65,CloudiDust,,4,52,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,69,2,FALSE
+1036,1036,Add Builder guidelines,maturity,rejected,2015-04-06T00:17:14Z,2015-10-08T16:36:52Z,185,nagisa,,1,136,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,11,0,TRUE
+1042,1042,explicit multi-char case changes,maturity,rejected,2015-04-07T13:08:14Z,2015-04-09T23:17:55Z,2,oli-obk,,1,104,0,1,FALSE,,,,0,closed,5,0,TRUE
+1055,1055,RFC for redirecting stdio of child processes to open file handles,maturity,rejected,2015-04-10T15:41:08Z,2015-07-08T21:31:41Z,89,ipetkov,,11,106,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,39,0,TRUE
+1062,1062,Constants that depend on type parameters in generic code,maturity,rejected,2015-04-14T06:41:23Z,2016-04-08T21:16:53Z,360,quantheory,,4,291,0,1,FALSE,T-lang,T-lang,,0,closed,7,1,FALSE
+1064,1064,Add a foreach() method to std::iter::Iterator,maturity,rejected,2015-04-16T07:12:21Z,2015-04-18T00:01:40Z,1,withoutboats,,3,115,0,1,FALSE,,,,0,closed,25,0,TRUE
+1083,1083,Reserve async and await keywords,maturity,rejected,2015-04-22T04:14:50Z,2015-04-23T21:59:42Z,1,ryanhiebert,,3,43,0,1,FALSE,,,,0,closed,6,0,TRUE
+1084,1084,"RFC: Scoped threads, take 2",maturity,rejected,2015-04-23T00:12:48Z,2015-07-01T16:18:47Z,69,aturon,,2,261,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,79,25,FALSE
+1085,1085,Leak and Destructor Guarantees,maturity,rejected,2015-04-23T00:39:21Z,2015-05-07T17:18:59Z,14,reem,,3,180,0,1,FALSE,,,,0,closed,46,0,TRUE
+1094,1094,Guaranteed non-static destructors,maturity,rejected,2015-04-27T20:57:40Z,2015-05-07T17:19:50Z,9,rkjnsn,,4,263,0,1,FALSE,,,,0,closed,73,0,TRUE
+1095,1095,Add unsafe Option::unwrap_unchecked(),maturity,rejected,2015-04-28T16:27:01Z,2015-06-16T22:03:43Z,49,dschatzberg,,1,73,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,23,0,TRUE
+1100,1100,Add thread-local custom panic handlers to customize the behavior of thread panics,maturity,rejected,2015-05-01T16:56:14Z,2015-12-17T22:21:42Z,230,yberreby,,11,87,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,114,0,TRUE
+1126,1126,stabilize TcpStream::set_keepalive,maturity,rejected,2015-05-18T18:50:41Z,2015-06-11T18:09:54Z,23,seanmonstar,,1,53,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,2,0,TRUE
+1129,1129,IndexAssign: overloading the `a[b] = c` expression,maturity,rejected,2015-05-19T23:35:10Z,2016-02-12T18:10:20Z,268,japaric,,2,316,0,1,FALSE,T-lang,T-lang,,0,closed,49,1,FALSE
+1130,1130,Implement FromIterator for the unit type,maturity,rejected,2015-05-20T01:40:30Z,2015-07-01T02:12:21Z,42,fenhl,,3,106,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,19,0,TRUE
+1133,1133,Make Cargo aware of standard library dependencies,maturity,rejected,2015-05-26T06:02:28Z,2018-03-18T20:42:19Z,1027,Ericson2314,,66,278,0,1,FALSE,"T-dev-tools, final-comment-period, T-cargo","T-dev-tools, T-cargo",,0,closed,138,0,TRUE
+1147,1147,Target Version,maturity,rejected,2015-06-03T14:00:15Z,2015-09-02T14:50:41Z,91,llogiq,,20,266,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,42,0,TRUE
+1148,1148,Mutually exclusive traits,maturity,rejected,2015-06-03T19:29:35Z,2016-04-08T21:23:40Z,310,withoutboats,,5,239,0,1,FALSE,T-lang,T-lang,,0,closed,55,0,TRUE
+1150,1150,RFC: Allow re-exporting associated items with `use`,maturity,rejected,2015-06-03T23:27:37Z,2015-07-20T02:25:26Z,46,Gankra,,3,216,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,32,5,FALSE
+1154,1154,Disjoins (anonymous enums),maturity,rejected,2015-06-08T02:44:09Z,2015-07-31T18:43:19Z,53,canndrew,,3,146,0,1,FALSE,T-lang,T-lang,,0,closed,80,0,TRUE
+1158,1158,RFC: Expand the std::net module,maturity,rejected,2015-06-11T18:08:12Z,2015-09-17T06:16:45Z,97,alexcrichton,,3,527,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,27,21,FALSE
+1168,1168,Make `size` an associated constant,maturity,rejected,2015-06-21T23:08:09Z,2015-09-04T19:18:56Z,74,tbu-,,2,40,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,37,0,TRUE
+1170,1170,use an actual example,maturity,rejected,2015-06-23T18:16:14Z,2015-06-23T18:52:31Z,0,tshepang,,1,3,3,1,FALSE,,,,0,closed,1,0,TRUE
+1175,1175,RFC: get collection keys,maturity,rejected,2015-06-24T18:41:20Z,2015-07-03T16:17:47Z,8,seppo0010,,4,121,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,10,0,TRUE
+1177,1177,"Anonymous/placeholder lifetime ""'_"".",maturity,rejected,2015-06-26T17:46:22Z,2016-03-25T20:25:44Z,273,eddyb,,1,69,0,1,FALSE,T-lang,T-lang,,0,closed,38,2,FALSE
+1180,1180,"Propose `Interior<T>` data-type, to allow moves out of the dropped value during the drop hook.",maturity,rejected,2015-06-29T14:18:54Z,2016-08-22T13:50:49Z,419,aidancully,,2,525,0,1,FALSE,T-lang,T-lang,,0,closed,76,0,TRUE
+1190,1190,Style: function declarations,maturity,rejected,2015-07-05T20:49:21Z,2015-11-06T00:49:31Z,123,nrc,,1,274,0,1,FALSE,T-lang,T-lang,,0,closed,79,10,FALSE
+1195,1195,ordered query API,maturity,rejected,2015-07-09T16:20:56Z,2015-08-12T20:37:59Z,34,Gankra,,5,175,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,36,5,FALSE
+1196,1196,RFC for allowing eliding more type parameters.,maturity,rejected,2015-07-09T17:20:29Z,2016-02-12T18:21:02Z,218,huonw,,4,121,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,55,7,FALSE
+1198,1198,"pretty print `Debug` of tuples, tuple structs and enum variants in a single line",maturity,rejected,2015-07-10T04:07:24Z,2015-08-27T00:01:14Z,47,liigo,,1,11,7,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,10,0,TRUE
+1213,1213,RFC: The Life and Death of an API,maturity,rejected,2015-07-17T06:49:30Z,2015-08-10T23:14:19Z,24,Gankra,,1,173,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,7,5,FALSE
+1218,1218,RFC: Checked integer conversions,maturity,rejected,2015-07-20T21:31:46Z,2016-06-21T15:23:04Z,336,petrochenkov,,7,96,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,70,1,FALSE
+1222,1222,Safe uninitialized byte arrays.,maturity,rejected,2015-07-21T22:49:59Z,2015-07-22T00:11:33Z,0,Stebalien,,2,96,0,1,FALSE,,,,0,closed,11,0,TRUE
+1232,1232,RFC: remove weak pointers,maturity,rejected,2015-07-31T17:26:07Z,2015-08-08T16:12:27Z,7,Gankra,,1,182,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,59,5,FALSE
+1233,1233,RFC: Add Box::leak to leak Box<T> to &'static mut T,maturity,rejected,2015-08-01T23:56:37Z,2015-09-17T06:15:58Z,46,mystor,,4,97,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,45,0,TRUE
+1235,1235,More control over `BufReader`,maturity,rejected,2015-08-03T22:51:43Z,2015-08-28T08:41:37Z,24,abonander,,2,80,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,34,0,TRUE
+1246,1246,Compiler UX Guidelines RFC,maturity,rejected,2015-08-10T15:05:43Z,2015-12-05T00:42:04Z,116,Havvy,,1,121,0,1,FALSE,"T-dev-tools, T-compiler","T-dev-tools, T-compiler",,0,closed,12,0,TRUE
+1248,1248,Safe intrinsics RFC,maturity,rejected,2015-08-11T09:16:16Z,2016-12-13T18:32:40Z,490,Aatch,,1,62,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,22,3,FALSE
+1254,1254,ordered ranges 2.0,maturity,rejected,2015-08-14T16:23:59Z,2015-12-09T03:02:37Z,116,Gankra,,1,712,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,36,5,FALSE
+1255,1255,RFC: Stabilize OS string to bytes conversions,maturity,rejected,2015-08-14T17:23:25Z,2015-10-15T01:08:13Z,61,alexcrichton,,2,142,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,36,26,FALSE
+1258,1258,Add macros to get the values of configuration flags,maturity,rejected,2015-08-16T17:09:16Z,2016-02-18T18:38:45Z,186,dylanmckay,,2,102,0,1,FALSE,"T-lang, T-libs-api, final-comment-period","T-lang, T-libs-api",,0,closed,12,0,TRUE
+1275,1275,Support interrupt calling conventions,maturity,rejected,2015-09-08T03:47:55Z,2015-11-17T17:09:42Z,70,tari,,2,147,0,1,FALSE,T-lang,T-lang,,0,closed,84,2,FALSE
+1284,1284,Machine-readable output of tests,maturity,rejected,2015-09-17T11:58:37Z,2016-01-08T22:41:40Z,113,hauleth,,2,145,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,22,0,TRUE
+1292,1292,i10n,maturity,rejected,2015-09-24T17:00:40Z,2016-01-08T23:08:06Z,106,GuillaumeGomez,,6,92,0,1,FALSE,T-compiler,T-compiler,,0,closed,30,0,TRUE
+1296,1296,RFC: Add an `alias` attribute to #[link] and -l,maturity,rejected,2015-09-25T17:02:55Z,2016-08-16T20:34:18Z,326,alexcrichton,,2,316,0,1,FALSE,"T-lang, T-dev-tools","T-lang, T-dev-tools",,0,closed,51,27,FALSE
+1299,1299,std::sync::mpsc::SharedSender,maturity,rejected,2015-09-28T18:42:25Z,2016-02-04T00:16:51Z,128,seanmonstar,,1,82,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,17,1,FALSE
+1303,1303,"Add a `let...else` expression, similar to Swift's `guard let...else`",maturity,postponed,2015-10-02T03:43:46Z,2016-02-26T23:22:04Z,147,mbrubeck,,15,150,0,2,FALSE,"postponed, T-lang, final-comment-period, A-syntax, A-expressions, A-control-flow",T-lang,,0,closed,331,0,TRUE
+1305,1305,Abstract output type parameters,maturity,rejected,2015-10-03T18:42:45Z,2016-07-07T21:56:32Z,278,Kimundi,,1,348,0,1,FALSE,T-lang,T-lang,,0,closed,52,6,FALSE
+1309,1309,OS string string-like interface,maturity,postponed,2015-10-06T03:18:34Z,2016-07-19T05:50:31Z,287,wthrowe,,3,457,0,1,FALSE,"postponed, T-libs-api",T-libs-api,,0,closed,12,0,TRUE
+1321,1321,Unstable visibility RFC,maturity,rejected,2015-10-14T19:29:58Z,2016-04-01T18:18:42Z,169,arcnmx,,2,88,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,7,0,TRUE
+1325,1325,Add panic-safe slicing methods,maturity,rejected,2015-10-16T09:51:24Z,2016-07-19T05:51:32Z,276,barosl,,1,89,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,27,1,FALSE
+1346,1346,Unsafe expressions,maturity,rejected,2015-10-29T21:19:28Z,2016-04-01T18:17:21Z,154,arcnmx,,3,100,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,34,0,TRUE
+1348,1348,New RFC: file_create_exclusive,maturity,rejected,2015-10-30T12:07:10Z,2015-10-31T08:53:28Z,0,dhardy,,2,59,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,2,0,TRUE
+1353,1353,Add filter_in_place to Vec and VecDeque,maturity,rejected,2015-11-06T16:32:12Z,2016-08-29T20:40:16Z,297,Amanieu,,2,92,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,33,0,TRUE
+1354,1354,RFC: #[cfg(…)] syntax for size and alignment of FFI types,maturity,rejected,2015-11-06T22:25:32Z,2015-12-17T21:43:53Z,40,mzabaluev,,3,113,0,1,FALSE,"T-lang, T-compiler","T-lang, T-compiler",,0,closed,6,3,FALSE
+1370,1370,RFC: Transparently use verbatim paths on Windows,maturity,rejected,2015-11-14T22:30:36Z,2016-01-03T11:15:10Z,49,tbu-,,1,79,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,6,1,FALSE
+1372,1372,Add license matching Rust,maturity,rejected,2015-11-15T22:37:35Z,2015-11-16T19:36:40Z,0,edunham,,1,231,0,3,FALSE,,,,0,closed,4,0,TRUE
+1373,1373,Remove some kinds of doc comments,maturity,rejected,2015-11-20T02:25:02Z,2016-04-22T23:35:01Z,154,nrc,,1,43,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,53,12,FALSE
+1375,1375,Always-true Equality for PhantomData<T> to PhantomData<T>,maturity,rejected,2015-11-20T16:46:34Z,2015-11-20T17:15:54Z,0,samdoiron,,2,84,0,1,FALSE,,,,0,closed,3,0,TRUE
+1379,1379,Change thread local variables to only accept async-signal-safe types.,maturity,rejected,2015-11-23T23:08:25Z,2016-06-21T15:26:00Z,210,mahkoh,,3,84,0,1,FALSE,"T-lang, T-libs-api, final-comment-period","T-lang, T-libs-api",,0,closed,14,1,FALSE
+1387,1387,Add a `pod` language item and marker trait.,maturity,rejected,2015-11-30T16:31:05Z,2015-12-09T04:32:48Z,8,mahkoh,,2,157,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,21,1,FALSE
+1393,1393,Expand `try!` macro with additional case,maturity,rejected,2015-12-05T12:29:02Z,2016-02-18T18:39:26Z,75,hauleth,,2,51,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,17,0,TRUE
+1394,1394,Add `maybe!` macro equivalent to `try!`,maturity,rejected,2015-12-05T13:25:35Z,2016-02-18T18:39:35Z,75,hauleth,,3,59,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,11,0,TRUE
+1401,809,Amend 0809 to reduce the number of traits.,maturity,rejected,2015-12-09T20:02:58Z,2015-12-23T21:42:13Z,14,Stebalien,,1,83,109,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,52,0,TRUE
+1406,1406,Rfc: delegation of implementation,maturity,postponed,2015-12-13T00:55:21Z,2017-09-20T00:07:24Z,646,contactomorph,,7,415,0,1,FALSE,"postponed, T-lang, final-comment-period, Ergonomics Initiative",T-lang,,0,closed,133,0,TRUE
+1408,1408,Delayed resolution,maturity,rejected,2015-12-14T14:59:51Z,2016-09-22T20:57:52Z,283,mahkoh,,2,104,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,15,1,FALSE
+1410,1410,Add a `noalias` language item,maturity,rejected,2015-12-15T22:48:16Z,2016-01-15T21:49:51Z,30,mahkoh,,4,93,0,1,FALSE,T-lang,T-lang,,0,closed,26,1,FALSE
+1425,1425,deprecate attribute: renamed reason to note,maturity,rejected,2015-12-23T16:32:50Z,2015-12-23T19:58:03Z,0,llogiq,,26,13,14,1,FALSE,,,,0,closed,5,1,FALSE
+1426,1426,Placement in/box refinement,maturity,postponed,2015-12-23T21:40:06Z,2017-01-06T23:54:26Z,380,Stebalien,,7,376,0,1,FALSE,"postponed, T-lang",T-lang,,0,closed,40,0,TRUE
+1429,1429,Feature gate extern fn methods,maturity,rejected,2015-12-27T06:47:27Z,2016-04-22T21:03:49Z,117,Aatch,,1,51,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,12,4,FALSE
+1431,1431,Statically dispatched methods for trait objects with associated data,maturity,rejected,2015-12-28T04:15:40Z,2016-07-28T21:30:25Z,213,VFLashM,,2,290,0,1,FALSE,T-lang,T-lang,,0,closed,3,0,TRUE
+1437,1437,ESC byte escape,maturity,rejected,2015-12-29T20:11:54Z,2016-04-05T18:30:45Z,97,ticki,,1,38,0,1,FALSE,T-lang,T-lang,,0,closed,44,1,FALSE
+1449,1449,Add language support for bitfields,maturity,rejected,2016-01-07T02:11:16Z,2016-07-29T20:03:50Z,204,mahkoh,,2,340,0,1,FALSE,"T-lang, final-comment-period, A-data-types, A-attributes, A-ffi",T-lang,,0,closed,90,1,FALSE
+1450,1450,Types for enum variants,maturity,postponed,2016-01-07T20:39:49Z,2017-01-31T23:51:37Z,390,nrc,,3,243,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,97,12,FALSE
+1457,1457,Rewrite `for` loop desugaring to use language items,maturity,rejected,2016-01-10T19:13:02Z,2016-01-21T23:08:55Z,11,apasel422,,1,87,0,1,FALSE,"T-compiler, final-comment-period",T-compiler,,0,closed,14,1,FALSE
+1459,1459,Add a used attribute,maturity,rejected,2016-01-11T15:11:17Z,2016-07-14T18:41:32Z,185,mahkoh,,5,62,0,1,FALSE,"T-lang, T-dev-tools, final-comment-period","T-lang, T-dev-tools",,0,closed,33,1,FALSE
+1465,1465,add some! macro for unwrapping Option more safely,maturity,rejected,2016-01-16T07:30:20Z,2016-02-10T23:32:45Z,25,vitiral,,3,100,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,18,0,TRUE
+1471,1471,Stable compiler features,maturity,rejected,2016-01-22T14:05:33Z,2016-01-22T18:10:35Z,0,hauleth,,1,54,0,1,FALSE,,,,0,closed,4,0,TRUE
+1474,1474,Generic atomic,maturity,rejected,2016-01-22T20:51:48Z,2016-01-25T13:37:11Z,2,mahkoh,,3,97,0,1,FALSE,"T-lang, T-compiler","T-lang, T-compiler",,0,closed,25,1,FALSE
+1477,1477,Generic atomic v2,maturity,rejected,2016-01-25T13:36:30Z,2016-05-13T23:25:03Z,109,mahkoh,,1,80,0,1,FALSE,"T-lang, T-compiler, final-comment-period","T-lang, T-compiler",,0,closed,17,1,FALSE
+1478,1478,translate undefined intrinsics to an unreachable and a lint,maturity,rejected,2016-01-25T14:34:44Z,2016-05-13T23:29:13Z,109,arielb1,,1,71,0,1,FALSE,"T-lang, T-compiler, final-comment-period","T-lang, T-compiler",,0,closed,13,1,FALSE
+1480,1480,RFC proposal for thread affinity,maturity,rejected,2016-01-26T19:32:23Z,2016-05-04T23:20:59Z,99,oh-its-jimjam,,2,133,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,8,0,TRUE
+1487,1487,Relax return type constraints for match and if expressions,maturity,rejected,2016-02-03T15:10:50Z,2016-02-04T17:13:06Z,1,ConnyOnny,,1,88,0,1,FALSE,T-lang,T-lang,,0,closed,6,0,TRUE
+1489,1489,Extended linking kinds,maturity,rejected,2016-02-05T07:19:59Z,2017-04-29T04:39:20Z,448,retep998,,9,54,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,45,2,FALSE
+1496,1496,clear_on_drop and clear_stack_on_return,maturity,postponed,2016-02-10T19:27:26Z,2016-02-26T23:12:20Z,16,cesarb,,2,288,0,1,FALSE,"postponed, T-lang, T-compiler","T-lang, T-compiler",,0,closed,7,0,TRUE
+1500,1500,RFC: Alternatives in patterns,maturity,postponed,2016-02-14T03:18:06Z,2016-02-26T23:15:04Z,12,White-Oak,,1,120,0,1,FALSE,"postponed, T-lang",T-lang,,0,closed,13,0,TRUE
+1502,1502,"libstd::sys, the great libstd refactor",maturity,rejected,2016-02-16T23:34:47Z,2016-09-12T22:14:24Z,208,arcnmx,,2,132,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,29,0,TRUE
+1505,1505,Add a generic Atomic<T> type,maturity,rejected,2016-02-21T13:53:14Z,2016-04-14T23:53:38Z,53,Amanieu,,5,115,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,44,3,FALSE
+1509,1509,Add space-friendly arguments,maturity,rejected,2016-02-23T20:49:32Z,2016-07-26T23:06:42Z,154,Zoxc,,2,37,0,1,FALSE,"T-dev-tools, final-comment-period",T-dev-tools,,0,closed,9,0,TRUE
+1517,1517,RFC: Exclude macros from importing with #[macro_use(not(...))],maturity,rejected,2016-02-28T20:20:39Z,2016-07-29T20:24:06Z,152,Xion,,1,150,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,8,0,TRUE
+1520,1520,RFC: Generic const and static,maturity,rejected,2016-03-01T01:52:13Z,2016-03-25T20:27:58Z,24,comex,,3,93,0,1,FALSE,T-lang,T-lang,,0,closed,6,0,TRUE
+1524,1524,Custom Dynamically Sized Types for Rust,maturity,rejected,2016-03-02T19:14:00Z,2017-02-06T10:06:30Z,340,strega-nil,,11,312,0,1,FALSE,"T-lang, A-dst",T-lang,,0,closed,93,2,FALSE
+1533,1533,Keyless Entry,maturity,rejected,2016-03-06T18:45:19Z,2017-02-28T21:17:42Z,359,gereeter,,1,150,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,18,0,TRUE
+1534,1534,RFC: Saturating and checking integer wrapper types,maturity,rejected,2016-03-07T21:13:05Z,2016-09-12T22:14:53Z,189,m4rw3r,,5,188,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,7,0,TRUE
+1539,1539,"Revise type ascription operator to use type equality, not coercion",maturity,rejected,2016-03-11T20:59:04Z,2016-04-08T21:26:42Z,28,nikomatsakis,,1,39,92,1,FALSE,T-lang,T-lang,,0,closed,14,27,FALSE
+1546,1546,Allow fields in traits that map to lvalues in impl'ing type,maturity,postponed,2016-03-16T16:45:47Z,2018-02-14T06:47:57Z,699,nikomatsakis,,5,4,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,168,27,FALSE
+1547,1547,as_millis function on std::time::Duration,maturity,rejected,2016-03-17T20:11:34Z,2016-05-04T23:24:17Z,48,paezao,,1,35,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,18,0,TRUE
+1563,1563,Add #![cfg_assert],maturity,rejected,2016-03-31T21:24:26Z,2016-07-28T21:40:51Z,119,Amanieu,,2,62,0,1,FALSE,T-lang,T-lang,,0,closed,10,5,FALSE
+1564,1564,Function clauses RFC,maturity,rejected,2016-04-01T04:19:26Z,2016-04-08T21:07:54Z,7,Havvy,,1,110,0,1,FALSE,T-lang,T-lang,,0,closed,22,0,TRUE
+1565,1565,Emoji based error handling,maturity,rejected,2016-04-01T06:41:06Z,2016-04-05T21:13:12Z,4,dbrgn,,1,156,0,1,FALSE,april-1st,,,0,closed,13,0,TRUE
+1568,1568,Stream wrappers standardization,maturity,rejected,2016-04-01T19:40:56Z,2016-06-21T15:27:35Z,80,bozaro,,3,109,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,13,0,TRUE
+1571,1291,rfc 1291: Add errno() and set_errno() to libc scope,maturity,rejected,2016-04-04T14:23:38Z,2016-04-13T16:24:23Z,9,kamalmarhubi,,1,4,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,18,0,TRUE
+1573,1573,Supporting code generators with source maps and multiple source directories,maturity,rejected,2016-04-05T17:13:17Z,2016-08-22T13:55:06Z,138,erickt,,3,302,0,1,FALSE,"T-dev-tools, T-compiler, final-comment-period","T-dev-tools, T-compiler",,0,closed,46,0,TRUE
+1575,1575,Add a `vis` matcher to `macro_rules!`.,maturity,rejected,2016-04-07T06:34:07Z,2016-09-02T00:44:03Z,147,DanielKeep,,3,195,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,32,0,TRUE
+1578,1578,RFC for a Rust Memory Model,maturity,rejected,2016-04-10T07:17:09Z,2016-09-01T22:39:39Z,144,strega-nil,,3,393,0,1,FALSE,T-lang,T-lang,,0,closed,138,2,FALSE
+1582,1582,Add tuple cons cell syntax,maturity,rejected,2016-04-17T06:17:49Z,2017-01-23T23:28:45Z,281,canndrew,,4,262,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,90,1,FALSE
+1583,1583,Add parse_generics! and parse_where! macros,maturity,rejected,2016-04-18T05:24:54Z,2016-08-22T13:56:13Z,126,DanielKeep,,5,410,0,1,FALSE,"T-lang, T-libs-api, final-comment-period","T-lang, T-libs-api",,0,closed,19,0,TRUE
+1587,1587,RFC for Variable Arity Functions,maturity,rejected,2016-04-20T17:52:09Z,2016-04-23T14:44:25Z,2,zmoshansky,,2,205,0,1,FALSE,T-lang,T-lang,,0,closed,8,0,TRUE
+1596,1596,RFC: Float-free libcore,maturity,rejected,2016-04-28T03:09:49Z,2017-02-28T21:19:30Z,306,strake,,5,51,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,26,0,TRUE
+1600,1268,Amend #1268 with a more feasible proposal post-specialization,maturity,rejected,2016-04-30T22:17:07Z,2016-08-27T17:38:01Z,118,sgrif,,1,198,0,1,FALSE,T-lang,T-lang,,0,closed,5,2,FALSE
+1603,1603,Introduce `dyn` keyword,maturity,rejected,2016-05-01T08:36:42Z,2016-09-02T00:42:59Z,123,ticki,,3,141,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,267,1,FALSE
+1605,1605,Allow type aliases in enumeration repr attributes.,maturity,rejected,2016-05-02T17:18:38Z,2016-09-02T00:35:30Z,122,fiveop,,1,68,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,9,0,TRUE
+1615,1615,Let Cargo put data into platform-specific directories,maturity,postponed,2016-05-14T16:58:59Z,2022-02-25T20:21:38Z,2113,tbu-,,8,182,0,1,FALSE,"postponed, T-dev-tools, T-cargo, finished-final-comment-period, A-platform, to-announce","T-dev-tools, T-cargo",,0,closed,314,1,FALSE
+1617,1617,"RFC - Add an owning ""borrowed"" pointer type `&move`",maturity,rejected,2016-05-16T04:08:22Z,2016-05-20T19:03:10Z,4,thepowersgang,,6,103,0,1,FALSE,T-lang,T-lang,,0,closed,53,2,FALSE
+1619,1619,Specify Rust compatibility of nursery crates,maturity,rejected,2016-05-17T18:43:02Z,2016-08-16T21:20:50Z,91,alexcrichton,,3,26,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,31,34,FALSE
+1622,1622,Add a compiler flag that emits crate dependencies on a best-effort basis,maturity,rejected,2016-05-19T23:07:22Z,2016-09-20T23:25:39Z,124,mahkoh,,1,62,0,1,FALSE,"T-dev-tools, final-comment-period",T-dev-tools,,0,closed,10,1,FALSE
+1628,1628,Eager expansion of macros,maturity,rejected,2016-05-24T05:37:40Z,2017-08-09T03:57:51Z,441,nrc,,2,546,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,80,17,FALSE
+1632,1632,Replace synchronization primitives with those from parking_lot,maturity,rejected,2016-05-27T14:56:12Z,2016-07-26T22:32:15Z,60,Amanieu,,4,109,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,55,5,FALSE
+1633,1633,Make mem::uninitialized() and mem::zeroed() const fn,maturity,rejected,2016-05-27T15:21:55Z,2016-07-19T05:28:57Z,52,Amanieu,,1,97,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,7,5,FALSE
+1635,1635,Add two new pointer-sized integer types; uptr and iptr,maturity,rejected,2016-06-02T22:19:56Z,2016-07-28T19:10:32Z,55,strega-nil,,4,167,0,1,FALSE,T-lang,T-lang,,0,closed,49,2,FALSE
+1637,1637,Automatically implement some traits for !,maturity,rejected,2016-06-04T07:48:12Z,2016-07-16T06:05:29Z,41,canndrew,,4,119,0,1,FALSE,T-lang,T-lang,,0,closed,34,1,FALSE
+1638,1638,add: duration_checked_add RFC,maturity,rejected,2016-06-04T21:00:57Z,2016-06-05T08:05:43Z,0,benaryorg,,1,92,0,1,FALSE,,,,0,closed,5,0,TRUE
+1641,1641,RFC for adding PTX and AMDGPU targets,maturity,rejected,2016-06-05T22:12:24Z,2016-06-15T08:17:12Z,9,MixmasterFresh,,2,53,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,23,0,TRUE
+1642,1642,add CStr::with_ptr and deprecate CStr::as_ptr,maturity,rejected,2016-06-06T19:04:31Z,2016-10-10T17:28:30Z,125,durka,,4,131,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,47,0,TRUE
+1645,1645,Add Cortex-M targets to the compiler + binary releases of `core`,maturity,rejected,2016-06-08T03:25:48Z,2016-10-29T14:29:03Z,143,japaric,,5,608,0,1,FALSE,"T-dev-tools, final-comment-period",T-dev-tools,,0,closed,72,1,FALSE
+1646,1646,"&move, DerefMove, DerefPure and box patterns",maturity,rejected,2016-06-09T10:41:06Z,2017-03-06T17:47:13Z,270,arielb1,,8,369,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,80,1,FALSE
+1650,1650,Generic closures,maturity,postponed,2016-06-15T13:23:23Z,2017-03-06T17:48:16Z,264,Amanieu,,5,121,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,44,6,FALSE
+1657,1657,RFC: const-dependent type system.,maturity,rejected,2016-06-22T11:43:28Z,2017-01-21T12:57:20Z,213,ticki,,36,1139,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,234,1,FALSE
+1658,1658,Revisiting specialization: Complementary traits,maturity,rejected,2016-06-26T21:12:22Z,2017-03-26T03:35:37Z,272,ticki,,2,243,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,47,1,FALSE
+1659,1659,Introduce a new type `MoveCell<T>` in `std::cell`,maturity,rejected,2016-06-27T09:23:43Z,2016-11-10T17:26:58Z,136,nox,,1,77,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,36,0,TRUE
+1661,1661,RFC: Relative link syntax for rustdoc,maturity,rejected,2016-06-27T18:35:49Z,2016-07-27T16:51:42Z,29,JohnHeitmann,,6,90,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,40,0,TRUE
+1662,1662,propose asserts,maturity,rejected,2016-06-29T14:22:59Z,2016-07-26T22:36:14Z,27,ashleygwilliams,,1,69,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,19,1,FALSE
+1666,1666,Extend the `Hasher` trait with `fn delimit` to support one-shot hashing,maturity,rejected,2016-07-04T09:24:49Z,2017-03-27T21:05:08Z,266,pczarn,,5,109,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,51,0,TRUE
+1668,1668,Propose RFC for IpAddr common methods,maturity,rejected,2016-07-06T07:55:47Z,2016-07-06T23:02:48Z,0,mathphreak,,3,70,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,13,0,TRUE
+1669,1669,Add an unwrap! macro,maturity,rejected,2016-07-07T07:56:56Z,2016-07-28T06:23:45Z,20,canndrew,,1,101,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,40,1,FALSE
+1671,1671,"Semantic ""private in public"" enforcement.",maturity,rejected,2016-07-09T12:13:31Z,2016-12-21T04:21:29Z,164,eddyb,,1,121,0,1,FALSE,T-lang,T-lang,,0,closed,14,2,FALSE
+1672,1672,Disjointness based on associated types.,maturity,rejected,2016-07-11T05:25:13Z,2017-03-26T03:36:08Z,257,withoutboats,,1,100,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,45,1,FALSE
+1674,1674,Startup initialized statics,maturity,rejected,2016-07-12T20:08:39Z,2016-10-21T17:02:09Z,100,ghost,,2,97,0,1,FALSE,T-lang,T-lang,,0,closed,23,2,FALSE
+1676,1676,Unified machine word trait,maturity,rejected,2016-07-14T08:52:03Z,2017-02-28T21:24:04Z,229,Kile-Asmussen,,4,196,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,10,0,TRUE
+1678,1678,Add non-panicking abs() functions to all signed integer types.,maturity,rejected,2016-07-14T22:09:17Z,2016-07-26T23:36:21Z,12,jethrogb,,3,86,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,11,0,TRUE
+1684,1684,Choosing which CRT to link to,maturity,rejected,2016-07-23T23:40:06Z,2016-10-25T15:58:28Z,93,retep998,,4,46,0,1,FALSE,"T-dev-tools, final-comment-period",T-dev-tools,,0,closed,43,2,FALSE
+1686,1686,Braceless Else on Braced Expressions,maturity,rejected,2016-07-25T04:45:30Z,2016-07-26T00:54:07Z,0,phoenixenero,,8,213,0,1,FALSE,T-lang,T-lang,,0,closed,3,0,TRUE
+1687,1687,Add API documentation front page styleguide,maturity,rejected,2016-07-25T22:43:16Z,2017-09-20T00:08:34Z,421,sophiajt,,26,372,0,1,FALSE,T-doc,T-doc,,0,closed,32,1,FALSE
+1689,1689,RFC to allow self parameter be any type,maturity,rejected,2016-07-26T17:41:23Z,2016-07-27T06:15:08Z,0,KalitaAlexey,,2,79,0,1,FALSE,T-lang,T-lang,,0,closed,9,0,TRUE
+1694,1694,RFC: derive(Deref) & derive(DerefMut),maturity,rejected,2016-08-01T10:57:55Z,2016-08-22T14:04:35Z,21,ticki,,2,49,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,10,1,FALSE
+1699,1699,Allow uncallable method impls to be omitted,maturity,rejected,2016-08-03T14:12:44Z,2017-03-03T23:59:14Z,212,canndrew,,3,158,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,33,1,FALSE
+1705,1705,RFC: 'thread lifetime,maturity,rejected,2016-08-05T10:01:46Z,2017-01-06T05:11:56Z,153,ticki,,1,61,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,23,1,FALSE
+1707,1707,"RFC: Support versioned dependencies on build tools, such as cargo and rustc",maturity,rejected,2016-08-09T04:37:01Z,2017-04-29T04:35:30Z,262,joshtriplett,,8,150,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,40,1,FALSE
+1708,1708,Use title case in template section headers,maturity,rejected,2016-08-09T06:05:44Z,2016-12-14T20:36:07Z,127,Ericson2314,,1,2,2,1,FALSE,T-doc,T-doc,,0,closed,7,0,TRUE
+1709,1709,RFC: Allow crates to specify the version of Rust in which they are written,maturity,rejected,2016-08-09T07:45:00Z,2017-09-06T20:51:28Z,393,Ericson2314,,1,65,0,1,FALSE,"final-comment-period, T-cargo",T-cargo,,0,closed,47,0,TRUE
+1711,1711,Target Bundles,maturity,rejected,2016-08-09T14:24:09Z,2017-02-15T21:48:50Z,190,nagisa,,4,246,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,18,1,FALSE
+1712,1712,Add 'else match' blocks to if expressions.,maturity,rejected,2016-08-11T07:50:38Z,2017-03-06T17:49:48Z,207,phoenixenero,,8,203,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,129,0,TRUE
+1713,1713,RFC: rustdoc meta tags,maturity,rejected,2016-08-11T11:21:22Z,2016-12-21T19:51:07Z,132,jimmycuadra,,1,142,0,1,FALSE,T-doc,T-doc,,0,closed,40,0,TRUE
+1714,1714,Add new RFCs to list,maturity,rejected,2016-08-13T18:18:45Z,2016-08-26T00:03:32Z,12,pthariensflame,,1,9,0,1,FALSE,,,,0,closed,13,0,TRUE
+1719,1719,Add std::function_name macro for getting the name of the current function,maturity,rejected,2016-08-19T06:49:12Z,2017-03-28T23:39:48Z,221,sdroege,,6,153,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,28,0,TRUE
+1726,1726,DELETED,maturity,rejected,2016-08-22T18:30:57Z,2016-08-22T18:31:21Z,0,aturon,,2,426,0,1,FALSE,,,,0,closed,1,28,FALSE
+1727,1727,DELETED,maturity,withdrawn,2016-08-23T04:35:38Z,2016-08-23T04:36:05Z,0,aturon,,5,466,0,1,FALSE,,,,0,closed,0,28,FALSE
+1732,1732,Trait alias.,maturity,rejected,2016-08-31T11:11:29Z,2016-08-31T12:17:07Z,0,hadronized,,104,6511,67,33,FALSE,,,,0,closed,1,0,TRUE
+1736,1736,RFC: `core::mem::replace_with` for temporarily moving out of ownership.,maturity,rejected,2016-09-01T10:15:18Z,2017-01-04T18:54:08Z,125,ticki,,2,115,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,177,1,FALSE
+1737,1737,Longer question marks RFC,maturity,rejected,2016-09-03T09:27:20Z,2016-09-15T16:01:40Z,12,est31,,1,112,2,2,FALSE,T-lang,T-lang,,0,closed,26,0,TRUE
+1746,1746,Check future-proofing of `macro_rules!` using FIRST sets.,maturity,rejected,2016-09-10T20:31:47Z,2017-05-01T22:20:29Z,233,LeoTestard,,1,421,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,25,1,FALSE
+1752,1752,Security advisories in crates.io,maturity,rejected,2016-09-18T13:05:57Z,2016-11-09T18:34:51Z,52,untitaker,,27,312,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,49,0,TRUE
+1755,1755,Custom attibutes,maturity,rejected,2016-09-23T05:24:53Z,2017-08-11T06:32:41Z,322,nrc,,2,178,0,1,FALSE,"T-lang, T-dev-tools","T-lang, T-dev-tools",,0,closed,20,17,FALSE
+1759,1759,RFC: Abort by default,maturity,rejected,2016-10-01T13:22:40Z,2016-10-05T15:19:17Z,4,ticki,,3,74,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,70,1,FALSE
+1761,1761,RFC for std::mem::map(),maturity,rejected,2016-10-03T21:01:59Z,2016-10-03T21:12:12Z,0,kevincox,,1,90,0,1,FALSE,,,,0,closed,4,0,TRUE
+1765,1765,Abort by default v2,maturity,rejected,2016-10-05T15:25:14Z,2017-01-13T17:59:51Z,100,ticki,,5,99,0,1,FALSE,"T-lang, T-dev-tools, final-comment-period","T-lang, T-dev-tools",,0,closed,97,1,FALSE
+1769,1769,Extend entry API to work on borrowed keys.,maturity,rejected,2016-10-12T11:12:25Z,2018-02-28T14:35:26Z,504,cristicbz,,13,290,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,73,0,TRUE
+1773,1773,A type representing an owned C-compatible wide string,maturity,rejected,2016-10-20T09:51:52Z,2017-03-29T18:12:41Z,160,bozaro,,1,72,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,28,0,TRUE
+1777,1777,Add Cargo post-build scripts,maturity,rejected,2016-10-26T10:09:42Z,2017-05-25T14:12:01Z,211,dylanmckay,,1,89,0,1,FALSE,"T-dev-tools, final-comment-period",T-dev-tools,,0,closed,48,0,TRUE
+1782,1782,Warn by default when casting a pointer to an integer smaller than usize,maturity,rejected,2016-11-01T19:49:48Z,2017-07-25T05:01:20Z,265,comex,,2,75,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,25,0,TRUE
+1783,1783,Create a separate libc_types crate for basic C types,maturity,rejected,2016-11-03T04:46:22Z,2017-04-25T05:43:20Z,173,Amanieu,,4,88,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,121,8,FALSE
+1787,1787,Automatic features.,maturity,rejected,2016-11-06T01:56:02Z,2017-09-06T03:58:15Z,304,withoutboats,,4,136,0,1,FALSE,T-cargo,T-cargo,,0,closed,48,1,FALSE
+1792,1792,Introduce Option::<&T>::borrowed,maturity,rejected,2016-11-14T14:10:33Z,2017-09-29T17:56:28Z,319,nox,,1,53,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,59,2,FALSE
+1794,1794,Process for abandoning crates,maturity,rejected,2016-11-16T21:36:03Z,2017-03-24T01:05:37Z,127,vitiral,,5,120,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,13,0,TRUE
+1796,1796,Adaptive hashing,maturity,postponed,2016-11-20T19:46:28Z,2017-06-03T17:54:03Z,194,pczarn,,4,250,0,1,FALSE,"postponed, T-libs-api, final-comment-period",T-libs-api,,0,closed,59,0,TRUE
+1806,1806,Default Struct Field Values,maturity,postponed,2016-12-02T23:04:24Z,2017-09-28T19:37:01Z,299,KodrAus,,7,310,0,1,FALSE,"postponed, T-lang, final-comment-period, Ergonomics Initiative",T-lang,,0,closed,110,0,TRUE
+1808,1808,Alloca for Rust,maturity,rejected,2016-12-06T23:22:13Z,2017-03-15T19:04:09Z,98,llogiq,,8,126,0,1,FALSE,"T-lang, T-libs-api, final-comment-period","T-lang, T-libs-api",,0,closed,186,2,FALSE
+1812,1812,Warn by default when encountering a statement which only consists of an equality comparison,maturity,rejected,2016-12-07T20:38:27Z,2017-02-28T01:07:29Z,82,crumblingstatue,,5,102,0,1,FALSE,"T-lang, T-compiler, final-comment-period","T-lang, T-compiler",,0,closed,19,0,TRUE
+1823,1823,Stackless coroutines,maturity,rejected,2016-12-19T06:40:34Z,2017-04-24T23:27:32Z,126,vadimcn,,13,510,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,302,1,FALSE
+1832,1832,Generators,maturity,rejected,2016-12-27T21:48:03Z,2017-05-08T22:37:54Z,132,Zoxc,,2,573,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,10,0,TRUE
+1841,1841,Reject crates.io uploads which declare a feature named `no_std`,maturity,rejected,2017-01-03T02:37:40Z,2017-05-21T15:38:54Z,138,lambda-fairy,,3,100,0,1,FALSE,"T-dev-tools, final-comment-period",T-dev-tools,,0,closed,65,1,FALSE
+1847,1847,'fn lifetime ascription,maturity,rejected,2017-01-07T13:33:30Z,2017-09-29T17:55:14Z,265,llogiq,,9,88,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,71,2,FALSE
+1855,1855,Add metadata to diagnostic messages' json output,maturity,rejected,2017-01-19T05:37:48Z,2018-02-07T17:40:39Z,384,estebank,,1,198,0,1,FALSE,T-compiler,T-compiler,,0,closed,23,0,TRUE
+1858,1858,Immovable types ,maturity,postponed,2017-01-19T15:22:55Z,2018-02-24T07:59:14Z,400,Zoxc,,7,148,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,58,0,TRUE
+1865,1865,New communication channels,maturity,rejected,2017-01-23T02:53:27Z,2017-04-26T19:09:32Z,93,sophiajt,,8,121,0,1,FALSE,T-core,T-core,,0,closed,104,1,FALSE
+1872,1872,Fix the handling of uninhabited types in pattern matching.,maturity,rejected,2017-01-25T13:03:26Z,2018-02-14T06:48:51Z,384,canndrew,,3,806,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,18,2,FALSE
+1873,1873,Add SafeDeref/SafeDerefMut,maturity,rejected,2017-01-26T15:11:50Z,2017-05-05T22:42:36Z,99,tomaka,,1,217,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,24,0,TRUE
+1875,1875,Allow `extern crate` to take a list of crates,maturity,rejected,2017-01-29T06:05:24Z,2017-07-03T18:14:20Z,155,sbeckeriv,,1,102,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,21,0,TRUE
+1882,1882,Allow use of pipe operator in patterns.,maturity,rejected,2017-02-03T15:21:33Z,2017-08-26T18:26:45Z,204,XAMPPRocky,,3,69,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,25,0,TRUE
+1883,1883,Move metadata into import libraries for MSVC,maturity,rejected,2017-02-03T17:53:42Z,2017-02-07T20:22:33Z,4,Diggsey,,1,83,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,7,1,FALSE
+1886,1886,Introduce the debug attribute,maturity,rejected,2017-02-04T12:27:15Z,2017-02-04T12:34:58Z,0,KalitaAlexey,,1,93,0,1,FALSE,,,,0,closed,2,0,TRUE
+1888,1888,Proper tail calls,maturity,postponed,2017-02-07T15:03:09Z,2018-02-24T07:58:24Z,381,DemiMarie,,8,172,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,165,0,TRUE
+1890,1105,Amend RFC 1105 to specify how dependency versions relate to semver,maturity,postponed,2017-02-08T19:17:00Z,2017-04-24T14:56:16Z,74,sgrif,,1,221,0,1,FALSE,"postponed, T-libs-api, final-comment-period",T-libs-api,,0,closed,20,4,FALSE
+1891,1891,Transmute trait,maturity,rejected,2017-02-09T10:25:30Z,2017-03-03T23:55:48Z,22,canndrew,,3,70,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,24,2,FALSE
+1894,1894,Added pattern_synonyms RFC.,maturity,rejected,2017-02-10T15:16:48Z,2017-02-10T15:17:06Z,0,hadronized,,1,181,0,1,FALSE,,,,0,closed,1,1,FALSE
+1895,1895,Pattern synonyms,maturity,rejected,2017-02-10T15:26:48Z,2017-03-06T17:46:13Z,24,hadronized,,2,181,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,21,1,FALSE
+1897,1897,Unions 1.2,maturity,rejected,2017-02-12T22:20:22Z,2018-02-14T06:44:12Z,366,petrochenkov,,2,983,175,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,54,3,FALSE
+1901,1901,Reverting default unsafety,maturity,rejected,2017-02-15T22:07:43Z,2017-02-24T18:16:07Z,8,petrochenkov,,1,97,0,1,FALSE,T-lang,T-lang,,0,closed,12,3,FALSE
+1910,1910,RFC: Safe because I said so,maturity,rejected,2017-02-19T19:00:50Z,2017-03-27T21:12:08Z,36,Havvy,,1,137,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,22,0,TRUE
+1913,1913,Macros 1.2: Fast-track to stabilize function-like procedural macros,maturity,rejected,2017-02-20T22:41:35Z,2017-02-28T00:14:24Z,7,SimonSapin,,4,167,0,1,FALSE,T-lang,T-lang,,0,closed,39,5,FALSE
+1915,1915,RFC: Extend and stabilize the FixedSizeArray trait,maturity,rejected,2017-02-21T18:10:54Z,2017-04-15T21:48:33Z,53,SimonSapin,,1,146,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,19,5,FALSE
+1918,1918,Unsafe lifetime,maturity,rejected,2017-02-22T01:44:39Z,2017-05-01T22:12:06Z,68,jpernst,,17,119,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,38,0,TRUE
+1921,1921,Conservative variadic functions,maturity,rejected,2017-02-22T20:57:29Z,2017-02-26T20:47:00Z,3,sgrif,,1,228,0,1,FALSE,T-lang,T-lang,,0,closed,37,4,FALSE
+1927,1927,Reduce the number of constraints repeated when writing `T: SomeTrait`,maturity,rejected,2017-02-24T17:30:44Z,2017-08-01T04:29:04Z,157,sgrif,,1,178,0,1,FALSE,T-lang,T-lang,,0,closed,5,4,FALSE
+1931,1931,"RFC: Constant generics (restricted Π types) for Rust, core RFC (v2)",maturity,rejected,2017-02-26T15:19:20Z,2017-06-06T07:35:32Z,99,ticki,,39,306,0,1,FALSE,T-lang,T-lang,,0,closed,64,1,FALSE
+1932,1932,`with` bounds for pi types.,maturity,rejected,2017-02-26T15:24:12Z,2017-04-13T22:26:37Z,46,ticki,,1,685,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,14,1,FALSE
+1933,1933,Fully dependent pi types.,maturity,rejected,2017-02-26T15:26:36Z,2017-04-17T15:59:55Z,50,ticki,,1,193,0,1,FALSE,T-lang,T-lang,,0,closed,20,1,FALSE
+1935,1935,Tuple-Based Variadic Generics,maturity,postponed,2017-02-28T00:06:15Z,2017-09-29T17:54:14Z,213,cramertj,,22,316,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,128,0,TRUE
+1941,1941,Guess diagnostics,maturity,rejected,2017-03-03T14:40:25Z,2017-05-04T07:03:05Z,61,oli-obk,,8,258,0,1,FALSE,"T-dev-tools, T-compiler","T-dev-tools, T-compiler",,0,closed,41,1,FALSE
+1944,1944,Improve match ergonomics,maturity,rejected,2017-03-06T03:53:39Z,2017-05-22T19:17:19Z,77,nrc,,2,531,0,1,FALSE,T-lang,T-lang,,0,closed,102,17,FALSE
+1945,1945,Polymorphic Numeric Constants,maturity,rejected,2017-03-06T17:41:30Z,2017-04-10T05:28:56Z,34,retep998,,4,80,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,34,2,FALSE
+1949,1949,Enum name elison through inferred variant constructors,maturity,rejected,2017-03-11T09:59:25Z,2017-05-08T22:40:02Z,58,Rufflewind,,2,354,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,58,0,TRUE
+1953,1953,Introduce Cargo schema versioning,maturity,rejected,2017-03-16T16:21:49Z,2017-09-20T00:06:08Z,187,joshtriplett,,4,258,0,1,FALSE,T-cargo,T-cargo,,0,closed,79,1,FALSE
+1954,1954,"Provide a more explicit way to ""clone"" a standard reference counted pointer.",maturity,rejected,2017-03-18T15:43:33Z,2017-04-15T14:43:37Z,27,nical,,9,115,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,27,0,TRUE
+1956,1956,Profile specific feature selection.,maturity,rejected,2017-03-22T09:33:18Z,2017-09-06T04:12:20Z,167,withoutboats,,2,126,0,1,FALSE,T-cargo,T-cargo,,0,closed,28,1,FALSE
+1963,1963,"Higher and Lower Types (""Omega Types"")",maturity,rejected,2017-04-01T04:05:39Z,2017-04-02T05:38:44Z,1,Gankra,,1,109,0,1,FALSE,april-1st,,,0,closed,23,5,FALSE
+1968,1968,Allow any Displayable type for expect.,maturity,rejected,2017-04-10T03:49:55Z,2017-05-20T04:57:59Z,40,clarfonthey,,1,80,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,7,0,TRUE
+1976,1976,Use Declarations in More Places,maturity,rejected,2017-04-18T07:16:05Z,2017-07-19T20:28:54Z,92,Havvy,,4,129,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,61,0,TRUE
+1993,1993,Opaque Data structs for FFI,maturity,rejected,2017-05-06T00:47:26Z,2017-07-19T00:35:19Z,73,mystor,,1,514,0,1,FALSE,T-lang,T-lang,,0,closed,12,0,TRUE
+1994,1994,Match Branch Semicolon,maturity,rejected,2017-05-07T03:18:34Z,2017-08-23T00:08:35Z,107,Osspial,,2,97,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,17,0,TRUE
+1996,1996,"Result::pass(), turning Result<T,E> into Result<U,F>, if From is set up",maturity,rejected,2017-05-09T08:47:23Z,2018-05-12T17:38:02Z,368,skade,,4,156,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed",T-libs-api,,0,closed,32,0,TRUE
+2006,2006,RFC for support of alternate registries in cargo,foundation-era,rejected,2017-05-23T12:02:15Z,2017-09-15T18:36:19Z,115,cswindle,,7,174,0,1,FALSE,T-cargo,T-cargo,,0,closed,73,0,TRUE
+2010,2010,Const/static type annotation elision,foundation-era,rejected,2017-05-29T15:00:06Z,2017-09-11T16:02:34Z,105,schuster,,3,156,0,1,FALSE,"T-lang, final-comment-period, Ergonomics Initiative",T-lang,,0,closed,70,0,TRUE
+2020,2020,Implement Add for OsString,foundation-era,rejected,2017-06-05T02:24:30Z,2018-02-24T07:18:06Z,264,Rufflewind,,2,92,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,16,0,TRUE
+2021,2021,Allow comparisons between integers of different types,foundation-era,rejected,2017-06-07T03:46:15Z,2017-09-19T22:11:28Z,104,VFLashM,,9,95,0,1,FALSE,"T-libs-api, final-comment-period, Ergonomics Initiative",T-libs-api,,0,closed,97,0,TRUE
+2028,2028,Privacy for enum variants and trait items,foundation-era,rejected,2017-06-11T22:55:37Z,2017-08-26T23:06:11Z,76,petrochenkov,,1,109,0,1,FALSE,"T-lang, A-privacy",T-lang,,0,closed,32,3,FALSE
+2030,2030,Add a try_with method to LocalKey,foundation-era,rejected,2017-06-15T05:08:39Z,2017-07-10T16:22:00Z,25,PlasmaPower,,2,90,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,9,0,TRUE
+2038,2038,RFC: Improve the visibility of the nightly compiler requirement for crates that use unstable features.,foundation-era,rejected,2017-06-23T11:13:40Z,2017-07-25T11:31:29Z,32,jimmycuadra,,1,103,0,1,FALSE,"T-core, T-cargo","T-core, T-cargo",,0,closed,10,0,TRUE
+2040,2040,RFC - Zero-Sized References,foundation-era,rejected,2017-06-23T13:45:17Z,2017-08-23T00:10:31Z,60,EpicatSupercell,,4,149,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,75,0,TRUE
+2048,2048,RFC: Target extension,foundation-era,rejected,2017-06-27T10:09:59Z,2020-11-08T18:56:04Z,1230,semarie,,57,513,0,1,FALSE,"T-lang, T-libs-api, T-compiler, finished-final-comment-period, closed, A-target, Libs-Tracked, to-announce","T-lang, T-libs-api, T-compiler",,0,closed,43,0,TRUE
+2051,1522,Add alternative to Conservative Impl Trait (1522),maturity,rejected,2017-06-29T12:49:10Z,2017-07-06T19:14:29Z,7,earthengine,,1,41,0,1,FALSE,T-lang,T-lang,,0,closed,8,0,TRUE
+2058,2058,Create 0000-unreachable-patterns-error.md,pre-1.0,rejected,2017-07-06T11:12:44Z,2017-07-14T21:27:03Z,8,davemilter,,1,62,0,1,FALSE,T-lang,T-lang,,0,closed,15,0,TRUE
+2061,2061,Destructure drop structs,foundation-era,rejected,2017-07-09T09:31:01Z,2018-02-14T06:44:41Z,219,ghost,,8,140,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,19,3,FALSE
+2063,2063,Infer function signatures from trait declaration into 'impl's,foundation-era,rejected,2017-07-13T15:00:12Z,2017-09-28T19:37:28Z,77,dobkeratops,,39,214,29,3,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,30,0,TRUE
+2082,2082,RFC: Add std::net::MacAddr48 to std::net,foundation-era,rejected,2017-07-26T08:51:02Z,2017-08-03T07:31:34Z,7,stephanbuys,,6,72,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,3,0,TRUE
+2087,2087,RFC: Warning on tautology in if or while statements,foundation-era,rejected,2017-07-27T17:43:00Z,2017-09-14T17:31:50Z,48,Nokel81,,1,60,0,1,FALSE,T-lang,T-lang,,0,closed,14,1,FALSE
+2088,2088,Automatically Usable External Crates,foundation-era,rejected,2017-07-28T04:59:16Z,2017-08-25T19:35:58Z,28,cramertj,,7,166,0,1,FALSE,"T-lang, Ergonomics Initiative",T-lang,,0,closed,214,3,FALSE
+2101,2101,RFC: Per-line IO Extension,foundation-era,rejected,2017-08-09T06:36:23Z,2017-09-03T04:04:27Z,24,PENGUINLIONG,,7,171,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,9,0,TRUE
+2106,2106,Rand crate revision (pre-stabilisation),foundation-era,rejected,2017-08-14T16:33:20Z,2018-02-01T21:29:10Z,171,dhardy,,18,1243,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,269,1,FALSE
+2107,2107,Ok wrapping: Improved support for writing code from an error handling mindset,foundation-era,rejected,2017-08-14T17:14:31Z,2017-09-11T16:08:54Z,27,scottmcm,,3,565,0,1,FALSE,"T-lang, final-comment-period, Ergonomics Initiative",T-lang,,0,closed,81,0,TRUE
+2108,2108,RFC for module redesign.,foundation-era,rejected,2017-08-14T19:14:16Z,2017-08-16T23:31:38Z,2,withoutboats,,3,1020,0,7,FALSE,"T-lang, Ergonomics Initiative",T-lang,,0,closed,191,3,FALSE
+2111,2111,Autoreferencing `Copy` Types,foundation-era,rejected,2017-08-16T07:22:58Z,2017-09-15T23:17:11Z,30,cramertj,,5,199,0,1,FALSE,"T-lang, final-comment-period, Ergonomics Initiative",T-lang,,0,closed,107,3,FALSE
+2114,2114,RFC: Fully-qualified names in RustDocs,foundation-era,rejected,2017-08-17T05:07:01Z,2019-03-14T15:38:49Z,574,mark-i-m,,3,89,0,1,FALSE,"T-doc, T-rustdoc, A-paths","T-doc, T-rustdoc",,0,closed,24,0,TRUE
+2117,2117,RFC: Debuggable macro expansions,foundation-era,rejected,2017-08-18T14:14:50Z,2020-11-09T22:53:34Z,1179,hsivonen,,2,219,0,1,FALSE,"T-lang, T-dev-tools, T-compiler, A-macros, A-debugging","T-lang, T-dev-tools, T-compiler",,0,closed,14,0,TRUE
+2118,2118,Crypto / rand trait & crate split,foundation-era,rejected,2017-08-18T17:02:25Z,2017-09-01T09:57:43Z,13,dhardy,,2,190,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,9,1,FALSE
+2120,2120,"Add the `()` → `Result<(), _>` coercion rule, for removing `Ok(())` everywhere.",foundation-era,postponed,2017-08-21T17:23:10Z,2017-09-11T16:07:49Z,20,kennytm,,2,613,5,2,FALSE,"postponed, T-lang, final-comment-period, Ergonomics Initiative",T-lang,,0,closed,67,1,FALSE
+2121,2121,Modules,foundation-era,rejected,2017-08-23T07:19:50Z,2017-08-24T23:34:47Z,1,withoutboats,,4,981,0,7,FALSE,"T-lang, Ergonomics Initiative",T-lang,,0,closed,129,3,FALSE
+2123,2123,implement FromIterator for tuples,foundation-era,withdrawn,2017-08-24T10:53:52Z,2017-08-24T12:53:44Z,0,debris,,1,125,0,1,FALSE,,,,0,closed,0,0,TRUE
+2127,2127,RFC: Provide a community-wide banner server,foundation-era,rejected,2017-08-25T20:22:37Z,2019-11-29T11:46:04Z,825,skade,,3,74,0,1,FALSE,"T-community, A-web-presence",T-community,,0,closed,22,0,TRUE
+2129,2129,RFC: Crate changelogs,foundation-era,rejected,2017-08-27T00:13:38Z,2020-02-01T15:02:58Z,888,newpavlov,,17,237,0,1,FALSE,"T-cargo, finished-final-comment-period, closed, A-changelog, T-crates-io","T-cargo, T-crates-io",,0,closed,70,0,TRUE
+2131,2131, RFC: Multi-file changelogs,foundation-era,rejected,2017-08-27T11:19:00Z,2017-08-27T22:04:21Z,0,newpavlov,,1,188,0,1,FALSE,T-cargo,T-cargo,,0,closed,6,0,TRUE
+2134,2134,must_use_fn,foundation-era,rejected,2017-08-30T23:39:28Z,2017-08-30T23:55:23Z,0,hadronized,,1,133,0,1,FALSE,,,,0,closed,5,1,FALSE
+2144,2144,RFC: Add match/in statements,foundation-era,rejected,2017-09-10T19:28:27Z,2018-02-14T06:49:28Z,156,Nokel81,,5,184,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,30,1,FALSE
+2147,2147,Allow autoderef and autoref in operators,foundation-era,rejected,2017-09-11T20:31:11Z,2017-09-15T23:23:32Z,4,arielb1,,12,578,0,1,FALSE,"T-lang, Ergonomics Initiative",T-lang,,0,closed,37,3,FALSE
+2148,2148,Adding unsafe modules and unsafe blocks outside functions.,foundation-era,rejected,2017-09-12T14:16:32Z,2018-02-14T06:45:07Z,154,porky11,,2,84,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,16,0,TRUE
+2152,2152,"RFC: new `rand-core` crate, `rand` adaptations",foundation-era,rejected,2017-09-15T07:49:09Z,2018-02-01T21:28:17Z,139,dhardy,,23,1229,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,107,1,FALSE
+2154,2154,Debuginfo-based panic locations,foundation-era,rejected,2017-09-15T18:36:45Z,2025-01-15T19:29:28Z,2679,main--,,1,115,0,1,FALSE,"T-compiler, A-debugging, A-panic",T-compiler,,0,closed,29,0,TRUE
+2155,2155,Path mental model,foundation-era,rejected,2017-09-18T15:19:16Z,2017-09-18T23:14:56Z,0,vitiral,,2,287,0,1,FALSE,,,,0,closed,15,0,TRUE
+2168,2168,Handle borrows of unions in NLL,foundation-era,rejected,2017-10-05T07:27:26Z,2017-11-08T19:32:32Z,34,KiChjang,,1,18,0,1,FALSE,T-lang,T-lang,,0,closed,9,0,TRUE
+2173,2173,RFC: Quick dbg!(expr) macro,foundation-era,rejected,2017-10-13T20:39:24Z,2018-03-23T13:04:30Z,160,Centril,,30,1311,0,1,FALSE,"T-libs-api, final-comment-period",T-libs-api,,0,closed,150,1,FALSE
+2174,2174,Begin documenting initialization checking,foundation-era,rejected,2017-10-15T17:06:18Z,2018-04-09T13:24:17Z,175,arielb1,,4,224,44,1,FALSE,T-lang,T-lang,,0,closed,6,3,FALSE
+2176,2176,RFC: partial turbofish,foundation-era,rejected,2017-10-16T10:55:54Z,2018-03-15T20:24:58Z,150,Centril,,7,357,0,1,FALSE,T-lang,T-lang,,0,closed,43,2,FALSE
+2180,2180,RFC: Imply Option,foundation-era,postponed,2017-10-18T06:17:34Z,2018-09-15T17:48:04Z,332,Dynisious,,10,137,0,1,FALSE,"postponed, T-libs-api, finished-final-comment-period",T-libs-api,,0,closed,57,0,TRUE
+2182,2182,Cargo versioning,foundation-era,postponed,2017-10-19T03:13:27Z,2019-09-28T23:49:56Z,709,joshtriplett,,1,242,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, A-versioning",T-cargo,,0,closed,12,3,FALSE
+2185,2185,RFC: movable array iterators,foundation-era,postponed,2017-10-21T07:52:02Z,2018-02-24T07:16:12Z,125,ishitatsuyuki,,3,71,0,1,FALSE,"postponed, T-libs-api, final-comment-period",T-libs-api,,0,closed,32,1,FALSE
+2188,2188,Support long path names on all Windows versions,foundation-era,rejected,2017-10-24T23:01:49Z,2018-09-15T17:48:06Z,325,DemiMarie,,2,45,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed",T-libs-api,,0,closed,25,0,TRUE
+2189,2189,Add a RFC for TryClone trait,foundation-era,rejected,2017-10-25T23:57:26Z,2018-04-15T21:23:34Z,171,achanda,,1,72,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,8,0,TRUE
+2193,2193,Remove files with contributions from the people where no approval of the licensing terms was received,foundation-era,rejected,2017-10-29T08:06:19Z,2017-10-30T02:12:56Z,0,est31,,9,16,4283,12,FALSE,,,,0,closed,11,1,FALSE
+2204,2204,RFC: The ConstDefault trait,foundation-era,rejected,2017-11-03T15:48:21Z,2018-05-18T13:10:11Z,195,Centril,,8,299,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed",T-libs-api,,0,closed,13,3,FALSE
+2205,2205,RFC: #[derive unfinished(..)] and #[unfinished],foundation-era,rejected,2017-11-03T15:49:34Z,2017-11-10T07:55:50Z,6,Centril,,2,1678,0,1,FALSE,T-lang,T-lang,,0,closed,12,3,FALSE
+2212,2212,Minimal target feature unsafe,foundation-era,postponed,2017-11-09T09:55:50Z,2018-04-01T19:42:30Z,143,hsivonen,,4,167,0,1,FALSE,"postponed, T-lang, T-libs-api, final-comment-period","T-lang, T-libs-api",,0,closed,30,0,TRUE
+2221,2221,Guard Clause Flow Typing,foundation-era,rejected,2017-11-19T12:44:36Z,2018-02-14T06:47:11Z,86,danielpclark,,2,284,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,21,0,TRUE
+2224,2224,cargo publish with internal path dependencies,foundation-era,postponed,2017-11-22T17:45:28Z,2018-04-24T13:41:34Z,152,jakwings,,4,131,0,1,FALSE,"postponed, final-comment-period, T-cargo",T-cargo,,0,closed,54,0,TRUE
+2233,2233,RFC: String Reflection,foundation-era,postponed,2017-12-03T23:36:50Z,2018-07-07T17:51:49Z,215,mzabaluev,,3,148,0,1,FALSE,"postponed, T-libs-api, finished-final-comment-period",T-libs-api,,0,closed,10,3,FALSE
+2234,2234,Added libtest_json_output,foundation-era,rejected,2017-12-04T19:16:16Z,2017-12-13T02:37:25Z,8,Gilnaa,,2,123,0,1,FALSE,"T-dev-tools, T-compiler, T-cargo","T-dev-tools, T-compiler, T-cargo",,0,closed,37,0,TRUE
+2237,2237,RFC: const bounds and methods,foundation-era,rejected,2017-12-06T17:23:43Z,2018-04-12T21:24:11Z,127,Centril,,7,627,0,1,FALSE,T-lang,T-lang,,0,closed,118,3,FALSE
+2238,2238,RFC: Pointers to const fn:s,foundation-era,rejected,2017-12-07T01:24:58Z,2018-05-02T22:27:47Z,146,Centril,,1,183,0,1,FALSE,T-lang,T-lang,,0,closed,18,3,FALSE
+2242,2242,Semantic newtypes,foundation-era,rejected,2017-12-11T09:10:34Z,2017-12-12T09:29:06Z,1,oli-obk,,12,263,0,1,FALSE,T-lang,T-lang,,0,closed,2,2,FALSE
+2244,2244,RFC: Hex literals,foundation-era,rejected,2017-12-12T11:26:13Z,2018-01-29T07:24:26Z,47,newpavlov,,7,129,0,1,FALSE,T-lang,T-lang,,0,closed,33,0,TRUE
+2245,2245,Change impls of `PartialEq` and friends in libstd to be more generic,foundation-era,rejected,2017-12-12T17:36:58Z,2018-06-21T21:18:42Z,191,sgrif,,1,134,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,5,5,FALSE
+2256,2256,RFC: libsyntax2.0,foundation-era,rejected,2017-12-23T11:23:43Z,2020-09-12T16:38:41Z,994,matklad,,4,494,0,1,FALSE,"T-compiler, A-syntax",T-compiler,,0,closed,62,1,FALSE
+2260,2260,RFC: if- and while-let-chains,foundation-era,rejected,2017-12-24T02:28:28Z,2018-01-08T07:18:07Z,15,Centril,,1,838,0,1,FALSE,T-lang,T-lang,,0,closed,163,3,FALSE
+2268,2268,RFC Legal double reference,foundation-era,rejected,2017-12-27T10:19:00Z,2018-02-14T06:46:29Z,48,Dynisious,,12,88,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,10,0,TRUE
+2276,2276,Function Structs,foundation-era,postponed,2018-01-04T03:17:48Z,2018-03-12T23:23:41Z,67,porky11,,1,110,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,16,0,TRUE
+2287,2287,Benchmarking / cargo bench,foundation-era,rejected,2018-01-11T07:32:19Z,2018-03-05T22:02:35Z,53,Manishearth,,4,167,0,1,FALSE,"T-dev-tools, T-cargo","T-dev-tools, T-cargo",,0,closed,72,2,FALSE
+2291,2291,RFC: Add std::mem::zero,foundation-era,rejected,2018-01-14T23:03:58Z,2018-08-19T01:05:47Z,216,nvzqz,,3,84,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed",T-libs-api,,0,closed,23,0,TRUE
+2303,2303,RFC: Implement parent items with child traits,foundation-era,postponed,2018-01-18T15:26:28Z,2018-03-29T12:04:27Z,69,porky11,,1,176,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,22,0,TRUE
+2305,2305,"RFC: Introduce panic_thin, a fmtless alternative to panic_fmt",foundation-era,postponed,2018-01-19T00:27:49Z,2018-08-18T09:30:04Z,211,gamozolabs,,2,71,0,1,FALSE,"postponed, T-libs-api, finished-final-comment-period",T-libs-api,,0,closed,17,0,TRUE
+2308,2308,RFC: Make the `as` keyword consider `Into` Trait implementations,foundation-era,rejected,2018-01-21T16:15:41Z,2018-03-25T20:26:42Z,63,Kerollmops,,1,130,0,1,FALSE,"T-lang, T-libs-api, final-comment-period","T-lang, T-libs-api",,0,closed,34,1,FALSE
+2309,2309,RFC: Inherent traits,foundation-era,rejected,2018-01-22T00:44:52Z,2018-03-13T05:44:23Z,50,Diggsey,,1,91,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,42,1,FALSE
+2310,2310,"RFC: DynSized without ?DynSized — Lint against use of `extern type` in `size_of_val`, and more",foundation-era,postponed,2018-01-25T18:01:52Z,2018-06-03T21:38:40Z,129,kennytm,,3,891,0,1,FALSE,"postponed, T-lang, finished-final-comment-period",T-lang,,0,closed,14,2,FALSE
+2315,2315,Tighter coupling of Cargo workspaces,foundation-era,postponed,2018-01-30T02:43:03Z,2019-10-21T13:24:37Z,629,clarfonthey,,5,148,0,1,FALSE,"postponed, T-lang, T-cargo, finished-final-comment-period, A-workspaces","T-lang, T-cargo",,0,closed,19,1,FALSE
+2320,2320,RFC: Eager Macro Expansion,foundation-era,postponed,2018-02-02T00:20:53Z,2021-04-09T17:02:11Z,1162,pierzchalski,,47,702,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-macros, A-proc-macros, to-announce",T-lang,,0,closed,115,0,TRUE
+2321,2321,Default type parameter fallback revisited,foundation-era,rejected,2018-02-03T14:18:51Z,2018-03-15T20:25:05Z,40,leoyvens,,11,685,0,1,FALSE,T-lang,T-lang,,0,closed,9,0,TRUE
+2328,2328,Add RFC for officially adopting Ferris,foundation-era,rejected,2018-02-08T19:30:51Z,2018-11-29T20:02:14Z,294,mgattozzi,,4,56,0,1,FALSE,"T-core, T-community, finished-final-comment-period, closed, A-web-presence","T-core, T-community",,0,closed,27,1,FALSE
+2330,2330,Mention deduplicated lifetimes,foundation-era,rejected,2018-02-10T13:16:09Z,2018-04-19T18:50:57Z,68,Manishearth,,1,16,1,1,FALSE,T-lang,T-lang,,0,closed,30,3,FALSE
+2353,2353,RFC: `#[derive_no_bound(..)]` and `#[derive_field_bound(..)]`,foundation-era,rejected,2018-02-27T15:19:05Z,2021-04-09T16:53:05Z,1137,Centril,,10,904,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-traits, A-derive, to-announce",T-lang,,0,closed,83,9,FALSE
+2357,2357,RFC: Ghost Busting,foundation-era,rejected,2018-03-04T08:09:16Z,2019-02-10T20:45:46Z,343,Centril,,16,1110,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-syntax, A-variance, A-typesystem",T-lang,,0,closed,152,9,FALSE
+2362,2362,Custom self types,foundation-era,postponed,2018-03-14T20:35:02Z,2019-09-29T19:24:09Z,563,withoutboats,,4,178,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-typesystem, A-method-call",T-lang,,0,closed,47,4,FALSE
+2364,2364,Add RFC: formalise reborrows,foundation-era,postponed,2018-03-19T15:50:54Z,2018-04-04T13:15:46Z,15,dhardy,,2,197,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,24,1,FALSE
+2366,2366,Portable packed SIMD vector types,foundation-era,rejected,2018-03-22T14:34:23Z,2019-07-16T08:42:58Z,480,gnzlbg,,17,1596,0,1,FALSE,"T-lang, T-libs-api, A-types-libstd, A-simd","T-lang, T-libs-api",,0,closed,59,2,FALSE
+2369,2369,RFC: Non-selfexhausting Drain,foundation-era,postponed,2018-03-24T14:04:04Z,2018-04-09T09:01:08Z,15,Emerentius,,3,82,0,1,FALSE,"postponed, T-libs-api, final-comment-period",T-libs-api,,0,closed,6,0,TRUE
+2370,2370,RFC: Selfexhausting iter adapter,foundation-era,rejected,2018-03-24T14:04:10Z,2018-08-09T17:00:40Z,138,Emerentius,,5,128,0,1,FALSE,"T-libs-api, disposition-close, finished-final-comment-period",T-libs-api,,0,closed,5,0,TRUE
+2374,2374,Prior doc comments,foundation-era,rejected,2018-03-27T00:36:45Z,2018-10-07T19:09:52Z,194,ishitatsuyuki,,1,94,0,1,FALSE,"T-lang, T-rustdoc, finished-final-comment-period, closed","T-lang, T-rustdoc",,0,closed,15,1,FALSE
+2376,2376,rfc: make cargo install extensible,foundation-era,postponed,2018-03-27T18:03:22Z,2021-03-05T21:15:06Z,1074,ashleygwilliams,,2,119,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, A-install, to-announce",T-cargo,,0,closed,86,1,FALSE
+2377,2377,Item-level blocks (was: Item-level *scopes*),foundation-era,rejected,2018-03-29T23:05:06Z,2019-01-23T17:34:29Z,299,vext01,,3,278,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-syntax, A-cfg",T-lang,,0,closed,21,0,TRUE
+2378,2378,A more balanced and pleasing error style,foundation-era,rejected,2018-03-31T22:28:19Z,2018-04-02T23:38:26Z,2,skade,,1,200,0,1,FALSE,"T-compiler, april-1st",T-compiler,,0,closed,15,0,TRUE
+2379,2379,Shorten the `cargo` command,foundation-era,rejected,2018-04-01T04:56:57Z,2018-04-02T23:37:51Z,1,mark-i-m,,1,65,0,1,FALSE,"T-cargo, april-1st",T-cargo,,0,closed,10,1,FALSE
+2380,2380,Deprecate unsafe,foundation-era,rejected,2018-04-01T11:27:14Z,2018-04-02T06:43:58Z,0,sugar700,,1,123,0,1,FALSE,"T-lang, april-1st",T-lang,,0,closed,9,0,TRUE
+2381,2381,Meta-RFC: An RFC to end all RFCs,foundation-era,rejected,2018-04-01T18:13:54Z,2018-04-02T14:29:48Z,0,Centril,,3,106,0,1,FALSE,"T-core, april-1st",T-core,,0,closed,2,9,FALSE
+2384,2384,Unless/Until RFC,foundation-era,rejected,2018-04-02T21:24:42Z,2018-04-29T19:41:22Z,26,myrrlyn,,4,586,0,1,FALSE,"T-lang, final-comment-period",T-lang,,0,closed,22,1,FALSE
+2385,2385,RFC: Implied #[derive(SuperTrait)],foundation-era,postponed,2018-04-02T23:22:40Z,2018-06-05T01:40:55Z,63,Centril,,4,425,0,1,FALSE,"postponed, T-lang, finished-final-comment-period",T-lang,,0,closed,53,9,FALSE
+2390,2390,Macros Derive PlopAhead and PlopBehind,foundation-era,postponed,2018-04-05T23:00:01Z,2018-04-29T19:43:53Z,23,Nokel81,,6,112,0,1,FALSE,"postponed, T-lang, final-comment-period",T-lang,,0,closed,25,1,FALSE
+2391,2391,RFC: Implement a sandbox for environment variables and files,foundation-era,rejected,2018-04-05T23:51:23Z,2019-09-27T18:32:32Z,539,jsgf,,2,289,0,1,FALSE,"T-dev-tools, T-compiler, A-env, A-sandbox","T-dev-tools, T-compiler",,0,closed,10,0,TRUE
+2393,2393,RFC: Delegation,foundation-era,postponed,2018-04-06T10:07:47Z,2021-04-09T17:02:07Z,1099,elahn,,6,741,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-traits, A-delegation, A-impls, to-announce",T-lang,,0,closed,107,0,TRUE
+2395,2395,RFC: add futures to libcore,foundation-era,rejected,2018-04-06T16:18:28Z,2018-04-24T23:40:50Z,18,aturon,,11,908,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,121,37,FALSE
+2400,2400,Zero Page Optimization,foundation-era,rejected,2018-04-12T09:04:29Z,2020-11-13T22:50:37Z,946,ishitatsuyuki,,8,134,0,1,FALSE,"T-compiler, A-repr, A-optimization",T-compiler,,0,closed,32,1,FALSE
+2401,2401,"RFC: `mut (x, y, ..)` and `mut [x, y, ..]` pattern shorthand",foundation-era,rejected,2018-04-15T01:47:50Z,2019-03-30T16:27:37Z,349,Centril,,8,637,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-syntax, A-patterns",T-lang,,0,closed,23,10,FALSE
+2406,2406,iter-fn RFC: implementing iterators from stateful closures,foundation-era,rejected,2018-04-17T20:03:00Z,2018-04-25T14:28:06Z,7,brunoczim,,1,221,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,14,0,TRUE
+2417,2417,widening_mul,foundation-era,rejected,2018-04-24T17:30:32Z,2022-09-18T19:20:51Z,1608,strake,,5,64,0,1,FALSE,"T-libs-api, A-arithmetic, A-inherent-impl, A-primitive, Libs-Tracked",T-libs-api,,0,closed,40,1,FALSE
+2418,2418,RFC: add futures and task system to libcore,foundation-era,postponed,2018-04-24T23:38:30Z,2018-09-13T12:41:18Z,141,aturon,,2,916,0,1,FALSE,"postponed, T-libs-api, finished-final-comment-period",T-libs-api,,0,closed,172,37,FALSE
+2426,2426,RFC: `throw` expressions,foundation-era,postponed,2018-04-30T23:06:06Z,2018-05-23T22:25:43Z,22,Centril,,9,923,0,1,FALSE,"postponed, T-lang, finished-final-comment-period",T-lang,,0,closed,162,12,FALSE
+2429,2018,RFC: Reserve `delegate` as a keyword in edition 2018,foundation-era,rejected,2018-05-03T09:08:18Z,2018-07-02T19:33:18Z,60,Centril,,1,93,0,1,FALSE,"T-lang, finished-final-comment-period, closed",T-lang,,0,closed,46,12,FALSE
+2439,2439,RFC for DerefMove,foundation-era,rejected,2018-05-13T06:24:17Z,2018-08-21T11:28:14Z,100,alercah,,2,325,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,44,0,TRUE
+2440,2440,Escape Blocks and Labels as try/catch/throw control flow building blocks,foundation-era,rejected,2018-05-13T16:09:12Z,2018-05-15T16:18:02Z,2,phaylon,,6,348,0,1,FALSE,T-lang,T-lang,,0,closed,16,0,TRUE
+2441,2018,RFC: Reserve `throw` and `fail` as keywords in edition 2018,foundation-era,rejected,2018-05-14T14:51:59Z,2018-06-18T07:45:09Z,34,Centril,,3,119,0,1,FALSE,"T-lang, finished-final-comment-period, closed",T-lang,,0,closed,116,12,FALSE
+2443,2018,RFC: Reserve `f(a = b)` in Rust 2018,foundation-era,rejected,2018-05-18T19:13:59Z,2018-07-02T17:52:10Z,44,kennytm,,1,373,0,1,FALSE,"T-lang, finished-final-comment-period, closed",T-lang,,0,closed,41,2,FALSE
+2444,2444,Add RFC undo-universal-impl-trait.,foundation-era,rejected,2018-05-21T13:52:11Z,2018-05-21T17:11:37Z,0,hadronized,,8,315,0,1,FALSE,,,,0,closed,34,2,FALSE
+2449,2449,Announce tracking issues in FCP,foundation-era,rejected,2018-05-26T07:06:40Z,2018-06-07T06:47:47Z,11,vorner,,1,92,0,1,FALSE,T-core,T-core,,0,closed,4,0,TRUE
+2450,2450,RFC for unused const fn results,foundation-era,rejected,2018-05-29T15:51:09Z,2018-07-03T15:44:33Z,34,est31,,1,173,0,1,FALSE,"T-lang, A-lint, A-const-eval",T-lang,,0,closed,7,1,FALSE
+2455,2455,Allow non-ASCII identifiers,foundation-era,rejected,2018-06-02T02:50:37Z,2018-06-03T20:07:32Z,1,DemiMarie,,1,53,38,1,FALSE,T-lang,T-lang,,0,closed,20,0,TRUE
+2469,2469,[mdbook] Disable the Search Index,foundation-era,rejected,2018-06-10T17:39:12Z,2022-08-02T21:17:28Z,1514,TimNN,,1,4,0,1,FALSE,"T-doc, not-rfc",T-doc,,0,closed,7,0,TRUE
+2473,2473,RFC: generalized-index.,foundation-era,rejected,2018-06-13T18:59:31Z,2018-06-13T20:44:12Z,0,hadronized,,4,236,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,25,2,FALSE
+2474,2474,New RFC: signing registry index commits,foundation-era,postponed,2018-06-14T07:52:49Z,2019-11-07T23:07:41Z,511,withoutboats,,1,358,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, A-security",T-cargo,,0,closed,58,5,FALSE
+2475,2475,RFC: Add delete and delete_by methods to Iterator,foundation-era,rejected,2018-06-14T17:10:50Z,2021-07-01T21:55:39Z,1113,ElectricCoffee,,1,75,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed, A-types-libstd, A-iterators, Libs-Tracked, to-announce",T-libs-api,,0,closed,34,0,TRUE
+2477,2477,RFC: Add the `group_by` and `group_by_mut` methods to slice,foundation-era,rejected,2018-06-15T13:47:16Z,2021-01-14T04:50:20Z,943,Kerollmops,,1,103,0,1,FALSE,"T-libs-api, A-types-libstd, A-slice, Libs-Tracked",T-libs-api,,0,closed,63,1,FALSE
+2479,2479,RFC: Accept semicolons as item-like,foundation-era,postponed,2018-06-16T23:45:04Z,2019-02-15T14:06:39Z,243,Centril,,12,431,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax",T-lang,,0,closed,111,12,FALSE
+2483,2483,Add new channels for long term support (LTS) releases,foundation-era,rejected,2018-06-21T23:16:02Z,2018-10-11T14:13:00Z,111,withoutboats,,1,164,0,1,FALSE,T-core,T-core,,0,closed,77,5,FALSE
+2485,2485,Fix in-band lifetimes example with backreferences,foundation-era,rejected,2018-06-23T04:00:53Z,2018-06-26T06:27:53Z,3,jturner314,,1,2,2,1,FALSE,not-rfc,,,0,closed,1,0,TRUE
+2487,2487,RFC: auto-bound.,foundation-era,rejected,2018-06-23T22:29:08Z,2018-06-23T23:02:43Z,0,hadronized,,1,99,0,1,FALSE,T-lang,T-lang,,0,closed,1,2,FALSE
+2490,2490,RFC: Add a replace_with method to Option,foundation-era,rejected,2018-06-29T07:17:30Z,2018-07-24T16:01:30Z,25,frol,,1,108,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,14,0,TRUE
+2492,2492,RFC: Existential types with external definition,foundation-era,postponed,2018-07-02T12:31:29Z,2019-09-30T23:16:22Z,455,Ericson2314,,12,252,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-traits, A-typesystem, A-impl-trait",T-lang,,0,closed,76,0,TRUE
+2498,2498,Hygiene opt-out (escaping) for declarative macros 2.0,foundation-era,postponed,2018-07-13T17:47:16Z,2021-04-09T17:02:14Z,1000,alexreg,,4,229,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-macros, A-hygiene, to-announce",T-lang,,0,closed,43,0,TRUE
+2503,2503,Make AcqRel universally usable as ordering mode,foundation-era,rejected,2018-07-19T11:00:47Z,2019-02-11T08:54:32Z,206,RalfJung,,3,111,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed, A-sync, A-sync-atomics",T-libs-api,,0,closed,85,1,FALSE
+2506,2506,RFC for transitional into,foundation-era,rejected,2018-07-29T00:02:18Z,2018-07-30T17:23:11Z,1,anirudhb,,2,50,0,1,FALSE,,,,0,closed,11,0,TRUE
+2507,2507,RFC: Numeric literal types,foundation-era,rejected,2018-07-30T06:43:03Z,2018-07-30T19:24:36Z,0,mcy,,2,318,0,1,FALSE,,,,0,closed,7,0,TRUE
+2517,2517,RFC: Project-based Examples for Cargo Projects,foundation-era,rejected,2018-08-06T02:07:29Z,2019-10-03T14:22:08Z,423,luojia65,,15,286,0,1,FALSE,"T-cargo, finished-final-comment-period, closed, A-examples",T-cargo,,0,closed,10,0,TRUE
+2522,2522,RFC: Generalized Type Ascription,foundation-era,postponed,2018-08-10T03:03:56Z,2020-07-06T23:44:22Z,696,Centril,,49,1285,0,1,FALSE,"postponed, T-lang, A-syntax, A-typesystem, A-patterns, A-expressions, A-ascription, A-inference",T-lang,,0,closed,120,13,FALSE
+2524,2524,RFC: Permit _ in type aliases,foundation-era,rejected,2018-08-19T13:23:37Z,2020-10-08T19:05:47Z,781,Centril,,8,850,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-syntax, A-typesystem, A-type-alias, A-inference, to-announce",T-lang,,0,closed,25,14,FALSE
+2527,2527,Undisambiguated generic arguments in expressions,foundation-era,rejected,2018-08-21T10:05:32Z,2018-08-21T11:08:12Z,0,varkor,,5,184,0,1,FALSE,T-lang,T-lang,,0,closed,29,2,FALSE
+2529,2529,RFC: Hidden trait implementations,foundation-era,postponed,2018-08-24T21:44:20Z,2021-03-27T18:01:54Z,945,Centril,,21,1110,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-traits, A-typesystem, A-impls, A-privacy, to-announce",T-lang,,0,closed,34,14,FALSE
+2531,2505,Create 2505-foreach-style.md,foundation-era,rejected,2018-08-26T16:42:16Z,2018-08-26T17:21:37Z,0,ccgauche,,1,45,0,1,FALSE,,,,0,closed,2,0,TRUE
+2534,2534,RFC: Direct and Partial Initialization using &uninit T,foundation-era,postponed,2018-08-29T18:14:55Z,2019-01-28T22:13:42Z,152,RustyYato,,14,411,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-typesystem, A-expressions, A-borrowck, A-references, A-uninit",T-lang,,0,closed,75,0,TRUE
+2538,2538,RFC: Optional Value sugar for ergonomics,foundation-era,rejected,2018-09-10T18:24:21Z,2018-09-10T20:23:16Z,0,RustyYato,,5,668,0,2,FALSE,T-lang,T-lang,,0,closed,8,0,TRUE
+2541,2541,Use `T: ToString` for `thread::Builder::name`,foundation-era,rejected,2018-09-13T22:35:12Z,2019-12-16T21:17:28Z,458,mathstuf,,1,56,0,1,FALSE,"T-libs-api, A-threads",T-libs-api,,0,closed,10,0,TRUE
+2544,2544,Make the turbofish syntax redundant,foundation-era,rejected,2018-09-17T14:35:42Z,2020-01-24T22:01:09Z,494,varkor,,16,273,0,1,FALSE,"T-lang, A-syntax, A-type-application",T-lang,,0,closed,262,2,FALSE
+2545,2545,RFC: Elide array size,foundation-era,postponed,2018-09-17T22:57:25Z,2021-04-03T19:21:35Z,928,llogiq,,5,109,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-typesystem, A-inference, A-array, A-const-generics, to-announce",T-lang,,0,closed,52,2,FALSE
+2548,2548,RFC: Associated type lifetime elision,foundation-era,rejected,2018-09-22T23:23:36Z,2020-11-10T19:32:35Z,779,scottmcm,,2,348,0,1,FALSE,"T-lang, A-inference, A-lifetimes",T-lang,,0,closed,8,0,TRUE
+2549,2549,RFC: Create Editorconfig File as Part of Cargo Project,foundation-era,rejected,2018-09-23T14:25:11Z,2018-11-19T02:34:10Z,56,Voultapher,,1,87,0,1,FALSE,"T-cargo, finished-final-comment-period, closed",T-cargo,,0,closed,22,0,TRUE
+2552,2552,RFC: letrec,foundation-era,rejected,2018-09-26T13:12:34Z,2018-09-27T10:28:20Z,0,xieyuheng,,1,98,0,1,FALSE,T-lang,T-lang,,0,closed,16,0,TRUE
+2572,2572,flat_map as an alias for and_then,foundation-era,rejected,2018-10-22T12:47:14Z,2018-11-11T04:43:40Z,19,ElectricCoffee,,3,116,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed",T-libs-api,,0,closed,9,0,TRUE
+2579,2579,RFC: DynTrait and VTable,foundation-era,rejected,2018-10-27T18:35:13Z,2018-10-27T18:37:47Z,0,SimonSapin,,1,308,0,1,FALSE,,,,0,closed,1,10,FALSE
+2581,2581,RFC: Generic integers,foundation-era,postponed,2018-10-28T04:40:59Z,2019-02-15T14:06:36Z,110,clarfonthey,,3,665,0,1,FALSE,"postponed, T-lang, T-libs-api, finished-final-comment-period, A-primitive, A-const-generics","T-lang, T-libs-api",,0,closed,85,1,FALSE
+2584,2584,RFC: Structural Records,foundation-era,rejected,2018-11-02T20:47:28Z,2021-04-10T02:17:15Z,889,Centril,,15,1298,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-data-types, A-syntax, A-typesystem, A-patterns, A-expressions, A-structural-typing, A-product-types, to-announce",T-lang,,0,closed,118,17,FALSE
+2587,2587,"RFC for anonymous variant types, a minimal ad-hoc sum type",foundation-era,postponed,2018-11-05T01:18:02Z,2019-02-05T11:52:06Z,92,eaglgenes101,,8,357,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-data-types, A-syntax, A-typesystem, A-patterns, A-expressions, A-structural-typing, A-sum-types",T-lang,,0,closed,69,0,TRUE
+2593,2593,Enum variant types,foundation-era,postponed,2018-11-10T17:27:06Z,2021-04-30T16:44:45Z,901,varkor,,14,330,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-data-types, A-typesystem, A-sum-types, to-announce",T-lang,,0,closed,153,3,FALSE
+2594,2594,RFC: Custom DSTs,foundation-era,postponed,2018-11-11T07:28:05Z,2021-04-24T11:45:24Z,895,strega-nil,,6,480,0,1,FALSE,"postponed, T-lang, T-libs-api, finished-final-comment-period, A-data-types, A-traits-libstd, A-repr, A-dst, Libs-Tracked, to-announce","T-lang, T-libs-api",,0,closed,52,2,FALSE
+2600,2600,Multiple Attributes in an Attribute Container,foundation-era,postponed,2018-11-24T21:44:24Z,2020-09-01T17:36:46Z,646,Havvy,,2,229,0,1,FALSE,"postponed, T-lang, A-syntax, A-attributes",T-lang,,0,closed,9,1,FALSE
+2604,2604,RFC: impl trait expressions,foundation-era,postponed,2018-12-03T13:44:47Z,2022-10-06T12:59:21Z,1402,canndrew,,3,148,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-traits, A-typesystem, A-impl-trait, A-expressions",T-lang,,0,closed,34,3,FALSE
+2611,2611,Add RFC for deprecating method call syntax on traits,foundation-era,rejected,2018-12-11T20:33:32Z,2018-12-11T22:03:56Z,0,Xaeroxe,,1,114,0,1,FALSE,,,,0,closed,13,1,FALSE
+2614,2614,eRFC: Crate name transfer,foundation-era,rejected,2018-12-16T05:47:42Z,2023-10-02T21:40:23Z,1751,dtolnay,,2,447,0,1,FALSE,"A-registry, A-governance, T-crates-io",T-crates-io,,0,closed,62,0,TRUE
+2615,2615,Add file-open-with RFC,foundation-era,rejected,2018-12-16T11:21:44Z,2019-10-15T10:05:56Z,302,Timmmm,,1,116,0,1,FALSE,"T-libs-api, A-file",T-libs-api,,0,closed,5,0,TRUE
+2617,2617,RFC: Local `loop` bindings,foundation-era,rejected,2018-12-25T17:26:28Z,2019-01-19T23:03:10Z,25,porky11,,9,248,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-syntax, A-expressions, A-control-flow",T-lang,,0,closed,19,0,TRUE
+2618,2618,RFC: Using enums like traits,foundation-era,rejected,2018-12-25T23:23:13Z,2019-01-21T22:36:17Z,26,porky11,,8,363,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-data-types, A-syntax, A-traits, A-typesystem, A-machine, A-sum-types",T-lang,,0,closed,13,0,TRUE
+2623,2623,RFC: Type Ascribed Coercions,foundation-era,rejected,2019-01-05T23:42:07Z,2020-10-22T20:16:37Z,655,haslersn,,8,187,1,2,FALSE,"T-lang, A-typesystem, A-ascription, A-inference",T-lang,,0,closed,10,0,TRUE
+2631,2631,RFC for a formalized notion on where to enforce reference propertes in MIR,foundation-era,rejected,2019-01-27T16:43:31Z,2019-02-13T20:30:26Z,17,197g,,8,292,0,1,FALSE,"T-lang, T-compiler, A-unsafe, A-references, A-machine, A-raw-pointers","T-lang, T-compiler",,0,closed,9,0,TRUE
+2632,2632,Calling methods on generic parameters of const fns,foundation-era,rejected,2019-02-05T10:26:42Z,2021-07-06T16:53:53Z,882,oli-obk,,37,771,0,1,FALSE,"T-lang, A-syntax, A-typesystem, A-effects, A-const-eval",T-lang,,0,closed,119,6,FALSE
+2633,2633,#[ffi_returns_twice],foundation-era,rejected,2019-02-09T14:55:55Z,2020-08-05T18:33:02Z,543,gnzlbg,,5,115,0,1,FALSE,"T-lang, A-unsafe, A-attributes, A-ffi, A-machine",T-lang,,0,closed,62,4,FALSE
+2635,2635,RFC changing the overflow behavior for usize in release builds to panic,foundation-era,postponed,2019-02-10T20:29:16Z,2019-05-04T18:08:12Z,82,alex,,6,185,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-arithmetic, A-primitive",T-lang,,0,closed,35,0,TRUE
+2640,2640,Simplify visibility grammar,foundation-era,postponed,2019-02-20T01:34:17Z,2019-04-21T19:42:46Z,60,IsaacWoods,,1,85,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-paths",T-lang,,0,closed,9,0,TRUE
+2643,2643,RFC: implement Rem for all equally signed integers where RHS < LHS,foundation-era,rejected,2019-02-23T13:36:52Z,2019-02-24T15:09:41Z,1,lcnr,,8,120,0,1,FALSE,,,,0,closed,7,0,TRUE
+2647,2647,Add scoped threads to the standard library,foundation-era,rejected,2019-02-26T10:28:15Z,2021-06-09T20:10:34Z,834,ghost,,7,308,0,1,FALSE,"T-libs-api, A-threads, Libs-Tracked",T-libs-api,,0,closed,39,3,FALSE
+2649,2649,Add RFC: Destructuring assignment,foundation-era,postponed,2019-02-27T10:25:41Z,2019-04-06T12:02:49Z,38,Walther,,1,95,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-patterns, A-tuples",T-lang,,0,closed,19,0,TRUE
+2656,2656,Initial pipeline rfc,foundation-era,postponed,2019-03-05T15:10:44Z,2019-03-22T19:27:37Z,17,iddm,,1,418,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-syntax, A-expressions",T-lang,,0,closed,29,0,TRUE
+2658,1589,Amend the template from RFC 1589,maturity,rejected,2019-03-08T16:01:15Z,2025-01-15T15:00:13Z,2139,pnkfelix,,2,21,13,1,FALSE,"A-lint, A-governance",,,0,closed,3,14,FALSE
+2662,2662,Implement assert_gt and assert_lt macros,foundation-era,rejected,2019-03-16T10:27:44Z,2019-03-17T04:07:59Z,0,ohsayan,,1,111,0,1,FALSE,"T-libs-api, A-macros-libstd, A-assertions, A-compare",T-libs-api,,0,closed,3,0,TRUE
+2663,2663,`std` Aware Cargo,foundation-era,rejected,2019-03-16T22:34:29Z,2019-07-20T19:51:34Z,125,jamesmunns,,14,335,0,1,FALSE,"T-lang, T-compiler, T-cargo","T-lang, T-compiler, T-cargo",,0,closed,19,0,TRUE
+2666,2666,RFC for a match based surface syntax to get pointer-to-field,foundation-era,postponed,2019-03-22T00:39:29Z,2020-10-29T19:10:00Z,587,197g,,10,397,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, to-announce",T-lang,,0,closed,7,0,TRUE
+2671,2671,Create a Governance RFC,foundation-era,rejected,2019-04-01T00:28:02Z,2019-04-02T01:53:23Z,1,mgattozzi,,1,96,0,1,FALSE,"T-core, april-1st, A-governance",T-core,,0,closed,12,1,FALSE
+2672,2672,Re-export Cow from prelude,foundation-era,rejected,2019-04-01T00:37:38Z,2019-04-02T01:17:46Z,1,sgrif,,1,138,0,2,FALSE,"T-lang, T-libs-api, april-1st, A-non-ascii-idents, A-prelude","T-lang, T-libs-api",,0,closed,24,7,FALSE
+2675,2675,Social unsafe,foundation-era,rejected,2019-04-01T13:48:18Z,2019-04-02T01:53:08Z,0,dns2utf8,,3,195,0,1,FALSE,"T-lang, april-1st, A-unsafe",T-lang,,0,closed,2,0,TRUE
+2677,2677,Add the Close trait,foundation-era,rejected,2019-04-04T14:02:12Z,2021-07-17T05:33:07Z,834,czipperz,,18,320,0,1,FALSE,"T-libs-api, A-traits-libstd, A-drop, A-file, Libs-Tracked, A-io",T-libs-api,,0,closed,35,0,TRUE
+2684,2684,Discriminant bits,foundation-era,rejected,2019-04-15T08:10:44Z,2019-11-29T11:45:28Z,228,skade,,12,120,0,1,FALSE,"T-lang, T-libs-api, A-discriminant, A-repr","T-lang, T-libs-api",,0,closed,11,0,TRUE
+2686,2686,"Allow floating-point operations to provide extra precision than specified, as an optimization",foundation-era,rejected,2019-04-17T19:25:31Z,2020-09-02T17:43:50Z,503,joshtriplett,,11,192,0,1,FALSE,"T-lang, A-arithmetic, A-primitive, A-attributes, A-flags",T-lang,,0,closed,67,4,FALSE
+2690,2690,Add `f16b` floating-point type for native support of `bfloat16`,foundation-era,rejected,2019-04-19T20:09:01Z,2020-08-29T07:07:39Z,497,joshtriplett,,5,173,0,1,FALSE,"T-lang, A-primitive",T-lang,,0,closed,24,4,FALSE
+2693,2693,Add Unicode Annex 31 methods to `char`,foundation-era,rejected,2019-04-24T20:03:33Z,2019-11-24T15:33:49Z,213,notriddle,,7,107,0,1,FALSE,"T-libs-api, A-primitive, A-string",T-libs-api,,0,closed,5,1,FALSE
+2699,2699,Well-defined unwinding through FFI boundaries,foundation-era,rejected,2019-05-11T03:36:38Z,2019-10-17T22:07:53Z,159,BatmanAoD,,23,285,0,1,FALSE,"T-lang, A-panic, A-attributes, A-ffi, A-machine",T-lang,,0,closed,107,0,TRUE
+2702,2702,Add generalized arity tuples,foundation-era,rejected,2019-05-22T22:17:45Z,2020-09-26T00:27:33Z,492,Woyten,,1,277,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-typesystem, A-patterns, A-repr, A-expressions, A-structural-typing, A-product-types, A-tuples, to-announce",T-lang,,0,closed,30,0,TRUE
+2706,2706,`.type` to get expression type,foundation-era,rejected,2019-05-30T20:08:02Z,2020-09-26T00:27:08Z,484,nvzqz,,2,239,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-syntax, A-typesystem, A-expressions, to-announce",T-lang,,0,closed,21,0,TRUE
+2708,2708,Generic Pointer to Field,foundation-era,rejected,2019-06-05T23:26:36Z,2021-02-20T21:40:06Z,625,RustyYato,,30,436,0,1,FALSE,"T-lang, T-libs-api, finished-final-comment-period, closed, A-traits-libstd, A-typesystem, A-expressions, A-product-types, A-impls-libstd, A-raw-pointers, Libs-Tracked, to-announce","T-lang, T-libs-api",,0,closed,73,0,TRUE
+2714,2714,RFC for Vec::append_from_within(),foundation-era,rejected,2019-06-21T20:16:32Z,2021-02-02T13:03:44Z,591,Shnatsel,,8,116,0,1,FALSE,"T-libs-api, A-unsafe, A-collections, Libs-Tracked",T-libs-api,,0,closed,22,0,TRUE
+2719,2719,Private registry authentication,foundation-era,rejected,2019-07-05T21:31:47Z,2021-10-05T20:58:41Z,822,jdemilledt,,3,130,0,1,FALSE,"T-cargo, A-registry",T-cargo,,0,closed,29,0,TRUE
+2721,2721,build: Improve CI time,foundation-era,rejected,2019-07-11T18:02:08Z,2019-07-11T21:06:36Z,0,tesuji,,2,7,5,1,FALSE,not-rfc,,,0,closed,2,0,TRUE
+2722,2722,Allow Overloading || and &&,foundation-era,postponed,2019-07-11T22:23:07Z,2021-05-22T21:32:51Z,680,Nokel81,,3,228,0,1,FALSE,"postponed, T-lang, T-libs-api, finished-final-comment-period, A-traits-libstd, A-expressions, A-operator, A-impls-libstd, A-control-flow, Libs-Tracked, to-announce","T-lang, T-libs-api",,0,closed,123,1,FALSE
+2724,2724,Add link points to non_exhaustive feature,foundation-era,rejected,2019-07-14T07:58:45Z,2020-10-05T14:52:08Z,449,tesuji,,1,5,4,1,FALSE,,,,0,closed,3,0,TRUE
+2729,2729,General floating point formatting in Debug with {:g?},foundation-era,rejected,2019-07-21T22:14:14Z,2021-10-19T18:49:03Z,820,ExpHP,,4,337,0,1,FALSE,"T-libs-api, A-debugging, A-primitive, Libs-Tracked",T-libs-api,,0,closed,16,0,TRUE
+2735,2735,RFC: Add `no_entry` attribute to omit entry point symbol,foundation-era,rejected,2019-07-30T22:51:15Z,2020-09-30T17:29:18Z,427,joshtriplett,,1,149,0,1,FALSE,"T-lang, T-compiler, A-ffi, A-linkage, A-main","T-lang, T-compiler",,0,closed,11,4,FALSE
+2751,2751,Don't preserve gh-pages history,foundation-era,rejected,2019-08-25T22:29:34Z,2019-10-18T12:28:12Z,53,KodrAus,,1,1,3,1,FALSE,not-rfc,,,0,closed,3,2,FALSE
+2753,2753,"WIP: ""C panic"" ABI specifier",foundation-era,rejected,2019-08-29T20:14:09Z,2019-10-17T22:06:16Z,49,BatmanAoD,,18,164,0,1,FALSE,T-lang,T-lang,,0,closed,191,0,TRUE
+2756,2756,New RFC: Collection Transmute,foundation-era,rejected,2019-09-03T06:48:41Z,2021-07-03T17:27:08Z,669,llogiq,,3,152,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed, A-unsafe, A-collections, A-impls-libstd, Libs-Tracked, to-announce",T-libs-api,,0,closed,61,2,FALSE
+2757,2757,Add methods for converting from `bool` to `Option<T>`,foundation-era,rejected,2019-09-05T11:32:31Z,2019-12-11T18:55:56Z,97,varkor,,6,117,0,1,FALSE,"T-libs-api, A-primitive, A-impls-libstd",T-libs-api,,0,closed,66,3,FALSE
+2774,1201,RFC 1201 amendments: Naked function corrections,maturity,rejected,2019-09-27T18:06:55Z,2021-01-05T16:32:56Z,465,alistair23,,2,14,22,1,FALSE,"T-lang, A-ASM",T-lang,,0,closed,23,0,TRUE
+2775,2775,Variadic tuples,foundation-era,rejected,2019-10-02T07:28:45Z,2020-10-29T16:48:24Z,393,fredericvauchelles,,51,1038,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-tuples, to-announce",T-lang,,0,closed,18,0,TRUE
+2776,2776,initial cargo-plugin-fields RFC.,foundation-era,rejected,2019-10-03T22:51:35Z,2019-10-12T00:20:25Z,8,ratmice,,3,119,0,1,FALSE,T-cargo,T-cargo,,0,closed,3,0,TRUE
+2777,2777,Scope prints in diagnostics,foundation-era,rejected,2019-10-04T21:12:26Z,2023-09-11T17:26:53Z,1437,da-x,,1,132,0,1,FALSE,"T-compiler, A-diagnostics",T-compiler,,0,closed,5,1,FALSE
+2782,2782,RFC: impl-only glob imports,foundation-era,rejected,2019-10-12T18:46:32Z,2020-10-10T17:48:34Z,363,jplatte,,4,70,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-traits, A-resolve, A-modules, to-announce",T-lang,,0,closed,18,0,TRUE
+2786,2786,avoid unreasonable growth of the repository size,foundation-era,rejected,2019-10-17T20:38:14Z,2019-10-17T21:32:36Z,0,matklad,,1,2,3,1,FALSE,not-rfc,,,0,closed,2,1,FALSE
+2791,2791,Add [T]::as_ptr_range(),foundation-era,rejected,2019-10-25T11:09:30Z,2022-09-18T19:16:03Z,1059,m-ou-se,,1,150,0,1,FALSE,"T-libs-api, A-slice, A-impls-libstd, A-raw-pointers, A-ranges, Libs-Tracked",T-libs-api,,0,closed,8,0,TRUE
+2793,2793,First draft for environment variable sandboxing,foundation-era,withdrawn,2019-10-26T23:32:53Z,2019-10-26T23:33:24Z,0,jsgf,,1,95,0,1,FALSE,,,,0,closed,0,0,TRUE
+2799,2799,RFC: Add method Result::into_ok,foundation-era,rejected,2019-11-02T09:22:36Z,2020-01-24T17:20:21Z,83,mzabaluev,,6,198,0,1,FALSE,,,,0,closed,29,3,FALSE
+2801,2801,RFC: make Cargo embed dependency versions in the compiled binary,foundation-era,postponed,2019-11-03T17:23:09Z,2024-06-21T13:57:14Z,1691,Shnatsel,,22,238,0,1,TRUE,"postponed, T-cargo, finished-final-comment-period, A-security, A-dependencies, to-announce",T-cargo,,0,closed,131,0,TRUE
+2802,2802,RFC: Vec::recycle,foundation-era,rejected,2019-11-03T22:23:41Z,2021-06-30T23:07:50Z,605,golddranks,,8,277,0,1,FALSE,"T-libs-api, A-collections, Libs-Tracked",T-libs-api,,0,closed,42,0,TRUE
+2806,2806,RFC: [T]::rejoin,foundation-era,rejected,2019-11-04T15:16:53Z,2019-11-07T03:54:15Z,2,golddranks,,1,182,0,1,FALSE,"T-lang, T-libs-api, A-slice","T-lang, T-libs-api",,0,closed,14,0,TRUE
+2814,2814,Adding is_zero() to core::time::Duration,foundation-era,rejected,2019-11-12T03:48:31Z,2019-12-05T22:18:18Z,23,ghost,,4,162,0,1,FALSE,,,,0,closed,6,3,FALSE
+2816,2816,FnPinMut: fully general stackless semicoroutines,foundation-era,rejected,2019-11-13T21:02:17Z,2019-11-13T21:02:25Z,0,CAD97,,1,144,0,1,FALSE,,,,0,closed,1,0,TRUE
+2818,2818,A macro to get the current function name.,foundation-era,rejected,2019-11-15T06:04:51Z,2020-07-13T14:12:34Z,241,Lokathor,,6,90,0,1,FALSE,"T-lang, T-libs-api, A-macros-libstd","T-lang, T-libs-api",,0,closed,25,0,TRUE
+2823,2823,adding RFC process-handle-for-async,foundation-era,rejected,2019-11-28T00:45:09Z,2022-10-24T21:14:34Z,1061,frehberg,,5,99,0,1,FALSE,"T-libs-api, A-async-await, Libs-Tracked",T-libs-api,,0,closed,7,0,TRUE
+2850,2850,Inline assembly,foundation-era,rejected,2020-01-13T13:29:48Z,2020-03-03T00:22:59Z,49,Amanieu,,29,987,0,1,FALSE,"T-lang, A-ASM",T-lang,,0,closed,85,10,FALSE
+2859,2859,added secret types rfc,foundation-era,postponed,2020-01-23T17:42:33Z,2020-12-19T20:18:27Z,331,avadacatavra,,1,206,0,1,FALSE,"postponed, T-lang, T-libs-api, finished-final-comment-period, A-traits-libstd, A-arithmetic, A-primitive, A-security, A-machine, Libs-Tracked, to-announce","T-lang, T-libs-api",,0,closed,47,0,TRUE
+2874,2874,Added RFC for trait enums,foundation-era,withdrawn,2020-03-04T10:09:36Z,2020-03-04T10:53:20Z,0,vahanbgs,,1,229,0,1,FALSE,,,,0,closed,0,0,TRUE
+2883,2883,RFC: Placement by return,foundation-era,withdrawn,2020-03-17T11:55:09Z,2020-03-17T11:56:35Z,0,PoignardAzur,,1,846,0,1,FALSE,,,,0,closed,0,0,TRUE
+2886,2886,Access to traits' associated functions and constants from trait objects,foundation-era,rejected,2020-03-20T12:39:22Z,2020-10-24T19:06:32Z,218,kotauskas,,8,266,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-traits, A-trait-object, to-announce",T-lang,,0,closed,34,0,TRUE
+2887,2887,Allow specifying dependencies for individual artifacts,foundation-era,rejected,2020-03-23T01:49:20Z,2024-06-27T18:28:34Z,1557,dmarcuse,,9,136,0,1,FALSE,"T-cargo, finished-final-comment-period, closed, A-dependencies, to-announce",T-cargo,,0,closed,37,0,TRUE
+2888,2888,RFC: `ForbiddenValues` trait to enable more optimizations,foundation-era,rejected,2020-03-24T14:00:58Z,2020-05-16T18:36:24Z,53,ghost,,13,55,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,56,3,FALSE
+2890,2890,YieldSafe auto trait,foundation-era,rejected,2020-03-27T09:17:41Z,2020-10-29T19:10:04Z,216,krojew,,4,135,0,1,FALSE,"T-lang, finished-final-comment-period, closed, to-announce",T-lang,,0,closed,17,0,TRUE
+2893,2893,Add a `trustme` keyword to define unsafe code blocks,foundation-era,rejected,2020-04-01T08:29:53Z,2020-04-02T12:05:12Z,1,yggdrasil48,,1,73,0,1,FALSE,april-1st,,,0,closed,12,0,TRUE
+2894,2894,Code block continuation in documentation,foundation-era,rejected,2020-04-01T19:51:50Z,2021-02-17T19:15:26Z,321,robinmoussu,,2,395,0,1,FALSE,T-rustdoc,T-rustdoc,,0,closed,35,0,TRUE
+2896,2896,RFC: RewindIterator for bidirectional iterators,foundation-era,rejected,2020-04-02T18:18:30Z,2020-04-02T21:18:57Z,0,jonhoo,,3,309,0,1,FALSE,"T-libs-api, A-iterators, A-collections",T-libs-api,,0,closed,7,0,TRUE
+2897,2897,result-missing-methods-for-err RFC,foundation-era,rejected,2020-04-04T09:55:55Z,2020-06-06T09:02:32Z,62,PonasKovas,,1,43,0,1,FALSE,,,,0,closed,10,0,TRUE
+2901,2901,Add RFC for else-match.,foundation-era,rejected,2020-04-06T11:13:20Z,2020-04-06T11:40:08Z,0,Jezza,,1,113,0,1,FALSE,,,,0,closed,1,0,TRUE
+2918,2918,RFC - sigil-option-notation,foundation-era,rejected,2020-04-30T04:12:24Z,2023-03-10T19:16:45Z,1044,jabcross,,1,93,0,1,FALSE,"T-lang, finished-final-comment-period, closed, to-announce",T-lang,,0,closed,10,0,TRUE
+2919,2919,Add the `experimental_keywords` ability,foundation-era,rejected,2020-05-01T00:33:12Z,2020-07-19T05:38:44Z,79,Lokathor,,11,99,0,1,FALSE,,,,0,closed,22,0,TRUE
+2922,2922,RFC - cargo templates,foundation-era,postponed,2020-05-05T21:06:11Z,2021-03-06T20:24:28Z,304,jsjoeio,,8,276,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,53,0,TRUE
+2923,2923,Do not warn about similar ASCII-only idents,foundation-era,rejected,2020-05-08T08:12:56Z,2020-07-02T11:58:57Z,55,pyfisch,,1,10,9,1,FALSE,,,,0,closed,16,1,FALSE
+2924,2924,RFC: Deprecate FromStr in favor of TryFrom<&str>,foundation-era,rejected,2020-05-11T16:59:40Z,2024-03-27T00:05:41Z,1415,malobre,,9,147,0,1,TRUE,T-libs-api,T-libs-api,,0,closed,14,0,TRUE
+2936,2936,"add lang-team Major Change Proposals as a ""pre-RFC"" step ",foundation-era,rejected,2020-05-27T20:42:35Z,2020-12-14T15:22:18Z,200,nikomatsakis,,8,232,0,1,FALSE,T-lang,T-lang,,0,closed,24,37,FALSE
+2942,2942,Restore copyright notice to MIT License,foundation-era,rejected,2020-06-04T21:12:45Z,2020-07-08T00:08:01Z,33,CraigMacomber,,1,2,0,1,FALSE,"T-core, not-rfc",T-core,,0,closed,2,0,TRUE
+2944,2944,RFC: add the Freeze trait to libcore/libstd,foundation-era,rejected,2020-06-13T01:25:43Z,2021-02-20T21:40:02Z,252,mtak-,,7,179,0,1,FALSE,"T-lang, T-libs-api, finished-final-comment-period, closed, A-traits-libstd, Libs-Tracked, to-announce","T-lang, T-libs-api",,0,closed,61,0,TRUE
+2949,2949,Hierarchic anonymous life-time,foundation-era,rejected,2020-06-24T20:54:07Z,2020-07-07T22:48:23Z,13,redradist,,12,151,0,1,FALSE,,,,0,closed,13,0,TRUE
+2953,2953,RFC: IndexGet and IndexSet,foundation-era,rejected,2020-07-06T05:40:14Z,2020-11-15T06:29:50Z,132,carbotaniuman,,5,223,0,1,FALSE,,,,0,closed,39,0,TRUE
+2955,2955,Opt-in Stable Trait VTables,foundation-era,postponed,2020-07-10T22:03:49Z,2020-12-28T05:16:50Z,170,chorman0773,,10,211,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, to-announce",T-lang,,0,closed,16,0,TRUE
+2956,2956,Add the partial-closure-args RFC.,foundation-era,rejected,2020-07-14T13:54:13Z,2022-04-01T17:34:35Z,626,hadronized,,4,357,0,1,FALSE,"T-lang, finished-final-comment-period, closed, to-announce",T-lang,,0,closed,14,2,FALSE
+2958,2958,Add Drop::poll_drop_ready for asynchronous destructors,foundation-era,rejected,2020-07-17T11:56:02Z,2020-07-22T14:54:37Z,5,withoutboats,,3,480,0,1,FALSE,"T-lang, A-async-await",T-lang,,0,closed,12,6,FALSE
+2962,2962,Add `oneof` configuration predicate to support exclusive features,foundation-era,rejected,2020-07-20T01:39:51Z,2020-10-21T17:53:19Z,93,ryankurte,,5,97,0,1,FALSE,T-lang,T-lang,,0,closed,33,0,TRUE
+2964,2964,RFC: Named arguments,foundation-era,rejected,2020-07-21T04:30:30Z,2020-09-06T20:02:48Z,47,Aloso,,6,623,0,1,FALSE,"T-lang, finished-final-comment-period, closed, to-announce",T-lang,,0,closed,86,0,TRUE
+2966,2021,Edition 2021 and beyond,foundation-era,rejected,2020-07-30T14:20:51Z,2020-12-14T15:11:15Z,137,nikomatsakis,,16,207,0,1,FALSE,T-core,T-core,,0,closed,58,37,FALSE
+2967,2967,Procedural vtables and fully customizeable wide pointers,foundation-era,rejected,2020-08-01T15:23:18Z,2020-10-09T10:57:40Z,68,oli-obk,,22,490,0,1,FALSE,,,,0,closed,31,6,FALSE
+2969,2969,[RFC]: Standardize methods for leaking containers,foundation-era,rejected,2020-08-06T00:11:09Z,2021-03-18T23:46:07Z,224,KodrAus,,9,335,0,1,FALSE,"T-libs-api, A-collections, A-raw-pointers, Libs-Tracked",T-libs-api,,0,closed,11,2,FALSE
+2973,2973,Proposal for POSIX error numbers in `std::os::unix`.,foundation-era,rejected,2020-08-09T00:42:30Z,2022-09-12T15:35:06Z,764,jmillikin,,2,248,0,1,FALSE,"T-libs-api, A-unix, Libs-Tracked",T-libs-api,,0,closed,39,0,TRUE
+2978,2978,Proposal for user namespaces on crates.io,foundation-era,rejected,2020-08-29T11:10:41Z,2020-09-03T12:55:21Z,5,jmillikin,,1,169,0,1,FALSE,T-crates-io,T-crates-io,,0,closed,32,0,TRUE
+2979,2979,[RFC]: Libs Team Governance,foundation-era,rejected,2020-08-31T01:57:16Z,2021-03-18T23:45:52Z,199,KodrAus,,5,185,0,1,FALSE,"T-libs-api, Libs-Tracked",T-libs-api,,0,closed,9,3,FALSE
+2981,2981,Safer Transmute,foundation-era,rejected,2020-08-31T23:59:03Z,2021-03-31T15:24:39Z,211,jswrenn,,18,1111,0,1,FALSE,"T-lang, T-libs-api, Libs-Tracked","T-lang, T-libs-api",,0,closed,167,0,TRUE
+2988,2988,Stable Rustdoc URLs,foundation-era,rejected,2020-09-20T12:44:11Z,2022-02-15T04:43:52Z,512,jyn514,,6,234,0,1,FALSE,T-rustdoc,T-rustdoc,,0,closed,18,0,TRUE
+2990,2990,[RFC] A new stack-based vector,foundation-era,rejected,2020-09-27T18:21:29Z,2021-12-05T01:50:56Z,433,c410-f3r,,3,364,0,1,FALSE,"T-libs-api, A-types-libstd, A-collections, Libs-Tracked",T-libs-api,,0,closed,59,0,TRUE
+2991,2991,RFC: Add `target` configuration,foundation-era,rejected,2020-09-27T19:10:34Z,2022-03-18T18:22:36Z,536,nvzqz,,2,99,0,1,FALSE,"T-lang, A-target, A-cfg",T-lang,,0,closed,44,0,TRUE
+2995,2995,Add async stream rfc,foundation-era,rejected,2020-09-29T16:48:06Z,2020-09-29T16:48:35Z,0,nellshamrell,,3,758,0,1,FALSE,,,,0,closed,1,1,FALSE
+2997,2997,Add 0000-vecdeque-binary-search.md: Binary search fns for VecDeque,pre-1.0,rejected,2020-10-01T17:25:43Z,2020-10-16T16:04:23Z,14,vojtechkral,,1,81,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,1,0,TRUE
+3020,3020,Allow specifying features of the implicit lib dependency,modern,rejected,2020-11-15T05:42:49Z,2023-01-31T21:54:23Z,807,pksunkara,,1,122,0,1,FALSE,T-cargo,T-cargo,,0,closed,28,0,TRUE
+3023,3023,"Add methods Iterator::find_or_{first,nth,last}",modern,rejected,2020-11-21T13:44:56Z,2020-11-21T17:55:54Z,0,z33ky,,1,77,0,1,FALSE,,,,0,closed,2,0,TRUE
+3026,3026,Make generate-book.sh work on macOS.,modern,rejected,2020-11-29T17:05:44Z,2022-01-06T18:21:45Z,403,ehuss,,1,2,2,1,FALSE,not-rfc,,,0,closed,1,1,FALSE
+3031,3031,Proposing a feature name,modern,rejected,2020-12-03T16:13:49Z,2020-12-08T12:51:29Z,4,sbalasa,,1,1,1,1,FALSE,,,,0,closed,1,0,TRUE
+3035,3035,Cargo: providing artifacts (for artifact dependencies) via build.rs,modern,rejected,2020-12-14T05:49:36Z,2024-10-11T17:23:04Z,1397,joshtriplett,,1,164,0,1,FALSE,"T-cargo, finished-final-comment-period, disposition-postpone, A-build-scripts, to-announce",T-cargo,,0,closed,9,5,FALSE
+3036,3036,Add min_$TARGET_API_version cfg predicates,modern,rejected,2020-12-15T14:58:20Z,2022-01-14T09:51:52Z,394,rylev,,3,205,0,1,FALSE,"T-lang, T-libs-api, A-cfg, Libs-Tracked","T-lang, T-libs-api",,0,closed,20,1,FALSE
+3039,1598,Fix typo in 1598-generic_associated_types.md,maturity,rejected,2020-12-18T00:46:04Z,2020-12-18T00:48:44Z,0,RichoDemus,,1,1,1,1,FALSE,,,,0,closed,1,0,TRUE
+3054,3054,spell correction,modern,withdrawn,2021-01-08T06:30:54Z,2021-01-08T09:45:51Z,0,Astrodevil,,1,1,1,1,FALSE,not-rfc,,,0,closed,0,0,TRUE
+3055,3055,spelling mistake correction,modern,rejected,2021-01-08T06:49:14Z,2021-01-08T09:46:06Z,0,Astrodevil,,1,1,1,1,FALSE,not-rfc,,,0,closed,1,0,TRUE
+3057,3057,"Add the boxed!() macro to ""de-magic"" box syntax",modern,rejected,2021-01-10T02:40:13Z,2021-06-19T15:24:38Z,160,notgull,,3,114,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed, to-announce",T-libs-api,,0,closed,16,0,TRUE
+3064,3064,Add language support for C-compatible bit-fields,modern,rejected,2021-01-12T18:55:59Z,2021-04-10T23:31:21Z,88,mahkoh,,10,528,0,1,FALSE,,,,0,closed,26,1,FALSE
+3067,3067,Change visibility scoping rules for macro_rules macros,modern,postponed,2021-01-25T11:44:59Z,2021-03-19T18:47:47Z,53,rylev,,3,300,0,1,FALSE,"postponed, T-lang, finished-final-comment-period, A-macros, A-privacy, to-announce",T-lang,,0,closed,18,1,FALSE
+3071,3071,consolidated usage of feature-name header field,modern,withdrawn,2021-02-03T23:18:45Z,2022-05-03T19:14:31Z,453,cchexcode,,3,177,177,177,FALSE,not-rfc,,,0,closed,0,0,TRUE
+3074,3074,Add named path bases to cargo,modern,postponed,2021-02-08T23:35:24Z,2022-11-11T17:59:24Z,640,jonhoo,,3,294,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,21,0,TRUE
+3080,3080,Add Cargo Templates,modern,rejected,2021-02-16T02:50:47Z,2021-02-18T08:40:45Z,2,henryboisdequin,,1,115,0,1,FALSE,,,,0,closed,4,0,TRUE
+3083,2033,Update 2033-experimental-coroutines.md,foundation-era,withdrawn,2021-02-18T13:26:59Z,2023-03-06T16:16:59Z,746,ghost,,1,3,6,1,FALSE,not-rfc,,,0,closed,0,3,FALSE
+3087,3087,fix: share trait was renamed to sync,modern,rejected,2021-02-22T17:14:30Z,2021-06-01T20:33:08Z,99,ibraheemdev,,1,40,40,1,FALSE,"T-lang, T-libs-api, not-rfc","T-lang, T-libs-api",,0,closed,3,0,TRUE
+3088,3088,"RFC: An edition-compatible system for ""removing"" deprecated items from the standard library",modern,rejected,2021-02-24T00:16:55Z,2021-05-30T21:45:15Z,95,bstrie,,2,270,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,12,4,FALSE
+3090,3090,Prelude additions,modern,rejected,2021-02-26T21:16:34Z,2023-02-27T08:56:03Z,730,djc,,8,172,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,78,1,FALSE
+3094,3094,RFC: ToOwned Operator,modern,rejected,2021-03-09T19:14:42Z,2021-03-10T00:34:53Z,0,Protryon,,2,93,0,1,FALSE,,,,0,closed,6,0,TRUE
+3097,3097,rustdoc URL conflict resolution,modern,rejected,2021-03-29T20:48:16Z,2021-04-01T12:20:55Z,2,GuillaumeGomez,,3,74,0,1,FALSE,,,,0,closed,22,1,FALSE
+3099,3099,RFC: `cargo`-`miri` integration,modern,rejected,2021-03-31T15:08:31Z,2021-04-05T09:02:42Z,4,mark-i-m,,2,146,0,1,FALSE,april-1st,,,0,closed,23,1,FALSE
+3106,3106,Add :value macro capture designator,modern,rejected,2021-04-08T02:53:18Z,2023-03-19T00:35:12Z,709,CAD97,,7,260,0,1,FALSE,T-lang,T-lang,,0,closed,7,0,TRUE
+3118,3118,Fix 2-rfc 'Active RFC List' hyper links,modern,withdrawn,2021-05-03T17:03:58Z,2021-05-06T03:24:28Z,2,ghost,,1,2,4,1,FALSE,,,,0,closed,0,3,FALSE
+3120,3120,RFC: Preview for Unstable Features,modern,rejected,2021-05-04T17:30:56Z,2021-05-10T16:26:33Z,5,jonhoo,,2,520,0,1,FALSE,,,,0,closed,20,0,TRUE
+3124,3124,Pinned synchronization primitives,modern,rejected,2021-05-14T15:12:01Z,2022-04-23T14:41:28Z,343,nicbn,,5,125,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,8,0,TRUE
+3146,3146,Cargo feature migrations,modern,rejected,2021-07-07T00:31:58Z,2022-10-10T15:55:08Z,460,Ericson2314,,23,388,0,1,FALSE,T-cargo,T-cargo,,0,closed,14,0,TRUE
+3156,3156,RFC: Backtrace in core,modern,rejected,2021-07-29T06:47:36Z,2022-02-14T18:56:59Z,200,JDuchniewicz,,16,373,0,1,FALSE,"T-libs-api, A-error-handling, PG-error-handling",T-libs-api,,0,closed,3,0,TRUE
+3159,3159,RFC: let-expression,modern,rejected,2021-08-08T10:56:20Z,2021-09-03T17:19:16Z,26,HKalbasi,,19,989,0,1,FALSE,"T-lang, finished-final-comment-period, closed, to-announce",T-lang,,0,closed,68,0,TRUE
+3160,135,Update RFC 135 documentation on `where` clauses,post-1.0-stabilization,rejected,2021-08-09T17:14:14Z,2023-02-25T03:40:06Z,564,smklein,,1,4,5,1,FALSE,not-rfc,,,0,closed,3,0,TRUE
+3163,3163,Proposal: Else clauses for for and while loops,modern,rejected,2021-08-19T21:37:24Z,2021-09-09T23:32:36Z,21,Starwort,,1,382,0,1,FALSE,"T-lang, finished-final-comment-period, closed, to-announce",T-lang,,0,closed,38,0,TRUE
+3168,3168,Cargo allow running binaries from development or build dependencies,modern,rejected,2021-08-24T10:06:40Z,2022-12-23T22:28:43Z,486,tchernobog,,3,122,0,1,FALSE,"T-cargo, finished-final-comment-period, closed, to-announce",T-cargo,,0,closed,21,0,TRUE
+3177,3177,[Draft] RFC: Patch dependencies using unidiff patchfiles,modern,postponed,2021-09-20T12:40:44Z,2024-01-14T18:51:30Z,846,TotalKrill,,5,328,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,27,0,TRUE
+3183,3183,[Draft] RFC: Console Input Simplified,modern,rejected,2021-10-17T03:09:59Z,2022-06-24T17:40:42Z,250,undersquire,,5,132,0,1,TRUE,T-libs-api,T-libs-api,,0,closed,50,0,TRUE
+3189,3189,take on `bool`,modern,rejected,2021-10-29T15:06:04Z,2023-03-10T15:09:06Z,497,sanbox-irl,,9,130,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed, to-announce",T-libs-api,,0,closed,18,0,TRUE
+3193,3193,return position impl trait in traits,modern,rejected,2021-11-10T14:07:21Z,2021-12-09T17:59:29Z,29,nikomatsakis,,3,322,0,1,FALSE,T-lang,T-lang,,0,closed,10,38,FALSE
+3205,3205,add badge next to github PR and issues,modern,rejected,2021-12-10T22:41:26Z,2025-11-03T17:33:41Z,1423,mustakimali,,3,15,0,1,FALSE,not-rfc,,,0,closed,6,0,TRUE
+3207,3207,Fix typo,modern,rejected,2021-12-12T12:49:24Z,2021-12-17T14:05:17Z,5,sigmaSd,,1,1,1,1,FALSE,"not-rfc, T-libs",T-libs,,0,closed,2,0,TRUE
+3217,3217,Add RFC for providing ignore test message,modern,rejected,2022-01-07T09:00:22Z,2022-01-14T08:02:13Z,6,yanganto,,3,162,0,1,FALSE,T-dev-tools,T-dev-tools,,0,closed,5,0,TRUE
+3218,3218,"Rename {Option, Result}::expect to unwrap_or_panic",modern,rejected,2022-01-09T11:53:37Z,2023-03-07T11:50:43Z,421,chris-morgan,,1,176,0,1,FALSE,"T-libs-api, finished-final-comment-period, closed, to-announce",T-libs-api,,0,closed,22,1,FALSE
+3232,3232,add raw-code-data,modern,rejected,2022-02-15T06:52:08Z,2022-02-17T08:09:25Z,2,0loli,,1,101,0,1,FALSE,,,,0,closed,1,0,TRUE
+3234,3234,Edit README.md,modern,withdrawn,2022-02-16T18:30:11Z,2022-02-16T18:30:35Z,0,pierwill,,1,9,11,1,FALSE,,,,0,closed,0,0,TRUE
+3249,3249,bump checkout,modern,rejected,2022-04-01T00:33:56Z,2022-04-01T00:34:27Z,0,UltiRequiem,,1,1,1,1,FALSE,,,,0,closed,1,0,TRUE
+3250,3250,Extend Greenspun's tenth rule to cover the Rust Standard Library,modern,rejected,2022-04-01T10:35:46Z,2022-04-03T00:14:09Z,1,mbartlett21,,1,94,0,1,FALSE,april-1st,,,0,closed,8,0,TRUE
+3251,3251,RFC: `multiple_crate_versions`,modern,rejected,2022-04-02T12:41:43Z,2024-05-07T13:23:53Z,766,LukeMathWalker,,7,197,0,1,FALSE,T-cargo,T-cargo,,0,closed,2,0,TRUE
+3263,3263,RFC: Precise Pre-release Deps,modern,postponed,2022-05-10T06:29:27Z,2023-12-22T16:15:24Z,591,Stargateur,,8,161,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,26,0,TRUE
+3266,3266,RFC: Rust SemVer 2,modern,rejected,2022-05-17T12:59:00Z,2022-11-11T17:59:19Z,178,Stargateur,,15,433,0,1,TRUE,"T-cargo, finished-final-comment-period, closed, to-announce",T-cargo,,0,closed,6,0,TRUE
+3267,123,"Short Macro Invocation Syntax: m!123 and m!""abc""",post-1.0-stabilization,rejected,2022-05-18T13:00:17Z,2022-11-04T18:05:02Z,170,m-ou-se,,3,103,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-macros, to-announce",T-lang,,0,closed,78,2,FALSE
+3268,3268,RFC: Add a scalable representation to allow support for scalable vectors,modern,rejected,2022-05-19T12:24:07Z,2025-07-14T11:12:55Z,1151,JamieCunliffe,,5,277,0,1,FALSE,"T-lang, A-simd, T-types","T-lang, T-types",,0,closed,118,0,TRUE
+3271,3271,RFC: Add more support for fallible allocations in Vec,modern,rejected,2022-05-23T22:32:06Z,2023-03-09T03:28:03Z,289,dpaoliello,,4,345,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,100,0,TRUE
+3283,3283,RFC 3283: Backward compatible default features,modern,rejected,2022-06-23T14:06:07Z,2022-11-11T17:59:14Z,141,tbu-,,1,144,0,1,FALSE,"T-cargo, finished-final-comment-period, closed, to-announce",T-cargo,,0,closed,18,1,FALSE
+3284,3284,chore: Set permissions for GitHub actions,modern,rejected,2022-06-27T00:34:01Z,2022-07-04T01:49:23Z,7,naveensrinivasan,,1,5,0,1,FALSE,not-rfc,,,0,closed,1,0,TRUE
+3286,3286,Create proposal to add changelog attribute support to cargo,modern,rejected,2022-06-27T14:26:58Z,2022-06-27T14:27:10Z,0,Ayowel,,1,223,0,1,FALSE,,,,0,closed,1,0,TRUE
+3287,3287,RFC: Add native code coverage support in Cargo,modern,postponed,2022-07-01T20:03:29Z,2024-03-09T22:07:31Z,617,ridwanabdillahi,,4,366,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,26,1,FALSE
+3300,3300,Distinguish closures from callables,modern,rejected,2022-08-08T20:20:59Z,2023-05-28T14:48:54Z,292,SoniEx2,,2,271,0,1,FALSE,T-lang,T-lang,,0,closed,18,0,TRUE
+3305,3305,RFC: Statics in patterns,modern,rejected,2022-08-17T11:30:37Z,2022-09-18T17:51:19Z,32,Jules-Bertholet,,18,367,0,1,FALSE,"T-lang, finished-final-comment-period, closed, A-impls-libstd, to-announce, T-libs","T-lang, T-libs",,0,closed,52,0,TRUE
+3310,3310,Add a general mechanism of setting RUSTFLAGS in Cargo for the root crate only,modern,postponed,2022-09-02T20:09:17Z,2024-06-28T14:50:41Z,664,ridwanabdillahi,,4,383,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,14,1,FALSE
+3311,3311,RFC: Add descriptive names to doctests,modern,rejected,2022-09-04T19:45:12Z,2025-03-24T16:57:56Z,931,casey,,8,142,0,1,FALSE,"T-rustdoc, finished-final-comment-period, closed, to-announce",T-rustdoc,,0,closed,30,0,TRUE
+3312,3312,Test,modern,withdrawn,2022-09-05T13:26:02Z,2022-09-05T13:26:15Z,0,ehuss,,1,95,0,1,FALSE,,,,0,closed,0,2,FALSE
+3317,3317,RFC: Add `String::leak`,modern,rejected,2022-09-18T22:23:38Z,2022-09-18T22:32:47Z,0,finnbear,,4,73,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,2,0,TRUE
+3318,3318,RFC: Field projection,modern,rejected,2022-09-21T11:42:50Z,2024-12-04T10:46:38Z,804,BennoLossin,,28,409,0,1,FALSE,T-lang,T-lang,,0,closed,115,0,TRUE
+3331,3331,Deprecate PhantomData dropck,modern,rejected,2022-10-19T17:52:46Z,2022-10-26T09:54:52Z,6,SoniEx2,,2,204,0,1,FALSE,,,,0,closed,4,0,TRUE
+3334,3334,Niches,modern,rejected,2022-10-23T12:28:19Z,2023-01-19T10:39:45Z,87,joshtriplett,,49,480,0,1,FALSE,T-lang,T-lang,,0,closed,58,7,FALSE
+3340,3340,Add `exhaustive_match_output` RFC,modern,rejected,2022-10-31T21:22:05Z,2023-08-13T14:23:23Z,285,Xaeroxe,,5,114,0,1,FALSE,T-lang,T-lang,,0,closed,30,1,FALSE
+3342,3342,RFC: Anonymous Associated Types,modern,rejected,2022-11-02T00:35:12Z,2022-11-11T05:10:17Z,9,knickish,,2,149,0,1,FALSE,T-lang,T-lang,,0,closed,8,0,TRUE
+3344,3344,Add a `--compile-time-deps` build flag to `cargo build`,modern,rejected,2022-11-07T09:07:44Z,2024-08-21T09:08:24Z,653,Veykril,,1,75,0,1,FALSE,T-cargo,T-cargo,,0,closed,21,0,TRUE
+3347,3347,"Allow requiring ""at least one feature""",modern,postponed,2022-11-11T23:45:07Z,2024-06-24T14:14:14Z,590,Ericson2314,,9,296,0,2,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,18,0,TRUE
+3350,3350,feature iter_find_many,modern,rejected,2022-11-19T06:54:46Z,2026-03-07T20:54:53Z,1204,0xForerunner,,1,136,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,8,0,TRUE
+3352,3352,Relax const-eval restrictions,modern,rejected,2022-12-02T20:31:11Z,2024-05-02T15:50:43Z,516,Noratrieb,,2,99,0,1,FALSE,"T-lang, A-const-eval",T-lang,,0,closed,96,0,TRUE
+3353,3353,Start RFC for doc cfg,modern,rejected,2022-12-07T17:28:36Z,2022-12-07T17:28:43Z,0,GuillaumeGomez,,1,110,0,1,FALSE,,,,0,closed,1,2,FALSE
+3354,3354,Cross-type number comparisons,modern,rejected,2022-12-07T21:53:33Z,2022-12-09T10:07:29Z,1,kangalio,,2,82,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,17,0,TRUE
+3366,3366,"Change use of ""UFCS"" to ""fully-qualified function call syntax""",modern,rejected,2023-01-04T19:59:39Z,2025-11-03T17:49:46Z,1033,SteveAlexander,,1,17,10,2,FALSE,"T-lang, not-rfc",T-lang,,0,closed,1,0,TRUE
+3367,3367,RFC: Multi-Type Return Position Impl Trait (MTRPIT),modern,rejected,2023-01-05T17:39:26Z,2023-02-07T19:47:03Z,33,yoshuawuyts,,4,673,0,1,FALSE,T-lang,T-lang,,0,closed,56,0,TRUE
+3371,3371,RFC: Templating `CARGO_TARGET_DIR` to make it the parent of all target directories,modern,postponed,2023-01-12T22:38:49Z,2024-10-11T14:23:36Z,637,poliorcetics,,67,435,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,60,0,TRUE
+3374,3374,Cargo target features,modern,rejected,2023-01-20T19:15:21Z,2023-09-11T17:20:09Z,233,ehuss,,2,212,0,1,FALSE,T-cargo,T-cargo,,0,closed,2,2,FALSE
+3379,3379,Add text for the CFG OS Version RFC,modern,rejected,2023-01-25T19:13:30Z,2025-01-27T01:34:38Z,732,chriswailes,,3,144,0,1,FALSE,"T-lang, T-cargo","T-lang, T-cargo",,0,closed,7,0,TRUE
+3382,3382,Ref-wrapping,modern,rejected,2023-02-02T20:44:42Z,2023-05-19T22:42:49Z,106,clarfonthey,,2,257,0,1,FALSE,T-lang,T-lang,,0,closed,36,1,FALSE
+3384,3384,Add RFC: uri-crates,modern,rejected,2023-02-07T21:21:29Z,2023-02-08T22:25:02Z,1,hydroper,,6,97,0,1,FALSE,"T-cargo, T-crates-io","T-cargo, T-crates-io",,0,closed,10,0,TRUE
+3386,3386,Remove the 'kind' field from Item,modern,rejected,2023-02-08T04:39:07Z,2023-02-08T04:58:54Z,0,mplsgrant,,1,0,1,1,FALSE,,,,0,closed,1,0,TRUE
+3390,3390,Stabilize may_dangle using borrowck,modern,rejected,2023-02-18T13:14:48Z,2023-05-28T14:48:23Z,99,SoniEx2,,10,497,0,1,FALSE,"T-lang, T-types","T-lang, T-types",,0,closed,8,0,TRUE
+3394,3394,format-dynamic-fill,modern,rejected,2023-02-23T20:31:22Z,2023-05-26T17:03:28Z,91,ModProg,,5,65,0,1,FALSE,"T-libs-api, disposition-close, finished-final-comment-period, to-announce",T-libs-api,,0,closed,18,0,TRUE
+3401,3401,Add translations of RFC Summary,modern,withdrawn,2023-03-15T23:50:53Z,2023-03-15T23:51:36Z,0,yaahc,,10,1532,0,10,FALSE,,,,0,closed,0,1,FALSE
+3403,3403,RFC: sigstore and cargo/crates.io,modern,rejected,2023-03-27T11:11:01Z,2023-08-14T12:37:26Z,140,lulf,,10,392,0,1,FALSE,"T-cargo, T-crates-io","T-cargo, T-crates-io",,0,closed,31,0,TRUE
+3408,3408,Derefered Composite Types,modern,rejected,2023-04-06T15:01:08Z,2023-04-11T23:55:42Z,5,VitWW,,6,165,0,1,FALSE,T-lang,T-lang,,0,closed,1,0,TRUE
+3412,3412,Proposal: add range value type and range value conversions between different ranges.,modern,rejected,2023-04-10T09:11:21Z,2023-05-16T18:20:56Z,36,iddm,,3,397,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,4,0,TRUE
+3413,3413,RFC: Casting From by as_cast,modern,rejected,2023-04-12T11:28:19Z,2023-05-16T17:20:47Z,34,VitWW,,8,159,0,1,FALSE,T-lang,T-lang,,0,closed,10,0,TRUE
+3414,3414,Deprecate spooky-dropck-at-a-distance,modern,rejected,2023-04-14T17:58:48Z,2023-05-28T14:48:31Z,43,SoniEx2,,5,421,0,1,FALSE,T-types,T-types,,0,closed,5,0,TRUE
+3420,3420,RFC: Partial Types,modern,rejected,2023-04-18T15:04:03Z,2023-04-27T21:53:30Z,9,VitWW,,13,781,0,1,TRUE,T-lang,T-lang,,0,closed,13,0,TRUE
+3422,3422,Blueprints,modern,rejected,2023-04-20T16:02:53Z,2023-04-21T11:56:54Z,0,DasLixou,,2,195,0,1,FALSE,,,,0,closed,7,0,TRUE
+3423,3423,RFC: Add small function `ignore_result` to `std`,modern,rejected,2023-04-22T08:49:00Z,2023-04-22T19:20:21Z,0,blyxyas,,4,95,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,8,0,TRUE
+3426,3426,RFC: Partial Types (v2),modern,rejected,2023-04-27T23:16:14Z,2023-05-16T19:28:05Z,18,VitWW,,9,1489,0,2,FALSE,T-lang,T-lang,,0,closed,19,0,TRUE
+3427,3427,RFC: Mixed mutable variables,modern,rejected,2023-04-28T00:13:42Z,2023-04-28T17:29:15Z,0,VitWW,,2,695,0,2,TRUE,T-types,T-types,,0,closed,1,0,TRUE
+3428,3428,RFC: Partial Mutability,modern,rejected,2023-04-28T18:50:20Z,2023-05-05T21:30:42Z,7,VitWW,,2,174,0,1,TRUE,,,,0,closed,2,0,TRUE
+3430,3430,RFC: Unix socket ancillary data v2,modern,rejected,2023-05-10T08:25:04Z,2024-06-09T07:11:22Z,395,jmillikin,,4,896,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,12,0,TRUE
+3439,3439,Unsafe Extern Blocks,modern,rejected,2023-05-29T05:32:21Z,2023-08-22T18:52:10Z,85,Lokathor,,1,101,0,1,FALSE,T-lang,T-lang,,0,closed,7,1,FALSE
+3451,3451,Additional float types,modern,rejected,2023-06-28T17:45:07Z,2023-08-08T07:09:35Z,40,ecnelises,,3,156,0,1,FALSE,T-lang,T-lang,,0,closed,34,0,TRUE
+3457,3457,"Add RFC ""Type Parameter Lifetimes""",modern,rejected,2023-07-12T15:09:11Z,2023-07-14T08:25:38Z,1,dhardy,,2,175,0,1,FALSE,T-lang,T-lang,,0,closed,3,1,FALSE
+3468,3468,markup_macro,modern,rejected,2023-08-02T00:02:39Z,2023-08-03T20:46:13Z,1,hydroper,,6,112,0,1,FALSE,,,,0,closed,27,0,TRUE
+3469,3469,CPU feature detection in core,modern,rejected,2023-08-03T23:03:30Z,2025-05-20T21:13:33Z,655,Amanieu,,4,91,0,1,FALSE,"T-libs-api, finished-final-comment-period, disposition-merge, to-announce",T-libs-api,,0,closed,29,11,FALSE
+3478,3478,RFC: Add better spread operator,modern,rejected,2023-08-23T01:35:40Z,2023-08-24T14:40:56Z,1,coffeeispower,,3,106,0,1,FALSE,T-lang,T-lang,,0,closed,3,0,TRUE
+3481,3481,Special-cased performance improvement for `Iterator::sum` on `Range<u*>` and `RangeInclusive<u*>`,modern,rejected,2023-08-28T23:37:41Z,2023-10-31T15:40:54Z,63,vcfxb,,3,106,0,1,FALSE,T-libs,T-libs,,0,closed,10,0,TRUE
+3489,2094,Update 2094-nll.md,foundation-era,rejected,2023-09-10T10:19:16Z,2023-09-14T08:05:05Z,3,davidyangss,,1,1,1,1,FALSE,not-rfc,,,0,closed,5,0,TRUE
+3492,2495,Update 2495-min-rust-version.md links,foundation-era,rejected,2023-09-19T10:05:52Z,2025-11-03T17:51:17Z,776,chris-ha458,,3,20,20,1,FALSE,not-rfc,,,0,closed,3,0,TRUE
+3496,3496,RFC: `typed-context-injection`,modern,rejected,2023-09-22T01:37:03Z,2023-10-04T22:06:57Z,12,Radbuglet,,13,833,0,1,FALSE,T-lang,T-lang,,0,closed,8,0,TRUE
+3497,3497,Expressive Lambda Expressions,modern,rejected,2023-09-24T16:50:54Z,2023-09-24T17:35:26Z,0,wiseaidev,,1,166,0,1,FALSE,,,,0,closed,11,0,TRUE
+3505,3505,Move `rustdoc-types` crate to T-Rustdoc ownership.,modern,rejected,2023-10-03T10:27:17Z,2024-10-03T10:12:30Z,365,aDotInTheVoid,,16,135,0,1,FALSE,"T-rustdoc, finished-final-comment-period, disposition-merge, to-announce",T-rustdoc,,0,closed,16,0,TRUE
+3523,3523,Create 0000-cargo-dns.md,pre-1.0,rejected,2023-11-10T21:46:13Z,2023-11-25T12:12:12Z,14,hydroper,,2,72,0,1,FALSE,"T-cargo, T-crates-io","T-cargo, T-crates-io",,0,closed,17,0,TRUE
+3536,3536,RFC: Trait for `!Sized` thin pointers,modern,rejected,2023-11-29T04:20:36Z,2024-06-09T07:11:15Z,193,jmillikin,,2,291,0,1,FALSE,"T-lang, A-dst",T-lang,,0,closed,25,0,TRUE
+3541,3541,Async Drop,modern,rejected,2023-12-12T15:24:03Z,2023-12-18T16:53:16Z,6,wiseaidev,,5,231,0,1,TRUE,T-lang,T-lang,,0,closed,12,0,TRUE
+3549,2024,Add RFC to discuss RustConf 2024 Steering Committee,foundation-era,rejected,2023-12-27T18:53:08Z,2024-01-19T18:49:22Z,22,graciegregory,,4,53,0,1,FALSE,"T-leadership-council, S-waiting-on-author",T-leadership-council,,0,closed,8,0,TRUE
+3557,3557,RFC: Out-of-tree test suite,modern,rejected,2024-01-10T14:31:27Z,2024-03-19T13:09:56Z,68,kirtchev-adacore,,4,359,0,1,FALSE,T-compiler,T-compiler,,0,closed,21,0,TRUE
+3560,3560,Deprecate `static mut`,modern,rejected,2024-01-26T09:59:12Z,2026-02-12T15:06:24Z,748,dyslexicsteak,,7,188,0,1,FALSE,"T-lang, A-maybe-future-edition",T-lang,,0,closed,23,0,TRUE
+3562,3562,Nested function scoped type parameters,modern,rejected,2024-01-31T12:42:54Z,2024-04-21T12:35:59Z,80,jake-87,,5,96,0,1,FALSE,T-lang,T-lang,,0,closed,7,0,TRUE
+3576,3576,RFC: RArrow for Pointer Ergonomics,modern,rejected,2024-02-20T23:04:52Z,2024-02-20T23:15:58Z,0,EEliisaa,,8,133,0,1,FALSE,,,,0,closed,1,0,TRUE
+3579,3579,Public Key Infrastructure for Rust Project,modern,rejected,2024-02-27T21:03:20Z,2024-10-31T19:43:09Z,246,walterhpearce,,4,309,0,1,FALSE,T-infra,T-infra,,0,closed,10,0,TRUE
+3585,3585,Make `cargo install` respect lockfiles by default,modern,postponed,2024-03-10T23:24:47Z,2024-10-11T14:18:05Z,214,casey,,4,117,0,1,FALSE,"postponed, T-cargo, finished-final-comment-period, to-announce",T-cargo,,0,closed,12,0,TRUE
+3587,2294,Update 2294-if-let-guard.md,foundation-era,rejected,2024-03-12T14:22:03Z,2024-03-13T11:51:32Z,0,chdalski,,1,1,1,1,FALSE,not-rfc,,,0,closed,3,0,TRUE
+3603,3603,RFC: Add large language models to Rust,modern,rejected,2024-04-01T09:20:18Z,2024-04-02T12:15:19Z,1,Noratrieb,,1,78,0,1,FALSE,"april-1st, T-types",T-types,,0,closed,38,0,TRUE
+3619,344,docs: `0344-conventions-galore.md` should use `_`,post-1.0-stabilization,rejected,2024-04-30T21:02:18Z,2025-11-03T17:57:08Z,551,hamirmahal,,1,2,2,1,FALSE,not-rfc,,,0,closed,2,0,TRUE
+3634,3634,Scoped `impl Trait for Type`,modern,postponed,2024-05-12T13:59:38Z,2024-07-11T18:58:32Z,60,Tamschi,,28,3530,0,1,FALSE,"postponed, T-lang, T-types","T-lang, T-types",,0,closed,41,0,TRUE
+3647,3647,Collection Contains trait,modern,rejected,2024-05-24T15:16:30Z,2024-05-27T12:39:33Z,2,ToMe25,,4,198,0,1,FALSE,,,,0,closed,6,0,TRUE
+3648,3648,[RFC] add `substr_range` and related methods,modern,rejected,2024-05-28T21:55:30Z,2024-05-28T22:54:39Z,0,wr7,,2,230,0,1,FALSE,,,,0,closed,2,0,TRUE
+3657,3657,Async project goal,modern,rejected,2024-06-12T22:42:20Z,2024-06-26T18:38:15Z,13,nikomatsakis,,19,268,0,1,FALSE,"T-lang, T-libs-api","T-lang, T-libs-api",,0,closed,6,42,FALSE
+3658,3658,Proposed 2024h2 flagship goal: Rust for Linux,modern,rejected,2024-06-14T21:43:05Z,2024-06-26T18:39:00Z,11,nikomatsakis,,5,228,0,1,FALSE,"T-lang, T-libs-api, T-compiler","T-lang, T-libs-api, T-compiler",,0,closed,5,42,FALSE
+3663,3663,Cargo structured syntax for feature dependencies on crates,modern,rejected,2024-06-21T03:05:14Z,2024-08-15T23:08:56Z,55,joshtriplett,,2,112,0,1,FALSE,T-cargo,T-cargo,,0,closed,3,9,FALSE
+3674,3674,crates.io: Remove dev-dependencies from the index,modern,rejected,2024-07-31T12:11:20Z,2025-02-14T15:55:33Z,198,Turbo87,,4,48,0,1,FALSE,T-crates-io,T-crates-io,,0,closed,14,2,FALSE
+3688,3688,[RFC] code name support,modern,rejected,2024-09-04T09:02:42Z,2024-09-05T13:43:44Z,1,practicalrs,,1,116,0,1,FALSE,"T-cargo, T-crates-io","T-cargo, T-crates-io",,0,closed,3,0,TRUE
+3693,3693,Expose std support via --print,modern,rejected,2024-09-12T15:59:32Z,2025-04-02T09:59:15Z,201,adamgemmell,,1,118,0,1,FALSE,T-compiler,T-compiler,,0,closed,12,0,TRUE
+3696,3696,RFC: Support `char::encode_utf8` in const scenarios.,modern,rejected,2024-09-18T09:36:17Z,2024-09-18T14:14:14Z,0,bjoernager,,13,90,0,1,FALSE,,,,0,closed,3,0,TRUE
+3706,3706,[RFC] Add `Option::todo` and `Result::todo`,modern,rejected,2024-10-03T12:03:39Z,2025-08-14T11:58:01Z,314,zkldi,,3,233,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,57,0,TRUE
+3710,3710,RFC: introduce the flavor syntactic design pattern,modern,rejected,2024-10-10T16:54:12Z,2024-11-05T18:29:04Z,26,nikomatsakis,,11,811,0,1,FALSE,T-lang,T-lang,,0,closed,56,43,FALSE
+3711,3711,`#[inline(required)]`,modern,rejected,2024-10-14T14:45:28Z,2024-10-16T17:44:41Z,2,davidtwco,,5,153,0,1,FALSE,T-lang,T-lang,,0,closed,17,1,FALSE
+3713,3713,Relaxed DST field ordering,modern,rejected,2024-10-19T01:54:52Z,2025-08-13T16:41:42Z,298,clarfonthey,,4,59,0,1,FALSE,"T-lang, A-dst",T-lang,,0,closed,12,1,FALSE
+3743,3743,"Making rust friendlier for newcomers (AKA chungize, based on my favorite chatacter albert Chung)",modern,rejected,2024-12-16T21:43:15Z,2024-12-16T21:47:55Z,0,mikozdravkovski,,1,129,0,1,FALSE,,,,0,closed,1,0,TRUE
+3745,3745,unsized params in traits,modern,rejected,2024-12-18T21:11:39Z,2026-01-21T21:12:40Z,399,ionicmc-rs,,7,135,0,1,FALSE,T-types,T-types,,0,closed,21,0,TRUE
+3747,3747,unsized params in traits (follow up),modern,rejected,2024-12-19T08:09:51Z,2024-12-19T08:14:31Z,0,ionicmc-rs,,4,133,0,1,FALSE,,,,0,closed,1,0,TRUE
+3751,3751,RFC: add LLM text version to rustdoc,modern,rejected,2024-12-30T03:46:13Z,2025-01-11T00:48:07Z,11,Folyd,,2,125,0,1,FALSE,T-rustdoc,T-rustdoc,,0,closed,13,0,TRUE
+3760,3760,Suggest some improvements to the draft,modern,rejected,2025-01-10T15:42:28Z,2025-01-10T15:43:13Z,0,traviscross,,11,707,0,1,FALSE,not-rfc,,,0,closed,1,3,FALSE
+3766,3766,"RFC: Implement RealtimeSanitizer (RTSan) support, add `#[realtime(nonblocking)]`, `#[realtime(blocking)]` attributes",modern,rejected,2025-01-30T23:34:22Z,2025-11-08T18:44:09Z,281,cjappl,,6,276,0,1,FALSE,T-lang,T-lang,,0,closed,10,0,TRUE
+3767,3767,Book should say what it is about,modern,rejected,2025-01-31T13:23:38Z,2025-11-03T18:29:23Z,276,hkBst,,1,2,0,1,FALSE,not-rfc,,,0,closed,4,0,TRUE
+3768,3768,RFC: Add safe blocks,modern,rejected,2025-02-01T02:33:45Z,2025-08-24T18:22:47Z,204,VivIsBee,,0,0,0,0,FALSE,T-lang,T-lang,,0,closed,11,0,TRUE
+3787,3787,Make examples coherent with text,modern,rejected,2025-03-07T10:44:26Z,2025-11-03T18:33:36Z,241,vigna,,1,4,4,2,FALSE,"T-libs-api, not-rfc",T-libs-api,,0,closed,3,0,TRUE
+3795,3795,RFC: debug=false in test profile by default,modern,rejected,2025-03-30T21:58:56Z,2025-03-31T08:15:29Z,0,practicalrs,,1,74,0,1,FALSE,T-cargo,T-cargo,,0,closed,3,0,TRUE
+3800,3800,Add RFC for `Option::update_or_default`,modern,rejected,2025-04-19T09:35:55Z,2025-04-19T12:21:01Z,0,Kivooeo,,3,297,0,1,FALSE,,,,0,closed,5,0,TRUE
+3802,3802,RFC: Assume bounds for generic functions,modern,rejected,2025-04-21T14:59:00Z,2025-04-26T10:22:11Z,4,DasLixou,,3,92,0,1,FALSE,T-types,T-types,,0,closed,17,0,TRUE
+3816,3816,RFC: Create a new `BijectionMap` type for bi-directional hashmaps,modern,rejected,2025-05-21T04:21:44Z,2025-05-22T05:59:21Z,1,scimind2460,,6,115,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,7,0,TRUE
+3818,3818,RFC: New method for `str`: `str::chunks(usize)`,modern,rejected,2025-05-24T22:35:06Z,2025-05-26T14:48:02Z,1,tkr-sh,,6,120,0,1,FALSE,,,,0,closed,6,0,TRUE
+3823,3823,add edit link to each page,modern,rejected,2025-05-29T19:17:12Z,2025-06-03T19:36:42Z,5,tshepang,,1,1,0,1,FALSE,not-rfc,,,0,closed,2,0,TRUE
+3827,3827,RFC: Add trim_prefix and trim_suffix methods to str,modern,rejected,2025-05-31T14:55:47Z,2025-05-31T17:39:05Z,0,deven,,3,256,0,1,FALSE,,,,0,closed,6,0,TRUE
+3835,3835,RFC: Add `into_unique` method to `Rc` and `Arc`,modern,rejected,2025-06-19T09:28:34Z,2025-06-20T12:07:43Z,1,A4-Tacks,,2,123,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,3,0,TRUE
+3857,3857,"RFC: `#[cfg(version_since(rust, ""1.95""))]` for Rust-version conditional compilation",modern,rejected,2025-09-15T19:27:21Z,2025-10-06T22:25:57Z,21,epage,,110,1059,0,1,FALSE,"T-lang, T-compiler, I-lang-radar","T-lang, T-compiler",,0,closed,15,11,FALSE
+3863,3863,Update actions/checkout action to v4.3.0,modern,withdrawn,2025-10-01T01:25:36Z,2025-10-01T12:53:24Z,0,renovate[bot],,1,1,1,1,FALSE,not-rfc,,,0,closed,0,0,TRUE
+3867,3867,RFC: forgettable auto trait,modern,rejected,2025-10-05T14:24:33Z,2025-10-05T18:18:53Z,0,mcmah309,,3,163,0,1,TRUE,T-lang,T-lang,,0,closed,7,0,TRUE
+3870,3870,RFC: Freezable Mutex Guards,modern,rejected,2025-10-16T18:33:54Z,2025-10-17T18:31:40Z,0,SpaceBroetchen,,4,195,0,1,FALSE,T-libs-api,T-libs-api,,0,closed,3,0,TRUE
+3880,3880,RFC: Introduce `DerefInto` and `DerefMutInto` for RAII access,modern,rejected,2025-11-10T21:06:46Z,2026-01-13T23:10:41Z,64,Thomas-Mewily,,2,249,0,1,FALSE,T-lang,T-lang,,0,closed,11,0,TRUE
+3886,3886,Update 0000-template.md,pre-1.0,withdrawn,2025-11-26T17:02:54Z,2025-11-26T17:55:07Z,0,HackingRepo,,1,80,61,1,FALSE,,,,0,closed,0,0,TRUE
+3887,3887,Create 0000-pub_use_pub_glob.md,pre-1.0,rejected,2025-11-26T18:03:47Z,2025-12-07T17:45:39Z,10,HackingRepo,,1,122,0,1,FALSE,T-lang,T-lang,,0,closed,2,0,TRUE
+3889,3889,Update actions/checkout action to v5.0.1,modern,rejected,2025-12-01T01:13:29Z,2025-12-01T02:49:40Z,0,renovate[bot],,1,1,1,1,FALSE,not-rfc,,,0,closed,4,0,TRUE
+3908,3908,RFC: obj-action style method disambiguation ,modern,rejected,2026-01-20T16:46:08Z,2026-01-27T08:25:35Z,6,syudoer,,16,239,0,1,FALSE,T-lang,T-lang,,0,closed,9,0,TRUE
+3910,3910,Abi Descriptors,modern,rejected,2026-01-21T22:57:36Z,2026-02-10T15:54:20Z,19,ionicmc-rs,,0,0,0,0,FALSE,"T-lang, T-compiler","T-lang, T-compiler",,0,closed,1,0,TRUE
+3922,3922,fix: Correct minor grammar flaw,modern,withdrawn,2026-02-22T16:46:54Z,2026-02-22T16:47:47Z,0,danielaborg,,1,4,4,1,FALSE,,,,0,closed,0,0,TRUE
+3930,3930,Add RFC for stable ABI in Rust using permanent type hashes,modern,rejected,2026-03-16T18:30:58Z,2026-03-16T20:00:03Z,0,ParaDevOne,,1,138,0,1,FALSE,,,,0,closed,2,0,TRUE

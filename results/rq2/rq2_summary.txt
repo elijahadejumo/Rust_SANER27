@@ -1,0 +1,70 @@
+RQ2 early window | groups shown as accepted/rejected/postponed
+
+=== first 30 days | ALL | n = 609/758/102 ===
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 17.0000   12.0000   16.5000   0.159 ***   0.029 ns    0.187 **  
+unique_commenters           8.0000    6.0000    8.0000   0.157 ***   0.000 ns    0.157 **  
+influence_score           472.0000  291.0000  399.0000   0.256 ***   0.086 ns    0.178 **  
+echo_score                  0.1818    0.1429    0.1429   0.133 ***   0.127 *     0.020 ns  
+tone                       -0.0668   -0.2833   -0.2325   0.353 ***   0.295 ***   0.088 ns  
+tone_3class                -0.0197   -0.0996   -0.0705   0.291 ***   0.224 ***   0.105 ns  
+confusion                   0.1076    0.1196    0.1434   0.061 ns    0.194 **    0.122 *   
+excitement                  0.0009    0.0006    0.0007   0.217 ***   0.112 ns    0.102 ns  
+
+=== first 30 days | AT_RISK | n = 430/442/73 ===
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 17.0000   14.0000   21.0000   0.105 **    0.091 ns    0.199 **  
+unique_commenters           8.0000    7.0000    8.0000   0.091 *     0.051 ns    0.141 ns  
+influence_score           539.5000  357.0000  517.0000   0.231 ***   0.041 ns    0.195 **  
+echo_score                  0.1667    0.1250    0.1250   0.096 *     0.137 ns    0.035 ns  
+tone                       -0.1165   -0.2666   -0.2313   0.232 ***   0.152 *     0.099 ns  
+tone_3class                -0.0488   -0.0881   -0.0704   0.174 ***   0.119 ns    0.073 ns  
+confusion                   0.1216    0.1332    0.1560   0.071 ns    0.219 **    0.144 ns  
+excitement                  0.0009    0.0007    0.0007   0.174 ***   0.082 ns    0.087 ns  
+
+=== first 60 days | ALL | n = 609/758/102 ===
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 20.0000   13.0000   19.5000   0.213 ***   0.030 ns    0.186 **  
+unique_commenters           9.0000    7.0000    8.0000   0.200 ***   0.042 ns    0.160 **  
+influence_score           558.0000  320.0000  460.5000   0.290 ***   0.108 ns    0.188 **  
+echo_score                  0.1852    0.1667    0.1429   0.123 ***   0.136 *     0.005 ns  
+tone                       -0.0594   -0.2779   -0.2491   0.386 ***   0.343 ***   0.069 ns  
+tone_3class                -0.0145   -0.0975   -0.0664   0.311 ***   0.259 ***   0.091 ns  
+confusion                   0.1098    0.1179    0.1372   0.044 ns    0.173 **    0.114 ns  
+excitement                  0.0009    0.0006    0.0007   0.252 ***   0.142 *     0.102 ns  
+
+=== first 60 days | AT_RISK | n = 291/352/64 ===
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 21.0000   16.0000   27.5000   0.176 ***   0.062 ns    0.241 **  
+unique_commenters           9.0000    8.0000   10.0000   0.154 ***   0.021 ns    0.178 *   
+influence_score           658.0000  395.5000  646.0000   0.281 ***   0.008 ns    0.294 *** 
+echo_score                  0.1429    0.1250    0.1176   0.046 ns    0.100 ns    0.040 ns  
+tone                       -0.1389   -0.2341   -0.2491   0.165 ***   0.151 ns    0.023 ns  
+tone_3class                -0.0524   -0.0784   -0.0644   0.124 **    0.110 ns    0.022 ns  
+confusion                   0.1299    0.1332    0.1471   0.029 ns    0.175 *     0.132 ns  
+excitement                  0.0010    0.0007    0.0009   0.186 ***   0.071 ns    0.101 ns  
+
+##### SAME COHORT: RFCs still undecided at day 60 | n = 291/352/64 #####
+--- measured at day 30 ---
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 17.0000   14.0000   23.0000   0.110 *     0.132 ns    0.246 **  
+unique_commenters           8.0000    7.0000    8.0000   0.107 *     0.078 ns    0.182 *   
+influence_score           516.0000  357.0000  579.0000   0.225 ***   0.030 ns    0.269 *** 
+echo_score                  0.1333    0.1111    0.1115   0.032 ns    0.083 ns    0.045 ns  
+tone                       -0.1571   -0.2477   -0.2449   0.147 **    0.118 ns    0.036 ns  
+tone_3class                -0.0605   -0.0854   -0.0705   0.111 *     0.091 ns    0.021 ns  
+confusion                   0.1246    0.1345    0.1607   0.054 ns    0.197 *     0.136 ns  
+excitement                  0.0009    0.0007    0.0007   0.141 **    0.022 ns    0.115 ns  
+
+--- measured at day 60 ---
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 21.0000   16.0000   27.5000   0.176 ***   0.062 ns    0.241 **  
+unique_commenters           9.0000    8.0000   10.0000   0.154 ***   0.021 ns    0.178 *   
+influence_score           658.0000  395.5000  646.0000   0.281 ***   0.008 ns    0.294 *** 
+echo_score                  0.1429    0.1250    0.1176   0.046 ns    0.100 ns    0.040 ns  
+tone                       -0.1389   -0.2341   -0.2491   0.165 ***   0.151 ns    0.023 ns  
+tone_3class                -0.0524   -0.0784   -0.0644   0.124 **    0.110 ns    0.022 ns  
+confusion                   0.1299    0.1332    0.1471   0.029 ns    0.175 *     0.132 ns  
+excitement                  0.0010    0.0007    0.0009   0.186 ***   0.071 ns    0.101 ns  
+
+Stars use raw p; BH-adjusted p-values (per block) are in the CSV files.

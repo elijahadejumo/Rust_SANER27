@@ -1,0 +1,75 @@
+RQ1 within-author matched pairs (Wilcoxon signed-rank)
+
+=== author_median | accepted vs rejected | authors = 118 ===
+metric                      Mdn acc   Mdn reje   Mdn diff         W        p       r  sig  BH
+n_comments                  31.5000    21.7500    +4.7500    2386.0   0.0081  +0.285  **   *
+unique_commenters           11.0000     9.7500    +2.0000    2567.0   0.0228  +0.243  *    *
+influence_score            749.0000   500.2500  +144.5000    2194.0   0.0004  +0.375  ***  **
+echo_score                   0.1995     0.1953    +0.0036    2930.0   0.4053  +0.090  ns   ns
+first_commenter_degree      40.2500    37.5000    +1.0000    3076.0   0.3071  +0.109  ns   ns
+tone                        -0.0379    -0.2789    +0.2563     919.0   0.0000  +0.738  ***  ***
+tone_3class                  0.0042    -0.1013    +0.1047    1063.0   0.0000  +0.697  ***  ***
+confusion                    0.1098     0.1220    -0.0122    2838.0   0.0709  -0.192  ns   ns
+excitement                   0.0011     0.0008    +0.0002    2515.0   0.0075  +0.284  **   *
+
+=== author_median | accepted vs postponed | authors = 40 ===
+metric                      Mdn acc   Mdn post   Mdn diff         W        p       r  sig  BH
+n_comments                  34.5000    28.5000    +6.7500     341.0   0.4941  +0.126  ns   ns
+unique_commenters           13.5000    11.2500    +1.7500     340.0   0.3465  +0.171  ns   ns
+influence_score           1000.0000   753.0000  +350.5000     302.0   0.1466  +0.263  ns   ns
+echo_score                   0.2198     0.1833    -0.0041     367.0   0.7482  +0.059  ns   ns
+first_commenter_degree      41.0000    38.0000    +3.0000     380.5   0.8945  +0.024  ns   ns
+tone                        -0.0794    -0.2429    +0.1831      98.0   0.0000  +0.761  ***  ***
+tone_3class                 -0.0089    -0.0735    +0.0432     194.0   0.0037  +0.527  **   *
+confusion                    0.1071     0.1260    -0.0004     377.0   0.6574  -0.080  ns   ns
+excitement                   0.0011     0.0013    -0.0002     365.0   0.5453  -0.110  ns   ns
+
+=== author_median | rejected vs postponed | authors = 61 ===
+metric                      Mdn rej   Mdn post   Mdn diff         W        p       r  sig  BH
+n_comments                  19.0000    27.0000    -4.5000     520.0   0.0059  -0.412  **   *
+unique_commenters            8.5000    11.0000    -2.0000     436.0   0.0012  -0.490  **   **
+influence_score            455.0000   601.0000  -200.0000     566.5   0.0065  -0.401  **   *
+echo_score                   0.2164     0.1500    +0.0093     711.0   0.4779  +0.109  ns   ns
+first_commenter_degree      37.0000    29.0000    +3.0000     877.0   0.7797  +0.042  ns   ns
+tone                        -0.2690    -0.2175    -0.0140     945.0   0.9971  +0.001  ns   ns
+tone_3class                 -0.0790    -0.0706    -0.0167     909.0   0.7932  +0.039  ns   ns
+confusion                    0.1221     0.1206    +0.0021     878.0   0.6278  +0.071  ns   ns
+excitement                   0.0007     0.0010    -0.0004     493.0   0.0012  -0.479  **   **
+
+=== time_matched | accepted vs rejected | authors = 118 | median gap between paired proposals: 62 days ===
+metric                      Mdn acc   Mdn reje   Mdn diff         W        p       r  sig  BH
+n_comments                  28.5000    22.0000    +5.5000    2764.5   0.1113  +0.171  ns   ns
+unique_commenters           11.0000    10.0000    +1.5000    2902.5   0.2887  +0.114  ns   ns
+influence_score            748.0000   584.0000   +43.0000    2632.5   0.0184  +0.250  *    ns
+echo_score                   0.2053     0.1667    +0.0525    2576.5   0.1178  +0.171  ns   ns
+first_commenter_degree      34.5000    35.0000    +2.5000    2834.0   0.2682  +0.120  ns   ns
+tone                        -0.0225    -0.2710    +0.2634    1406.0   0.0000  +0.599  ***  ***
+tone_3class                  0.0135    -0.1017    +0.1057    1846.0   0.0000  +0.474  ***  ***
+confusion                    0.1098     0.1204    -0.0029    3205.0   0.4120  -0.087  ns   ns
+excitement                   0.0010     0.0008    +0.0001    3119.0   0.2931  +0.112  ns   ns
+
+=== time_matched | accepted vs postponed | authors = 40 | median gap between paired proposals: 106 days ===
+metric                      Mdn acc   Mdn post   Mdn diff         W        p       r  sig  BH
+n_comments                  35.5000    22.5000    +3.5000     315.0   0.2952  +0.192  ns   ns
+unique_commenters           13.0000    10.0000    +2.0000     252.0   0.0850  +0.320  ns   ns
+influence_score            842.5000   736.5000  +249.0000     264.0   0.0497  +0.356  *    ns
+echo_score                   0.2087     0.1667    +0.0024     371.0   0.6001  +0.095  ns   ns
+first_commenter_degree      29.0000    34.5000    +1.5000     399.0   0.8824  -0.027  ns   ns
+tone                        -0.1026    -0.2754    +0.1876     157.0   0.0007  +0.617  ***  **
+tone_3class                 -0.0146    -0.0875    +0.0503     220.0   0.0107  +0.463  *    *
+confusion                    0.1031     0.1266    -0.0061     346.0   0.3897  -0.156  ns   ns
+excitement                   0.0009     0.0011    +0.0001     385.0   0.7368  +0.061  ns   ns
+
+=== time_matched | rejected vs postponed | authors = 61 | median gap between paired proposals: 83 days ===
+metric                      Mdn rej   Mdn post   Mdn diff         W        p       r  sig  BH
+n_comments                  16.0000    21.0000    -1.0000     784.0   0.4458  -0.114  ns   ns
+unique_commenters            8.0000    10.0000    -1.0000     547.0   0.0921  -0.263  ns   ns
+influence_score            470.0000   509.0000    +0.0000     840.0   0.5809  -0.082  ns   ns
+echo_score                   0.2000     0.1667    +0.0000     740.0   0.6361  +0.073  ns   ns
+first_commenter_degree      32.0000    27.0000    +0.0000     766.5   0.2743  +0.162  ns   ns
+tone                        -0.2017    -0.2486    +0.0575     763.0   0.1899  +0.193  ns   ns
+tone_3class                 -0.0666    -0.0760    -0.0104     934.0   0.9342  -0.012  ns   ns
+confusion                    0.1318     0.1293    +0.0125     800.0   0.2960  +0.154  ns   ns
+excitement                   0.0006     0.0009    -0.0002     720.0   0.1053  -0.238  ns   ns
+
+r is the matched-pairs rank-biserial correlation (positive: higher for the first outcome). sig uses raw p; BH is adjusted within each block of metrics.

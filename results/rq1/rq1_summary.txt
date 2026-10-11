@@ -1,0 +1,42 @@
+RQ1 outcome profile | n accepted/rejected/postponed = 609/758/102
+excluded: {'accepted without PR dates': 15, 'withdrawn': 18, 'not-rfc / april-1st': 36, 'disposition mismatch': 3}
+Echo Score core size k (median Unique Commenters): 10
+Top-10 participants by overall degree: 0.45% of 2209 participants, 17.9% of participations (person-proposal pairs)
+
+Review Duration (days):
+  accepted: median 54.7, mean 115.7, IQR 104.4  rejected: median 49.5, mean 153.3, IQR 167.9  postponed: median 135.3, mean 314.5, IQR 560.3
+
+=== Engagement metrics and tone ===
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+n_comments                 28.0000   17.0000   27.5000   0.262 ***   0.024 ns    0.234 *** 
+unique_commenters          11.0000    8.0000   11.0000   0.237 ***   0.000 ns    0.238 *** 
+influence_score           775.0000  433.5000  663.5000   0.316 ***   0.071 ns    0.236 *** 
+echo_score                  0.1905    0.1818    0.1429   0.091 **    0.167 **    0.054 ns  
+first_commenter_degree     38.0000   28.0000   27.5000   0.141 ***   0.135 *     0.004 ns  
+tone                       -0.0390   -0.2758   -0.2173   0.481 ***   0.440 ***   0.102 ns  
+tone_3class                -0.0002   -0.0950   -0.0688   0.378 ***   0.325 ***   0.108 ns  
+
+=== Emotions with any BH-adjusted p < .05 ===
+feature                      Mdn A     Mdn R     Mdn P   A-R            A-P            R-P           
+admiration                  0.0221    0.0075    0.0232   0.186 ***   0.064 ns    0.127 *   
+amusement                   0.0018    0.0017    0.0022   0.073 *     0.171 **    0.233 *** 
+approval                    0.0986    0.0862    0.0842   0.124 ***   0.137 *     0.011 ns  
+caring                      0.0013    0.0011    0.0013   0.158 ***   0.008 ns    0.162 **  
+confusion                   0.1105    0.1190    0.1355   0.049 ns    0.201 **    0.134 *   
+curiosity                   0.0920    0.0793    0.0964   0.089 **    0.033 ns    0.124 *   
+desire                      0.0019    0.0014    0.0019   0.142 ***   0.033 ns    0.170 **  
+disappointment              0.0029    0.0028    0.0050   0.010 ns    0.171 **    0.164 **  
+disapproval                 0.0168    0.0204    0.0201   0.089 **    0.151 *     0.057 ns  
+embarrassment               0.0008    0.0009    0.0010   0.010 ns    0.162 **    0.151 *   
+excitement                  0.0011    0.0007    0.0010   0.266 ***   0.061 ns    0.185 **  
+gratitude                   0.0428    0.0308    0.0390   0.075 *     0.058 ns    0.032 ns  
+joy                         0.0007    0.0005    0.0007   0.229 ***   0.063 ns    0.159 **  
+love                        0.0009    0.0008    0.0012   0.087 **    0.098 ns    0.182 **  
+nervousness                 0.0006    0.0006    0.0008   0.027 ns    0.152 *     0.190 **  
+optimism                    0.0321    0.0227    0.0433   0.117 ***   0.132 *     0.234 *** 
+pride                       0.0005    0.0004    0.0005   0.177 ***   0.093 ns    0.084 ns  
+realization                 0.0300    0.0301    0.0381   0.018 ns    0.147 *     0.118 ns  
+relief                      0.0008    0.0008    0.0007   0.084 **    0.127 *     0.040 ns  
+remorse                     0.0008    0.0007    0.0010   0.047 ns    0.095 ns    0.148 *   
+
+Stars use raw p; BH-adjusted p-values are in the CSV files.
