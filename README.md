@@ -3,7 +3,7 @@
 Paper source and replication package for a study of Rust Request-for-Comments (RFC) discussions:
 
 - **RQ1:** How do engagement and affect differ across accepted, rejected, and postponed RFCs?
-- **RQ2:** Is the postponement signature visible early in deliberation ?
+- **RQ2:** Are signs of postponement visible early in deliberation?
 
 ## Layout
 
