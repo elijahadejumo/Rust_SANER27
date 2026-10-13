@@ -28,7 +28,7 @@ The analysis scripts need only Python 3 (standard library). Run them from the re
 python3 analysis/rq1_outcome_profile.py data results/rq1
 python3 analysis/rq1_matched_pairs.py   data results/rq1
 python3 analysis/rq2_early_window.py   data results/rq2
-python3 analysis/make_figures.py      results paper/figures   # needs matplotlib
+python3 analysis/make_figures.py      results paper/figures  
 ```
 
 ### RQ1 outputs (`results/rq1/`)
