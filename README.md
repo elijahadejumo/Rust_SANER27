@@ -1,4 +1,4 @@
-# When Deliberation Stalls: Engagement, Affect, and Governance Debt in Rust RFCs
+# Engagement, Affect, and Governance Debt in Rust Request for Comments
 
 Paper source and replication package for a study of Rust Request-for-Comments (RFC) discussions:
 
