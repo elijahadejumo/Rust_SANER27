@@ -63,14 +63,4 @@ Every results table reports, for each outcome group, n, median, and mean. Each p
 
 
 
-## Scoring models
 
-- **Sentiment:** `siebert/sentiment-roberta-large-english` (Hartmann et al., 2023), used as published with no further training. `scoring/score_sentiment.py` generates `data/rfc_roberta_scores.csv`. A check on a random sample of 300 comments reproduced the file: all 300 got the same label, and scores differed by at most 0.0002.
-- **Emotion:** `monologg/bert-base-cased-goemotions-original`, in `scoring/rq2_goemotions_colab.ipynb`. It was run in Google Colab, with input files under `/content/`.
-
-`score_sentiment.py` needs `torch` and `transformers`. Example:
-
-```
-python3 scoring/score_sentiment.py --model siebert/sentiment-roberta-large-english \
-    --comments data/rfc_comments_full.csv --out data/rfc_roberta_scores.csv
-```
