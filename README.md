@@ -17,6 +17,7 @@ Paper source and replication package for a study of Rust Request-for-Comments (R
 | `analysis/rq1_outcome_profile.py` | RQ1 analysis |
 | `analysis/rq1_matched_pairs.py` | RQ1 robustness: within-author matched pairs |
 | `analysis/rq2_early_window.py` | RQ2 analysis |
+| `analysis/make_tables.py` | Paper Tables I–VII, rebuilt from the results files into `results/paper_tables.txt` |
 | `analysis/make_figures.py` | Paper figures (needs matplotlib), written to `paper/figures/` |
 | `results/rq1/`, `results/rq2/` | Outputs of the two analyses |
 
@@ -28,8 +29,20 @@ The analysis scripts need only Python 3 (standard library). Run them from the re
 python3 analysis/rq1_outcome_profile.py data results/rq1
 python3 analysis/rq1_matched_pairs.py   data results/rq1
 python3 analysis/rq2_early_window.py   data results/rq2
+python3 analysis/make_tables.py       results
 python3 analysis/make_figures.py      results paper/figures  
 ```
+
+`results/paper_tables.txt` lays out each table as it appears in the paper:
+
+| Paper table | Source file |
+|---|---|
+| I–IV (Unique Commenters, Influence Score, Echo Score, First Commenter Degree) | `rq1/rq1_profile.csv` |
+| V (within-author matched pairs) | `rq1/rq1_matched_pairs.csv` (accepted vs rejected) |
+| VI (GoEmotions signal screening) | `rq1/rq1_profile.csv`: acceptance signals have BH p < .05 and r ≥ .10 for accepted vs rejected; governance debt signals meet the same thresholds for accepted vs postponed |
+| VII (early window) | `rq2/rq2_windows.csv`, `AT_RISK` rows |
+
+Values are rounded half up, as in the paper.
 
 ### RQ1 outputs (`results/rq1/`)
 

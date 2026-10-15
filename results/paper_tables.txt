@@ -1,0 +1,81 @@
+TABLE I. Unique Commenters across outcome groups (Mann-Whitney U, BH-adjusted p)
+Group      Mean  Median   Comparison  p-value      r
+Accepted   14.4      11   Acc vs Rej   <0.001  0.237
+Rejected   10.5       8  Acc vs Post    0.994  0.000
+Postponed  15.4      11  Rej vs Post   <0.001  0.238
+
+TABLE II. Influence Score across outcome groups (Mann-Whitney U, BH-adjusted p)
+Group       Mean  Median   Comparison  p-value      r
+Accepted   880.5     775   Acc vs Rej   <0.001  0.316
+Rejected   555.8   433.5  Acc vs Post    0.358  0.071
+Postponed  829.0   663.5  Rej vs Post   <0.001  0.236
+
+TABLE III. Echo Score across outcome groups (Mann-Whitney U, BH-adjusted p)
+Group       Mean  Median   Comparison  p-value      r
+Accepted   0.229   0.190   Acc vs Rej    0.015  0.091
+Rejected   0.202   0.182  Acc vs Post    0.022  0.167
+Postponed  0.184   0.143  Rej vs Post    0.463  0.054
+
+TABLE IV. First Commenter Degree across outcome groups (Mann-Whitney U, BH-adjusted p)
+Group      Mean  Median   Comparison  p-value      r
+Accepted   80.7      38   Acc vs Rej   <0.001  0.141
+Rejected   51.7      28  Acc vs Post    0.062  0.135
+Postponed  56.0    27.5  Rej vs Post    0.968  0.004
+
+TABLE V. Within-author matched pairs (Wilcoxon signed-rank, n = 118 authors, BH-adjusted p)
+Metric                 Acc     Rej    Diff       W  p-value       r
+Author medians:
+Unique Commenters     11.0     9.8    +2.0  2567.0    0.034  +0.243
+Influence Score      749.0   500.3  +144.5  2194.0    0.001  +0.375
+Echo Score           0.200   0.195  +0.004  2930.0    0.405  +0.090
+First Comm. Degree    40.3    37.5    +1.0  3076.0    0.345  +0.109
+GTT                 -0.038  -0.279  +0.256   919.0   <0.001  +0.738
+Time-matched pairs (median gap: rq1_matched_pairs_summary.txt):
+Unique Commenters     11.0    10.0    +1.5  2902.5    0.330  +0.114
+Influence Score      748.0   584.0   +43.0  2632.5    0.055  +0.250
+Echo Score           0.205   0.167  +0.052  2576.5    0.212  +0.171
+First Comm. Degree    34.5    35.0    +2.5  2834.0    0.330  +0.120
+GTT                 -0.023  -0.271  +0.263  1406.0   <0.001  +0.599
+
+TABLE VI. GoEmotions signal screening (medians of per-proposal mean probabilities, in percent; BH-adjusted p)
+Emotion         Acc Mdn  Rej Mdn  Post Mdn      r
+Acceptance signals - ranked by Acc vs Rej r (all p<0.001):
+excitement        0.106    0.070     0.102  0.266
+joy               0.070    0.051     0.066  0.229
+admiration        2.207    0.750     2.317  0.186
+pride             0.050    0.041     0.046  0.177
+caring            0.132    0.108     0.133  0.158
+desire            0.191    0.141     0.188  0.142
+approval          9.862    8.617     8.422  0.124
+optimism          3.213    2.266     4.333  0.117
+Governance debt signals - ranked by Acc vs Post r (all p<0.05):
+confusion        11.046   11.897    13.553  0.201
+disappointment    0.289    0.283     0.503  0.171
+amusement         0.183    0.171     0.219  0.171
+embarrassment     0.085    0.086     0.102  0.162
+nervousness       0.058    0.057     0.082  0.152
+disapproval       1.684    2.041     2.011  0.151
+realization       3.004    3.007     3.807  0.147
+Not significant in any comparison:
+  anger, annoyance, disgust, fear, grief, sadness, surprise, neutral
+Significant in some comparison, but in neither tier (not listed in the paper):
+  curiosity, gratitude, love, relief, remorse
+
+TABLE VII. Proposals still undecided at day 30 and day 60 (* = BH-adjusted p < 0.05 within each window; bold in the paper)
+Metric             Acc Mdn  Rej Mdn  Pst Mdn   A/R r   A/P r   R/P r
+Day 30 (n = 430/442/73):
+Comments                17       14       21  0.105*  0.091   0.199*
+Unique Commenters        8        7        8  0.091*  0.051   0.141 
+Influence Score      539.5      357      517  0.231*  0.041   0.195*
+Echo Score           0.167    0.125    0.125  0.096*  0.137   0.035 
+GTT                 -0.117   -0.267   -0.231  0.232*  0.152   0.099 
+Excitement         0.00088  0.00067  0.00072  0.174*  0.082   0.087 
+Confusion          0.12156  0.13316  0.15597  0.071   0.219*  0.144 
+Day 60 (n = 291/352/64):
+Comments                21       16     27.5  0.176*  0.062   0.241*
+Unique Commenters        9        8       10  0.154*  0.021   0.178 
+Influence Score        658    395.5      646  0.281*  0.008   0.294*
+Echo Score           0.143    0.125    0.118  0.046   0.100   0.040 
+GTT                 -0.139   -0.234   -0.249  0.165*  0.151   0.023 
+Excitement         0.00096  0.00071  0.00087  0.186*  0.071   0.101 
+Confusion          0.12990  0.13316  0.14710  0.029   0.175   0.132 
